@@ -1,25 +1,16 @@
 <template>
-  <div id="pageBox">
-    <div id="pageOver"></div>
-    <div id="pageCont">
-      <MainHeader />
+  <div id="pageCont">
+    <MainHeader />
 
-      <client-only>
-        <div class="pageContent">
-          <div class="landing_wrap">
-            <router-view v-slot="{ Component, route }">
-              <transition name="overlay" mode="out-in">
-                <div :key="route.name">
-                  <Nuxt :is="Component" />
-                </div>
-              </transition>
-            </router-view>
-          </div>
+    <client-only>
+      <div class="pageContent">
+        <div class="landing_wrap">
+          <Nuxt />
         </div>
-      </client-only>
+      </div>
+    </client-only>
 
-      <MainFooter />
-    </div>
+    <MainFooter />
   </div>
 </template>
 

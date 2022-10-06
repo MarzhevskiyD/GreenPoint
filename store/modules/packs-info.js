@@ -2,14 +2,8 @@ import qs from 'qs'
 
 const extendedQuery = qs.stringify({
     populate: [
-      'topScreen',
-      'brandPackages',
-      'brandPackages.packages',
-      'brandPackages.packages.image',
-      'AudiencePackages',
-      'AudiencePackages.packages',
-      'AudiencePackages.packages.image',
-      'footer'
+      'GrowthPack',
+      'GrowthPack.infoBlocks',
     ]
 },{
     encodeValuesOnly: true
@@ -17,11 +11,11 @@ const extendedQuery = qs.stringify({
 
 export default {
     actions: {
-        async fetchHomeContent(ctx) {
-            const res = await fetch(`${this.$config.apiURL}/home?`+extendedQuery);
+        async fetchPacksContent(ctx) {
+            const res = await fetch(`${this.$config.apiURL}/packages-info?`+extendedQuery);
             const blocks = await res.json();
 
-            ctx.commit('updateHomeBlocks', blocks);
+            ctx.commit('updatePacksBlocks', blocks);
         }
     },
     state() {
@@ -30,12 +24,12 @@ export default {
         }
     },
     mutations: {
-        updateHomeBlocks(state, blocks) {
+        updatePacksBlocks(state, blocks) {
             state.blocks = blocks
         }
     },
     getters: {
-        getHomeBlocks(state) {
+        getPacksBlocks(state) {
             return state.blocks
         }
     }
