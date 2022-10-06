@@ -1,0 +1,1264 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata></metadata>
+<defs>
+<font id="abc_favoritlight" horiz-adv-x="1198" >
+<font-face units-per-em="2048" ascent="1597" descent="-451" />
+<missing-glyph horiz-adv-x="512" />
+<glyph horiz-adv-x="0" />
+<glyph horiz-adv-x="682" />
+<glyph unicode=" "  horiz-adv-x="512" />
+<glyph unicode="&#x09;" horiz-adv-x="512" />
+<glyph unicode="&#xa0;" horiz-adv-x="512" />
+<glyph unicode="!" horiz-adv-x="495" d="M170 0v174h154v-174h-154zM176 1004v430h143v-430l-40 -584h-62z" />
+<glyph unicode="&#x22;" horiz-adv-x="700" d="M127 1270v164h133v-164l-49 -266h-45zM444 1270v164h134v-164l-50 -266h-45z" />
+<glyph unicode="#" horiz-adv-x="1374" d="M82 389v113h246l92 430h-250v112h272l84 390h133l-84 -390h363l80 390h133l-80 -390h221v-112h-245l-89 -430h248v-113h-272l-80 -389h-133l80 389h-365l-84 -389h-133l84 389h-221zM461 502h364l88 430h-360z" />
+<glyph unicode="$" horiz-adv-x="1253" d="M80 451h139q0 -124 69.5 -206.5t192.5 -113.5l90 535l-77 16q-342 71 -342 362q0 174 134 292t357 118q41 0 59 -2l39 227h127l-41 -249q150 -41 236 -149.5t92 -266.5h-139q-6 101 -62 174.5t-149 107.5l-86 -508l43 -8q371 -74 371 -393q0 -189 -134.5 -298 t-365.5 -109q-33 0 -49 2l-39 -228h-127l41 242q-184 37 -281.5 153.5t-97.5 301.5zM291 1047q0 -174 241 -222l64 -12l86 508h-29h-20q-150 0 -246 -78t-96 -196zM604 113h27h20q160 0 251 75.5t91 190.5q0 104 -66.5 166t-203.5 90l-29 6z" />
+<glyph unicode="%" horiz-adv-x="1855" d="M76 1028q0 189 89 302.5t243 113.5t242.5 -113.5t88.5 -302.5t-88.5 -301.5t-242.5 -112.5t-243 112.5t-89 301.5zM201 1028q0 -81 20.5 -149.5t68 -115t113.5 -46.5h9q66 0 113.5 46.5t68 115t20.5 149.5t-20.5 150t-68 116t-113.5 47h-9q-66 0 -113.5 -47t-68 -116 t-20.5 -150zM430 0l860 1434h133l-860 -1434h-133zM1118 403q0 189 89 302.5t243 113.5t243 -113.5t89 -302.5t-89 -301t-243 -112t-243 112t-89 301zM1243 403q0 -81 21 -149.5t68.5 -115t113.5 -46.5h8q66 0 113.5 46.5t68.5 115t21 149.5t-21 150t-68.5 116.5 t-113.5 47.5h-8q-66 0 -113.5 -47.5t-68.5 -116.5t-21 -150z" />
+<glyph unicode="&#x26;" horiz-adv-x="1314" d="M119 379q0 124 63 217.5t172 130.5q-103 42 -164 128.5t-61 209.5q0 169 113 269t280 100h252v-134h-237q-113 0 -191 -68.5t-78 -187.5q0 -113 80 -181t201 -68h332v258h139v-258h235v-133h-235v-662h-516q-166 0 -275.5 102.5t-109.5 276.5zM258 410q0 -133 80.5 -205 t212.5 -72h330v529h-332q-130 0 -210.5 -66.5t-80.5 -185.5z" />
+<glyph unicode="'" horiz-adv-x="382" d="M127 1270v164h133v-164l-49 -266h-45z" />
+<glyph unicode="(" horiz-adv-x="696" d="M106 717q0 285 67.5 513.5t191.5 361t284 139.5v-113q-121 -9 -214.5 -127.5t-144 -320t-50.5 -453.5t50.5 -453.5t144 -320t214.5 -127.5v-113q-159 7 -283.5 140t-192 361.5t-67.5 512.5z" />
+<glyph unicode=")" horiz-adv-x="696" d="M47 -184q121 9 214.5 127t144.5 320t51 454t-51 454t-144.5 320t-214.5 127v113q159 -7 283.5 -140t192 -361.5t67.5 -512.5q0 -285 -67.5 -513.5t-191.5 -361t-284 -139.5v113z" />
+<glyph unicode="*" horiz-adv-x="878" d="M104 1145v102h246l-123 213l90 51l123 -213l123 213l88 -51l-123 -213h246v-102h-246l123 -213l-90 -51l-123 213l-123 -213l-88 51l123 213h-246z" />
+<glyph unicode="+" d="M92 467v123h440v434h134v-434h440v-123h-440v-436h-134v436h-440z" />
+<glyph unicode="," horiz-adv-x="491" d="M72 -154h61q123 0 123 123v31h-113v205h205v-246q0 -93 -50.5 -144t-143.5 -51h-82v82z" />
+<glyph unicode="-" horiz-adv-x="794" d="M141 563v113h512v-113h-512z" />
+<glyph unicode="." horiz-adv-x="491" d="M143 0v205h205v-205h-205z" />
+<glyph unicode="/" horiz-adv-x="837" d="M70 0l553 1434h143l-553 -1434h-143z" />
+<glyph unicode="0" horiz-adv-x="1327" d="M121 717q0 358 142 547.5t401 189.5t400.5 -189.5t141.5 -547.5t-141.5 -547.5t-400.5 -189.5t-401 189.5t-142 547.5zM260 717q0 -137 24.5 -244.5t64 -173.5t92.5 -109.5t105 -60t107 -16.5h21q55 0 107 16.5t105 60t92.5 109.5t64 173.5t24.5 244.5t-24.5 244.5 t-64 173.5t-92.5 109.5t-105 60t-107 16.5h-21q-55 0 -107 -16.5t-105 -60t-92.5 -109.5t-64 -173.5t-24.5 -244.5z" />
+<glyph unicode="1" horiz-adv-x="739" d="M59 901v168l375 365h105v-1434h-133v1229z" />
+<glyph unicode="2" horiz-adv-x="1138" d="M104 0v143l576 584q120 121 156 187.5t36 158.5q0 101 -83.5 174.5t-204.5 73.5h-21q-137 0 -219.5 -83t-85.5 -222h-139q2 194 126.5 316t323.5 122q195 0 319 -108t124 -273q0 -121 -52 -212.5t-159 -198.5l-522 -525h753v-137h-928z" />
+<glyph unicode="3" horiz-adv-x="1169" d="M102 365h140q23 -120 106 -186t213 -66h21q137 0 229 73t92 201q0 120 -88.5 191t-222.5 71h-92v133h110q127 0 205 75.5t78 186.5q0 127 -87.5 202t-221.5 75h-21q-121 0 -202.5 -72.5t-92.5 -183.5h-139q9 168 133.5 278.5t310.5 110.5q130 0 232.5 -44t164.5 -134.5 t62 -214.5q0 -115 -66.5 -208t-168.5 -136q106 -35 175.5 -122.5t69.5 -213.5q0 -97 -39 -174.5t-104.5 -126t-149.5 -74.5t-178 -26q-206 0 -326.5 100t-142.5 285z" />
+<glyph unicode="4" horiz-adv-x="1208" d="M59 346v152l693 936h155v-959h236v-129h-236v-346h-133v346h-715zM190 475h584v795z" />
+<glyph unicode="5" horiz-adv-x="1161" d="M80 369h139q17 -122 110 -189t226 -67h20q146 0 239 96t93 242q0 138 -86.5 225.5t-222.5 87.5h-20q-85 0 -171.5 -43t-136.5 -121h-137l172 834h727v-138h-612l-111 -512q113 113 299 113q196 0 317.5 -124t121.5 -312q0 -210 -138.5 -345.5t-343.5 -135.5 q-128 0 -233 43t-173.5 132.5t-78.5 213.5z" />
+<glyph unicode="6" horiz-adv-x="1241" d="M119 680q0 226 72 402.5t201.5 274t293.5 97.5q179 0 297 -94t152 -264h-140q-26 101 -108.5 163t-190.5 62h-20q-180 0 -300.5 -176.5t-133.5 -460.5q51 128 164 193t245 65q203 0 333 -130.5t130 -332.5q0 -226 -134.5 -362.5t-338.5 -136.5q-247 0 -384.5 187 t-137.5 513zM289 463q0 -151 97 -250.5t243 -99.5h20q140 0 233 99t93 249q0 152 -89.5 250t-236.5 98h-20q-146 0 -243 -98.5t-97 -247.5z" />
+<glyph unicode="7" horiz-adv-x="1062" d="M47 1296v138h952v-164q-276 -174 -413 -471.5t-137 -757.5v-41h-140v59q0 452 148.5 771t402.5 466h-813z" />
+<glyph unicode="8" horiz-adv-x="1155" d="M121 1055q0 179 127 289t330 110t329.5 -110t126.5 -289q0 -125 -80.5 -223.5t-189.5 -131.5q100 -34 171 -124t71 -216q0 -171 -119 -275.5t-309 -104.5t-309 104.5t-119 275.5q0 127 70.5 216.5t170.5 123.5q-109 33 -189.5 131.5t-80.5 223.5zM260 1044 q0 -113 89 -190.5t218 -77.5h21q129 0 218 77.5t89 190.5q0 121 -87 199t-220 78h-21q-133 0 -220 -78t-87 -199zM287 371q0 -113 79.5 -185.5t200.5 -72.5h21q121 0 200.5 72.5t79.5 185.5q0 110 -80.5 186t-199.5 76h-21q-119 0 -199.5 -76t-80.5 -186z" />
+<glyph unicode="9" horiz-adv-x="1239" d="M106 338h140q26 -101 109 -163t190 -62h20q180 0 300.5 176.5t133.5 460.5q-51 -128 -164 -193t-245 -65q-203 0 -333 130t-130 332q0 226 134.5 363t338.5 137q247 0 384.5 -187t137.5 -513q0 -226 -72 -402.5t-201.5 -274t-293.5 -97.5q-179 0 -297 94t-152 264z M266 973q0 -152 89.5 -250t236.5 -98h20q146 0 243 98.5t97 247.5q0 151 -97 250.5t-243 99.5h-20q-140 0 -233 -99t-93 -249z" />
+<glyph unicode=":" horiz-adv-x="487" d="M141 0v205h205v-205h-205zM141 819v205h205v-205h-205z" />
+<glyph unicode=";" horiz-adv-x="555" d="M115 -154h61q123 0 123 123v31h-113v205h205v-246q0 -93 -50.5 -144t-143.5 -51h-82v82zM186 819v205h205v-205h-205z" />
+<glyph unicode="&#x3c;" horiz-adv-x="1105" d="M90 469v115l871 362v-149l-676 -267l676 -268v-156z" />
+<glyph unicode="=" horiz-adv-x="1314" d="M152 274v134h1011v-134h-1011zM152 645v133h1011v-133h-1011z" />
+<glyph unicode="&#x3e;" horiz-adv-x="1105" d="M145 104v150l676 268l-676 266v156l871 -362v-115z" />
+<glyph unicode="?" horiz-adv-x="927" d="M74 1300v134h420q154 0 255 -100.5t101 -254.5q0 -166 -99 -267t-268 -101q-40 0 -54.5 -15t-14.5 -55v-221h-133v260q0 92 35.5 128t127.5 36h41q110 0 168 67t58 166q0 97 -64 160t-182 63h-391zM270 0v174h154v-174h-154z" />
+<glyph unicode="@" horiz-adv-x="1882" d="M109 635q0 159 45.5 297.5t125 240.5t185.5 175.5t228 110t251 36.5q180 0 333 -56.5t261 -157t168.5 -244t60.5 -312.5q0 -110 -28 -201.5t-72.5 -151t-102.5 -100.5t-115.5 -59t-113.5 -18h-151v157q-26 -71 -99.5 -124.5t-171.5 -53.5q-161 0 -267.5 119t-106.5 321 q0 200 106.5 315t267.5 115q98 0 166.5 -46t104.5 -117v143h123v-717h18q37 0 73.5 8.5t80.5 36t77 71t55.5 122t22.5 180.5q0 296 -187.5 476.5t-502.5 180.5q-144 0 -272 -53t-223.5 -148.5t-151 -237t-55.5 -308.5q0 -181 53 -327.5t148.5 -245t230 -152t295.5 -53.5h501 v-113h-512q-144 0 -271.5 35t-233.5 108t-182.5 177.5t-119 250t-42.5 320.5zM672 614q0 -148 68 -237.5t175 -89.5h17q105 0 178.5 91t73.5 236q0 149 -75 233.5t-177 84.5h-17q-104 0 -173.5 -83.5t-69.5 -234.5z" />
+<glyph unicode="A" horiz-adv-x="1386" d="M16 0l588 1434h180l584 -1434h-151l-160 395h-733l-160 -395h-148zM377 528h627l-314 775z" />
+<glyph unicode="B" horiz-adv-x="1343" d="M199 0v1434h598q173 0 284 -101t111 -274q0 -119 -67.5 -212t-161.5 -120q45 -8 88.5 -31t83.5 -61.5t64 -100.5t24 -139q0 -180 -117.5 -287.5t-294.5 -107.5h-612zM342 133h438q135 0 217 68.5t82 195.5t-81 194.5t-216 67.5h-440v-526zM342 793h440q119 0 193 67 t74 187t-74 186.5t-193 66.5h-440v-507z" />
+<glyph unicode="C" horiz-adv-x="1421" d="M111 717q0 157 45.5 292t128.5 234t207 155t274 56q235 0 388 -129.5t165 -331.5h-143q-8 66 -35.5 123.5t-75 104t-122 73.5t-167.5 27h-20q-159 0 -274.5 -83t-171.5 -218t-56 -303t56 -303t171.5 -218t274.5 -83h20q122 0 211.5 47.5t133.5 119t55 160.5h143 q-12 -202 -165 -331t-388 -129q-150 0 -274 56t-207 155t-128.5 234t-45.5 292z" />
+<glyph unicode="D" horiz-adv-x="1447" d="M199 0v1434h491q294 0 469.5 -193t175.5 -528q0 -334 -175 -523.5t-470 -189.5h-491zM342 133h328q251 0 386.5 151.5t135.5 432.5t-135.5 432t-386.5 151h-328v-1167z" />
+<glyph unicode="E" horiz-adv-x="1314" d="M199 0v1434h1001v-134h-858v-495h735v-133h-735v-539h879v-133h-1022z" />
+<glyph unicode="F" horiz-adv-x="1208" d="M199 0v1434h952v-134h-809v-538h705v-133h-705v-629h-143z" />
+<glyph unicode="G" horiz-adv-x="1492" d="M111 717q0 216 78 381.5t230.5 260.5t360.5 95q244 0 395 -131t175 -350h-144q-25 164 -135 256t-280 92h-21q-232 0 -374 -159.5t-142 -444.5q0 -286 143 -445t379 -159h21q85 0 161.5 26.5t137 75.5t96 125.5t35.5 169.5v74h-441v133h441q133 0 133 -133v-584h-133v186 q-67 -96 -185 -151t-264 -55q-206 0 -358.5 95t-230.5 260.5t-78 381.5z" />
+<glyph unicode="H" horiz-adv-x="1492" d="M199 0v1434h143v-650h809v650h143v-1434h-143v651h-809v-651h-143z" />
+<glyph unicode="I" horiz-adv-x="540" d="M199 0v1434h143v-1434h-143z" />
+<glyph unicode="J" horiz-adv-x="792" d="M53 0v133h223q185 0 185 236v1065h143v-1059q0 -185 -84 -280t-241 -95h-226z" />
+<glyph unicode="K" horiz-adv-x="1370" d="M199 0v1434h143v-799l805 799h190l-583 -578l592 -856h-179l-516 752l-309 -306v-446h-143z" />
+<glyph unicode="L" horiz-adv-x="1232" d="M199 0v1434h143v-1301h858v-133h-1001z" />
+<glyph unicode="M" horiz-adv-x="1882" d="M199 0v1434h243l504 -1328l500 1328h237v-1434h-141v1317l-500 -1317h-198l-504 1323v-1323h-141z" />
+<glyph unicode="N" horiz-adv-x="1513" d="M199 0v1434h184l788 -1215v1215h144v-1434h-174l-799 1235v-1235h-143z" />
+<glyph unicode="O" horiz-adv-x="1531" d="M111 717q0 170 49.5 309.5t136.5 232.5t207.5 144t261.5 51t261.5 -51t207.5 -144t136.5 -232.5t49.5 -309.5t-49.5 -309.5t-136.5 -232.5t-207.5 -144t-261.5 -51t-261.5 51t-207.5 144t-136.5 232.5t-49.5 309.5zM254 717q0 -277 140 -440.5t362 -163.5h20 q222 0 362 163.5t140 440.5t-140 440.5t-362 163.5h-20q-222 0 -362 -163.5t-140 -440.5z" />
+<glyph unicode="P" horiz-adv-x="1298" d="M199 0v1434h573q193 0 322 -112.5t129 -311.5q0 -133 -62 -230t-162.5 -143.5t-226.5 -46.5h-430v-590h-143zM342 723h399q156 0 247 72.5t91 214.5t-91 216t-247 74h-399v-577z" />
+<glyph unicode="Q" horiz-adv-x="1531" d="M111 717q0 170 49.5 309.5t136.5 232.5t207.5 144t261.5 51t261.5 -51t207.5 -144t136.5 -232.5t49.5 -309.5q0 -316 -161 -512t-420 -221v-107q0 -54 24 -78t78 -24h303v-133h-334q-215 0 -215 217v125q-262 24 -423.5 219.5t-161.5 513.5zM254 717q0 -277 140 -440.5 t362 -163.5h20q222 0 362 163.5t140 440.5t-140 440.5t-362 163.5h-20q-222 0 -362 -163.5t-140 -440.5z" />
+<glyph unicode="R" horiz-adv-x="1382" d="M199 0v1434h585q189 0 314 -108.5t125 -274.5q0 -122 -58.5 -213t-158.5 -131q107 0 151.5 -44.5t44.5 -150.5v-512h-143v512q0 92 -92 92h-625v-604h-143zM342 737h422q128 0 221.5 81.5t93.5 211.5q0 127 -83.5 198.5t-231.5 71.5h-422v-563z" />
+<glyph unicode="S" horiz-adv-x="1265" d="M86 451h143q0 -160 112 -249t296 -89h20q159 0 248.5 75.5t89.5 190.5q0 99 -65 158.5t-201 87.5l-229 47q-342 71 -342 372q0 174 134 292t357 118q230 0 367 -118.5t145 -321.5h-143q-9 140 -108.5 223.5t-250.5 83.5h-20q-148 0 -243 -78t-95 -196q0 -94 62.5 -151.5 t175.5 -80.5l229 -45q371 -74 371 -383q0 -189 -134.5 -298t-365.5 -109q-262 0 -407.5 123.5t-145.5 347.5z" />
+<glyph unicode="T" horiz-adv-x="1249" d="M31 1300v134h1188v-134h-523v-1300h-143v1300h-522z" />
+<glyph unicode="U" horiz-adv-x="1413" d="M184 512v922h144v-902q0 -199 94.5 -309t273.5 -110h21q179 0 273.5 110t94.5 309v902h144v-922q0 -244 -135 -388t-387 -144q-258 0 -390.5 143t-132.5 389z" />
+<glyph unicode="V" horiz-adv-x="1392" d="M10 1434h154l541 -1274l514 1274h153l-590 -1434h-159z" />
+<glyph unicode="W" horiz-adv-x="1878" d="M51 1434h146l321 -1323l318 1323h213l321 -1313l313 1313h144l-354 -1434h-218l-315 1284l-317 -1284h-217z" />
+<glyph unicode="X" horiz-adv-x="1275" d="M25 0l528 731l-504 703h170l420 -584l422 584h166l-506 -699l528 -735h-170l-442 616l-447 -616h-165z" />
+<glyph unicode="Y" horiz-adv-x="1216" d="M14 1434h162l434 -709l434 709h158l-522 -840v-594h-143v594z" />
+<glyph unicode="Z" horiz-adv-x="1220" d="M84 0v152l872 1148h-852v134h1014v-142l-878 -1159h899v-133h-1055z" />
+<glyph unicode="[" horiz-adv-x="651" d="M188 -297v2028h410v-113h-276v-1802h276v-113h-410z" />
+<glyph unicode="\" horiz-adv-x="837" d="M72 1434h143l553 -1434h-143z" />
+<glyph unicode="]" horiz-adv-x="651" d="M53 -184h277v1802h-277v113h410v-2028h-410v113z" />
+<glyph unicode="^" horiz-adv-x="1056" d="M84 584l362 850h162l365 -850h-137l-310 729l-309 -729h-133z" />
+<glyph unicode="_" horiz-adv-x="1003" d="M61 0h881v-113h-881v113z" />
+<glyph unicode="`" horiz-adv-x="403" d="M61 1434h164l117 -267h-100z" />
+<glyph unicode="a" horiz-adv-x="1067" d="M104 283q0 65 22 117t56.5 85t82.5 56.5t94.5 34t97.5 14.5l323 24v41q0 131 -68.5 204t-187.5 73h-10q-103 0 -174.5 -51t-81.5 -144h-133q9 136 118.5 221.5t274.5 85.5q97 0 173.5 -31t124 -85t72.5 -123.5t25 -149.5v-430q0 -146 11 -225h-123q-10 56 -10 164 q-33 -75 -133.5 -129.5t-229.5 -54.5q-136 0 -230 86.5t-94 216.5zM238 291q0 -85 58 -142t146 -57h21q111 0 214 84t103 193v137l-297 -21q-111 -8 -178 -59.5t-67 -134.5z" />
+<glyph unicode="b" d="M164 0v1434h133v-574q45 83 142 133.5t200 50.5q202 0 329.5 -144.5t127.5 -387.5t-127.5 -387.5t-329.5 -144.5q-103 0 -200 50.5t-142 133.5v-164h-133zM297 512q0 -84 20.5 -159t60 -133.5t103.5 -93t144 -34.5h10q80 0 143 34.5t102.5 93t60 133.5t20.5 159 t-20.5 159t-60 133.5t-102.5 93t-143 34.5h-10q-80 0 -144 -34.5t-103.5 -93t-60 -133.5t-20.5 -159z" />
+<glyph unicode="c" horiz-adv-x="1067" d="M102 512q0 152 53.5 271.5t161.5 190t256 70.5q167 0 276 -94t124 -254h-133q-18 105 -86.5 170.5t-169.5 65.5h-21q-107 0 -183 -59.5t-110 -152.5t-34 -208t34 -208t110 -152.5t183 -59.5h21q99 0 167 66.5t89 169.5h133q-28 -161 -132.5 -254.5t-267.5 -93.5 q-148 0 -256 70.5t-161.5 190t-53.5 271.5z" />
+<glyph unicode="d" d="M102 512q0 243 127.5 387.5t329.5 144.5q103 0 200 -50.5t142 -133.5v574h133v-1434h-133v164q-45 -83 -142 -133.5t-200 -50.5q-202 0 -329.5 144.5t-127.5 387.5zM238 512q0 -114 34.5 -207t110 -153t180.5 -60h10q80 0 144 34.5t103.5 93t60 133.5t20.5 159t-20.5 159 t-60 133.5t-103.5 93t-144 34.5h-10q-105 0 -180.5 -60t-110 -153t-34.5 -207z" />
+<glyph unicode="e" horiz-adv-x="1077" d="M102 514q0 130 38 233t102.5 167t145.5 97t171 33q185 0 299.5 -130.5t114.5 -329.5v-82h-737q3 -205 94 -307.5t227 -102.5h12q212 0 269 201h133q-33 -151 -142.5 -232t-269.5 -81q-97 0 -179.5 34.5t-144.5 100.5t-97.5 168.5t-35.5 230.5zM240 614h600 q-5 139 -79.5 228.5t-193.5 89.5h-20q-52 0 -99 -16t-91.5 -51t-75.5 -99t-41 -152z" />
+<glyph unicode="f" horiz-adv-x="718" d="M43 911v113h236v225q0 99 46.5 142t147.5 43h256v-113h-235q-46 0 -64 -18t-18 -64v-215h266v-113h-266v-911h-133v911h-236z" />
+<glyph unicode="g" horiz-adv-x="1181" d="M82 -143h133q20 -95 104 -145t216 -50h20q68 0 125.5 20t104.5 61.5t73.5 111.5t26.5 163v166q-47 -87 -133.5 -135.5t-206.5 -48.5q-197 0 -320 136t-123 376q0 242 124 387t319 145q120 0 206.5 -48.5t133.5 -135.5v164h133v-1016q0 -204 -127 -331.5t-346 -127.5 q-214 0 -330.5 84t-132.5 224zM236 512q0 -188 86 -293.5t227 -105.5h20q141 0 228.5 105.5t87.5 293.5q0 190 -88 305t-228 115h-20q-139 0 -226 -115t-87 -305z" />
+<glyph unicode="h" horiz-adv-x="1167" d="M164 0v1434h133v-584q53 92 147.5 143t221.5 51q166 0 257 -101t91 -267v-676h-133v635q0 297 -246 297h-21q-126 0 -221.5 -104.5t-95.5 -274.5v-553h-133z" />
+<glyph unicode="i" horiz-adv-x="460" d="M154 1208v174h153v-174h-153zM164 0v1024h133v-1024h-133z" />
+<glyph unicode="j" horiz-adv-x="477" d="M-168 -225h266q46 0 64 18t18 64v1167h133v-1178q0 -98 -46.5 -141t-147.5 -43h-287v113zM170 1208v174h154v-174h-154z" />
+<glyph unicode="k" horiz-adv-x="1073" d="M164 0v1434h133v-940l545 530h182l-426 -408l446 -616h-165l-375 524l-207 -196v-328h-133z" />
+<glyph unicode="l" horiz-adv-x="460" d="M164 0v1434h133v-1434h-133z" />
+<glyph unicode="m" horiz-adv-x="1822" d="M164 0v1024h133v-164q48 83 136 133.5t202 50.5q115 0 200 -55.5t123 -159.5q54 105 146.5 160t216.5 55q155 0 251.5 -97.5t96.5 -276.5v-670h-133v629q0 303 -236 303h-12q-99 0 -170 -60t-103 -153t-32 -207v-512h-133v629q0 303 -236 303h-12q-99 0 -170 -60 t-103 -153t-32 -207v-512h-133z" />
+<glyph unicode="n" horiz-adv-x="1167" d="M164 0v1024h133v-172q45 87 140 139.5t218 52.5q160 0 259.5 -97.5t99.5 -276.5v-670h-133v629q0 303 -246 303h-12q-80 0 -143.5 -34.5t-102.5 -93t-59.5 -133t-20.5 -159.5v-512h-133z" />
+<glyph unicode="o" horiz-adv-x="1142" d="M100 512q0 234 135 383t336 149t336 -149t135 -383t-135 -383t-336 -149t-336 149t-135 383zM236 512q0 -192 92 -306t233 -114h21q141 0 233 114t92 306t-92 306t-233 114h-21q-141 0 -233 -114t-92 -306z" />
+<glyph unicode="p" d="M164 -410v1434h133v-164q45 83 142 133.5t200 50.5q202 0 329.5 -144.5t127.5 -387.5t-127.5 -387.5t-329.5 -144.5q-103 0 -200 50.5t-142 133.5v-574h-133zM297 512q0 -84 20.5 -159t60 -133.5t103.5 -93t144 -34.5h10q80 0 143 34.5t102.5 93t60 133.5t20.5 159 t-20.5 159t-60 133.5t-102.5 93t-143 34.5h-10q-80 0 -144 -34.5t-103.5 -93t-60 -133.5t-20.5 -159z" />
+<glyph unicode="q" d="M102 512q0 243 127.5 387.5t329.5 144.5q103 0 200 -50.5t142 -133.5v164h133v-1434h-133v574q-45 -83 -142 -133.5t-200 -50.5q-202 0 -329.5 144.5t-127.5 387.5zM238 512q0 -114 34.5 -207t110 -153t180.5 -60h10q80 0 144 34.5t103.5 93t60 133.5t20.5 159t-20.5 159 t-60 133.5t-103.5 93t-144 34.5h-10q-105 0 -180.5 -60t-110 -153t-34.5 -207z" />
+<glyph unicode="r" horiz-adv-x="733" d="M164 0v1024h123v-233q34 119 120 181t197 62h92v-123h-82q-148 0 -232.5 -110t-84.5 -303v-498h-133z" />
+<glyph unicode="s" horiz-adv-x="976" d="M84 307h133q10 -103 82.5 -159t181.5 -56h21q107 0 169 49.5t62 134.5q0 62 -40 98.5t-140 59.5l-150 33q-61 13 -108 33t-87 51.5t-61.5 80t-21.5 111.5q0 140 106.5 220.5t260.5 80.5q93 0 166.5 -27t119 -73.5t70.5 -104t29 -122.5h-134q-10 90 -75 152.5t-166 62.5 h-21q-102 0 -162.5 -52t-60.5 -124q0 -68 43 -105t143 -59l160 -35q59 -13 103 -31.5t81.5 -49.5t57.5 -78.5t20 -110.5q0 -144 -101.5 -225.5t-272.5 -81.5q-191 0 -295.5 90t-112.5 237z" />
+<glyph unicode="t" horiz-adv-x="729" d="M31 911v113h235v332h133v-332h256v-113h-256v-716q0 -46 18 -64t64 -18h205v-113h-225q-101 0 -148 43t-47 141v727h-235z" />
+<glyph unicode="u" horiz-adv-x="1146" d="M154 348v676h133v-635q0 -297 245 -297h21q119 0 208 104t89 275v553h133v-1024h-133v193q-40 -102 -128.5 -157.5t-213.5 -55.5q-167 0 -260.5 101.5t-93.5 266.5z" />
+<glyph unicode="v" horiz-adv-x="1030" d="M39 1024h141l336 -903l336 903h139l-393 -1024h-166z" />
+<glyph unicode="w" horiz-adv-x="1568" d="M47 1024h137l285 -905l231 905h170l242 -918l279 918h131l-328 -1024h-178l-232 883l-231 -883h-176z" />
+<glyph unicode="x" horiz-adv-x="1024" d="M41 0l395 520l-381 504h156l303 -401l305 401h150l-381 -500l395 -524h-156l-317 420l-320 -420h-149z" />
+<glyph unicode="y" horiz-adv-x="1064" d="M47 1024h146l352 -829l352 829h139l-422 -989v-195q0 -93 -47 -135.5t-147 -42.5h-311v113h290q46 0 64 18t18 64v172z" />
+<glyph unicode="z" horiz-adv-x="966" d="M84 0v125l635 786h-625v113h768v-121l-639 -790h670v-113h-809z" />
+<glyph unicode="{" horiz-adv-x="667" d="M88 584v266h51q61 0 82 29.5t21 113.5v420q0 164 55 241t180 77h133v-113h-112q-74 0 -98.5 -35t-24.5 -129v-543q0 -174 -164 -174v-41q164 0 164 -174v-542q0 -94 24.5 -129t98.5 -35h112v-113h-133q-125 0 -180 76.5t-55 240.5v420q0 84 -21 114t-82 30h-51z" />
+<glyph unicode="|" horiz-adv-x="509" d="M188 -174v1782h134v-1782h-134z" />
+<glyph unicode="}" horiz-adv-x="667" d="M57 -182h113q74 0 98.5 35t24.5 129v542q0 174 164 174v41q-164 0 -164 174v543q0 94 -24.5 129t-98.5 35h-113v113h133q126 0 181 -77t55 -241v-420q0 -84 20.5 -113.5t81.5 -29.5h52v-266h-52q-61 0 -81.5 -30t-20.5 -114v-419q0 -164 -55 -241t-181 -77h-133v113z" />
+<glyph unicode="~" horiz-adv-x="1001" d="M160 721v20q0 106 52 160.5t138 54.5q59 0 146 -53l82 -49q3 -2 12.5 -7.5t12.5 -7t11 -6t11.5 -6t10.5 -4t11.5 -3.5t10.5 -2t12 -1q84 0 84 129h102v-20q0 -101 -49.5 -158t-132.5 -57q-10 0 -20.5 1t-21 3.5t-19 5t-19 7t-17 7t-17.5 8t-14.5 7.5t-14 7.5t-11.5 6.5 l-78 45q-66 41 -96 41q-84 0 -84 -129h-102z" />
+<glyph unicode="&#xa2;" horiz-adv-x="1077" d="M100 512q0 152 53.5 271.5t161.5 190t256 70.5h19l39 226h125l-41 -246q109 -34 176.5 -119.5t79.5 -208.5h-140q-10 66 -46.5 116.5t-92.5 76.5l-131 -776h2h21q98 0 165.5 60.5t86.5 154.5h139q-28 -161 -133 -254.5t-269 -93.5q-24 0 -34 2l-39 -228h-125l43 248 q-151 50 -233.5 187t-82.5 323zM240 512q0 -132 50.5 -233.5t147.5 -141.5l129 774h-6q-80 0 -142.5 -32t-100.5 -88t-58 -126.5t-20 -152.5z" />
+<glyph unicode="&#xa3;" horiz-adv-x="1140" d="M98 0v133h41q154 0 166 184l21 283l-228 -51v123l238 53l20 281q15 212 115.5 320t298.5 108h199v-134h-205q-134 0 -195.5 -77.5t-72.5 -227.5l-19 -237l287 63v-123l-297 -67l-23 -295q-6 -80 -28 -126t-74 -77h729v-133h-973z" />
+<glyph unicode="&#xa5;" horiz-adv-x="1308" d="M61 1434h162l434 -719l435 719h157l-422 -684l260 57v-123l-346 -78l-14 -22v-148l299 68v-123l-299 -68v-313h-143v283l-299 -68v123l299 68v165l-361 -82v123l301 68z" />
+<glyph unicode="&#xa8;" horiz-adv-x="634" d="M61 1208v164h154v-164h-154zM420 1208v164h153v-164h-153z" />
+<glyph unicode="&#xa9;" horiz-adv-x="1810" d="M106 717q0 162 63.5 310t170.5 255t255 170.5t310 63.5t310 -63.5t255 -170.5t170.5 -255t63.5 -310t-63.5 -310t-170.5 -255t-255 -170.5t-310 -63.5t-310 63.5t-255 170.5t-170.5 255t-63.5 310zM213 717q0 -141 54.5 -270t147 -222.5t221 -149t269.5 -55.5t269.5 55.5 t221 149t147 222.5t54.5 270q0 189 -92.5 349t-252 253.5t-347.5 93.5t-347.5 -93.5t-252 -253.5t-92.5 -349zM539 717q0 183 101 294t267 111q130 0 216.5 -70t101.5 -194h-125q-14 68 -66.5 115t-124.5 47h-10q-100 0 -167.5 -84.5t-67.5 -218.5q0 -133 67 -213t168 -80 h10q75 0 131.5 45t69.5 117h125q-21 -123 -112.5 -193.5t-215.5 -70.5q-159 0 -263.5 102.5t-104.5 292.5z" />
+<glyph unicode="&#xab;" horiz-adv-x="1003" d="M84 584l297 440h151l-294 -438l299 -443h-156zM463 584l297 440h151l-295 -438l299 -443h-155z" />
+<glyph unicode="&#xad;" horiz-adv-x="794" d="M141 563v113h512v-113h-512z" />
+<glyph unicode="&#xae;" horiz-adv-x="1810" d="M106 717q0 162 63.5 310t170.5 255t255 170.5t310 63.5t310 -63.5t255 -170.5t170.5 -255t63.5 -310t-63.5 -310t-170.5 -255t-255 -170.5t-310 -63.5t-310 63.5t-255 170.5t-170.5 255t-63.5 310zM213 717q0 -141 54.5 -270t147 -222.5t221 -149t269.5 -55.5t269.5 55.5 t221 149t147 222.5t54.5 270q0 189 -92.5 349t-252 253.5t-347.5 93.5t-347.5 -93.5t-252 -253.5t-92.5 -349zM639 342v770h338q116 0 181 -59t65 -152q0 -82 -44 -133.5t-112 -60.5q78 -2 111.5 -38t33.5 -126v-201h-125v203q0 98 -110 98h-213v-301h-125zM764 741h162 q80 0 126 33.5t46 97.5q0 76 -43 107t-129 31h-162v-269z" />
+<glyph unicode="&#xb4;" horiz-adv-x="403" d="M61 1167l117 267h164l-180 -267h-101z" />
+<glyph unicode="&#xb8;" horiz-adv-x="454" d="M61 -348h129q44 0 72.5 23t28.5 67t-28.5 66t-72.5 22h-57v201h92v-123q68 2 118 -45t50 -121q0 -88 -54.5 -145.5t-150.5 -57.5h-127v113z" />
+<glyph unicode="&#xbb;" horiz-adv-x="1001" d="M86 1024h156l297 -440l-297 -441h-152l295 439zM465 1024h156l297 -440l-297 -441h-152l295 439z" />
+<glyph unicode="&#x2c6;" horiz-adv-x="778" d="M61 1167l261 267h135l260 -267h-123l-205 154l-205 -154h-123z" />
+<glyph unicode="&#x2da;" horiz-adv-x="466" d="M61 1329q0 73 51.5 122.5t120.5 49.5t121 -49.5t52 -122.5t-52 -122.5t-121 -49.5t-120.5 49.5t-51.5 122.5zM145 1329q0 -38 27 -65t64 -27t62.5 27t25.5 65t-25.5 65t-62.5 27t-64 -27t-27 -65z" />
+<glyph unicode="&#x2dc;" horiz-adv-x="796" d="M61 1167v47q0 85 51 142t130 57q72 0 131 -45l69 -51q5 -3 24.5 -18t28.5 -20.5t25.5 -12t32.5 -6.5q80 0 80 133h102v-47q0 -84 -51 -141.5t-125 -57.5q-36 0 -71.5 16.5t-92.5 57.5l-65 47q-44 32 -82 32q-84 0 -84 -133h-103z" />
+<glyph unicode="&#x2000;" horiz-adv-x="866" />
+<glyph unicode="&#x2001;" horiz-adv-x="1733" />
+<glyph unicode="&#x2002;" horiz-adv-x="866" />
+<glyph unicode="&#x2003;" horiz-adv-x="1733" />
+<glyph unicode="&#x2004;" horiz-adv-x="577" />
+<glyph unicode="&#x2005;" horiz-adv-x="433" />
+<glyph unicode="&#x2006;" horiz-adv-x="288" />
+<glyph unicode="&#x2007;" horiz-adv-x="288" />
+<glyph unicode="&#x2008;" horiz-adv-x="216" />
+<glyph unicode="&#x2009;" horiz-adv-x="346" />
+<glyph unicode="&#x200a;" horiz-adv-x="96" />
+<glyph unicode="&#x2010;" horiz-adv-x="794" d="M141 563v113h512v-113h-512z" />
+<glyph unicode="&#x2011;" horiz-adv-x="794" d="M141 563v113h512v-113h-512z" />
+<glyph unicode="&#x2012;" horiz-adv-x="794" d="M141 563v113h512v-113h-512z" />
+<glyph unicode="&#x2013;" horiz-adv-x="1163" d="M141 563v113h881v-113h-881z" />
+<glyph unicode="&#x2014;" horiz-adv-x="1818" d="M141 563v113h1536v-113h-1536z" />
+<glyph unicode="&#x2018;" horiz-adv-x="507" d="M133 993v246q0 93 51 144t144 51h82v-82h-62q-123 0 -123 -123v-31h113v-205h-205z" />
+<glyph unicode="&#x2019;" horiz-adv-x="509" d="M115 993v82h61q123 0 123 123v31h-113v205h205v-246q0 -93 -50.5 -144t-143.5 -51h-82z" />
+<glyph unicode="&#x201a;" horiz-adv-x="491" d="M72 -154h61q123 0 123 123v31h-113v205h205v-246q0 -93 -50.5 -144t-143.5 -51h-82v82z" />
+<glyph unicode="&#x201c;" horiz-adv-x="927" d="M133 993v246q0 93 51 144t144 51h82v-82h-62q-123 0 -123 -123v-31h113v-205h-205zM553 993v246q0 93 51 144t144 51h81v-82h-61q-123 0 -123 -123v-31h113v-205h-205z" />
+<glyph unicode="&#x201d;" horiz-adv-x="929" d="M115 993v82h61q123 0 123 123v31h-113v205h205v-246q0 -93 -50.5 -144t-143.5 -51h-82zM535 993v82h61q123 0 123 123v31h-113v205h205v-246q0 -93 -51 -144t-144 -51h-81z" />
+<glyph unicode="&#x201e;" horiz-adv-x="911" d="M72 -154h61q123 0 123 123v31h-113v205h205v-246q0 -93 -50.5 -144t-143.5 -51h-82v82zM492 -154h61q123 0 123 123v31h-113v205h205v-246q0 -93 -51 -144t-144 -51h-81v82z" />
+<glyph unicode="&#x2022;" horiz-adv-x="999" d="M152 717q0 141 103.5 244.5t244.5 103.5t244.5 -103.5t103.5 -244.5t-103.5 -244.5t-244.5 -103.5t-244.5 103.5t-103.5 244.5z" />
+<glyph unicode="&#x2026;" horiz-adv-x="1536" d="M143 0v205h205v-205h-205zM666 0v205h204v-205h-204zM1188 0v205h205v-205h-205z" />
+<glyph unicode="&#x202f;" horiz-adv-x="346" />
+<glyph unicode="&#x2039;" horiz-adv-x="624" d="M84 584l297 440h151l-294 -438l299 -443h-156z" />
+<glyph unicode="&#x203a;" horiz-adv-x="624" d="M88 143l299 443l-295 438h152l297 -440l-297 -441h-156z" />
+<glyph unicode="&#x205f;" horiz-adv-x="433" />
+<glyph unicode="&#x20ac;" horiz-adv-x="1370" d="M88 371v123l178 38q-12 80 -12 164l-166 -37v123l170 39q22 297 165 465t374 168q199 0 319 -116t139 -324h-139q-15 148 -95 227.5t-216 79.5h-21q-158 0 -259 -124.5t-124 -344.5l422 96v-123l-430 -96v-12q0 -72 10 -154l334 76v-123l-311 -70q41 -159 134 -246 t224 -87h21q136 0 216 79.5t95 227.5h139q-19 -208 -139 -324t-319 -116q-189 0 -320.5 114t-187.5 322z" />
+<glyph unicode="&#x2122;" horiz-adv-x="1925" d="M70 1331v103h665v-103h-270v-676h-125v676h-270zM930 655v779h196l224 -646l215 646h194v-779h-125v645l-213 -645h-143l-223 639v-639h-125z" />
+<glyph unicode="&#x25fc;" horiz-adv-x="1024" d="M0 0v1024h1024v-1024h-1024z" />
+<hkern u1="&#x20;" u2="X" k="37" />
+<hkern u1="&#x20;" u2="V" k="55" />
+<hkern u1="&#x20;" u2="&#x7d;" k="35" />
+<hkern u1="&#x20;" u2="]" k="37" />
+<hkern u1="&#x20;" u2="\" k="59" />
+<hkern u1="&#x20;" u2="&#x3f;" k="33" />
+<hkern u1="&#x20;" u2="&#x2f;" k="57" />
+<hkern u1="&#x26;" u2="x" k="16" />
+<hkern u1="&#x26;" u2="v" k="10" />
+<hkern u1="&#x26;" u2="X" k="80" />
+<hkern u1="&#x26;" u2="V" k="86" />
+<hkern u1="&#x26;" u2="&#x7d;" k="37" />
+<hkern u1="&#x26;" u2="]" k="41" />
+<hkern u1="&#x26;" u2="&#x2a;" k="57" />
+<hkern u1="&#x26;" u2="&#x20;" k="39" />
+<hkern u1="&#x28;" u2="j" k="-219" />
+<hkern u1="&#x2a;" u2="V" k="-43" />
+<hkern u1="&#x2a;" u2="&#x7d;" k="41" />
+<hkern u1="&#x2a;" u2="]" k="47" />
+<hkern u1="&#x2a;" u2="&#x3f;" k="-53" />
+<hkern u1="&#x2a;" u2="&#x37;" k="-80" />
+<hkern u1="&#x2a;" u2="&#x34;" k="96" />
+<hkern u1="&#x2a;" u2="&#x31;" k="-45" />
+<hkern u1="&#x2a;" u2="&#x2a;" k="-25" />
+<hkern u1="&#x2b;" u2="&#x37;" k="45" />
+<hkern u1="&#x2c;" u2="j" k="-20" />
+<hkern u1="&#x2f;" u2="V" k="-35" />
+<hkern u1="&#x2f;" u2="&#x34;" k="70" />
+<hkern u1="&#x2f;" u2="&#x2f;" k="301" />
+<hkern u1="&#x2f;" u2="&#x20;" k="59" />
+<hkern u1="&#x33;" u2="&#x7d;" k="39" />
+<hkern u1="&#x33;" u2="]" k="49" />
+<hkern u1="&#x34;" u2="&#x7d;" k="41" />
+<hkern u1="&#x34;" u2="]" k="49" />
+<hkern u1="&#x34;" u2="&#x2a;" k="39" />
+<hkern u1="&#x35;" u2="]" k="33" />
+<hkern u1="&#x36;" u2="&#x7d;" k="39" />
+<hkern u1="&#x36;" u2="]" k="47" />
+<hkern u1="&#x36;" u2="&#x2a;" k="-35" />
+<hkern u1="&#x37;" u2="&#x2022;" k="39" />
+<hkern u1="&#x37;" u2="&#xa2;" k="125" />
+<hkern u1="&#x37;" u2="&#x7d;" k="33" />
+<hkern u1="&#x37;" u2="]" k="39" />
+<hkern u1="&#x37;" u2="V" k="-43" />
+<hkern u1="&#x37;" u2="&#x34;" k="131" />
+<hkern u1="&#x37;" u2="&#x2f;" k="127" />
+<hkern u1="&#x37;" u2="&#x2b;" k="68" />
+<hkern u1="&#x37;" u2="&#x2a;" k="-88" />
+<hkern u1="&#x37;" u2="&#x23;" k="61" />
+<hkern u1="&#x38;" u2="&#x7d;" k="39" />
+<hkern u1="&#x38;" u2="]" k="49" />
+<hkern u1="&#x39;" u2="&#x7d;" k="49" />
+<hkern u1="&#x39;" u2="]" k="59" />
+<hkern u1="&#x3b;" u2="j" k="-37" />
+<hkern u1="&#x3f;" u2="&#x201e;" k="133" />
+<hkern u1="&#x3f;" u2="&#x201a;" k="133" />
+<hkern u1="&#x3f;" u2="&#x7d;" k="43" />
+<hkern u1="&#x3f;" u2="]" k="51" />
+<hkern u1="&#x3f;" u2="&#x2a;" k="-47" />
+<hkern u1="&#x40;" u2="X" k="41" />
+<hkern u1="B" u2="&#x7d;" k="41" />
+<hkern u1="B" u2="]" k="51" />
+<hkern u1="B" u2="X" k="37" />
+<hkern u1="B" u2="V" k="20" />
+<hkern u1="F" u2="&#x2122;" k="-109" />
+<hkern u1="F" u2="x" k="70" />
+<hkern u1="F" u2="v" k="25" />
+<hkern u1="F" u2="&#x37;" k="-12" />
+<hkern u1="F" u2="&#x2f;" k="55" />
+<hkern u1="F" u2="&#x2a;" k="-53" />
+<hkern u1="F" u2="&#x20;" k="49" />
+<hkern u1="P" u2="&#x7d;" k="47" />
+<hkern u1="P" u2="]" k="59" />
+<hkern u1="P" u2="X" k="59" />
+<hkern u1="P" u2="&#x3f;" k="-27" />
+<hkern u1="P" u2="&#x34;" k="41" />
+<hkern u1="P" u2="&#x2f;" k="74" />
+<hkern u1="P" u2="&#x2a;" k="-59" />
+<hkern u1="P" u2="&#x20;" k="59" />
+<hkern u1="V" u2="&#x2122;" k="-143" />
+<hkern u1="V" u2="&#x2022;" k="45" />
+<hkern u1="V" u2="x" k="20" />
+<hkern u1="V" u2="v" k="18" />
+<hkern u1="V" u2="\" k="-25" />
+<hkern u1="V" u2="&#x37;" k="-49" />
+<hkern u1="V" u2="&#x34;" k="72" />
+<hkern u1="V" u2="&#x2f;" k="96" />
+<hkern u1="V" u2="&#x2a;" k="-55" />
+<hkern u1="V" u2="&#x26;" k="18" />
+<hkern u1="V" u2="&#x20;" k="51" />
+<hkern u1="X" u2="&#x2122;" k="-117" />
+<hkern u1="X" u2="&#x2022;" k="59" />
+<hkern u1="X" u2="v" k="82" />
+<hkern u1="X" u2="&#x37;" k="-23" />
+<hkern u1="X" u2="&#x2f;" k="-20" />
+<hkern u1="X" u2="&#x26;" k="20" />
+<hkern u1="X" u2="&#x20;" k="37" />
+<hkern u1="[" u2="v" k="49" />
+<hkern u1="[" u2="j" k="-211" />
+<hkern u1="[" u2="&#x39;" k="47" />
+<hkern u1="[" u2="&#x38;" k="49" />
+<hkern u1="[" u2="&#x36;" k="59" />
+<hkern u1="[" u2="&#x35;" k="45" />
+<hkern u1="[" u2="&#x34;" k="61" />
+<hkern u1="[" u2="&#x33;" k="49" />
+<hkern u1="[" u2="&#x31;" k="55" />
+<hkern u1="[" u2="&#x2a;" k="49" />
+<hkern u1="[" u2="&#x20;" k="37" />
+<hkern u1="\" u2="v" k="33" />
+<hkern u1="\" u2="X" k="-20" />
+<hkern u1="\" u2="V" k="96" />
+<hkern u1="\" u2="\" k="301" />
+<hkern u1="\" u2="&#x37;" k="39" />
+<hkern u1="\" u2="&#x31;" k="55" />
+<hkern u1="\" u2="&#x20;" k="57" />
+<hkern u1="j" u2="j" k="-49" />
+<hkern u1="q" u2="j" k="-70" />
+<hkern u1="v" u2="&#x2122;" k="37" />
+<hkern u1="v" u2="&#x7d;" k="41" />
+<hkern u1="v" u2="]" k="49" />
+<hkern u1="v" u2="X" k="82" />
+<hkern u1="v" u2="V" k="18" />
+<hkern u1="v" u2="&#x3f;" k="-33" />
+<hkern u1="v" u2="&#x2f;" k="33" />
+<hkern u1="v" u2="&#x26;" k="25" />
+<hkern u1="x" u2="&#x2122;" k="49" />
+<hkern u1="x" u2="V" k="18" />
+<hkern u1="x" u2="&#x3f;" k="-16" />
+<hkern u1="x" u2="&#x26;" k="16" />
+<hkern u1="&#x7b;" u2="v" k="41" />
+<hkern u1="&#x7b;" u2="j" k="-209" />
+<hkern u1="&#x7b;" u2="&#x39;" k="39" />
+<hkern u1="&#x7b;" u2="&#x38;" k="39" />
+<hkern u1="&#x7b;" u2="&#x36;" k="49" />
+<hkern u1="&#x7b;" u2="&#x35;" k="37" />
+<hkern u1="&#x7b;" u2="&#x34;" k="45" />
+<hkern u1="&#x7b;" u2="&#x33;" k="41" />
+<hkern u1="&#x7b;" u2="&#x31;" k="43" />
+<hkern u1="&#x7b;" u2="&#x2a;" k="41" />
+<hkern u1="&#x7b;" u2="&#x20;" k="35" />
+<hkern u1="&#xa3;" u2="&#x31;" k="35" />
+<hkern u1="&#x201a;" u2="j" k="-20" />
+<hkern u1="&#x201e;" u2="j" k="-20" />
+<hkern u1="&#x2022;" u2="X" k="59" />
+<hkern u1="&#x2022;" u2="V" k="43" />
+<hkern u1="&#x2122;" u2="&#x7d;" k="35" />
+<hkern u1="&#x2122;" u2="]" k="41" />
+<hkern g1="guillemotleft,guilsinglleft" 	g2="guillemotleft,guilsinglleft" 	k="35" />
+<hkern g1="guillemotleft,guilsinglleft" 	g2="hyphen,endash,emdash" 	k="43" />
+<hkern g1="guillemotleft,guilsinglleft" 	g2="parenright" 	k="41" />
+<hkern g1="guillemotleft,guilsinglleft" 	g2="braceright" 	k="37" />
+<hkern g1="guillemotleft,guilsinglleft" 	g2="bracketright" 	k="39" />
+<hkern g1="guillemotright,guilsinglright" 	g2="guillemotright,guilsinglright" 	k="35" />
+<hkern g1="guillemotright,guilsinglright" 	g2="quoteleft,quotedblleft" 	k="70" />
+<hkern g1="guillemotright,guilsinglright" 	g2="quoteright,quotedblright" 	k="68" />
+<hkern g1="guillemotright,guilsinglright" 	g2="parenright" 	k="96" />
+<hkern g1="guillemotright,guilsinglright" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="68" />
+<hkern g1="guillemotright,guilsinglright" 	g2="quotedbl,quotesingle" 	k="80" />
+<hkern g1="guillemotright,guilsinglright" 	g2="braceright" 	k="68" />
+<hkern g1="guillemotright,guilsinglright" 	g2="bracketright" 	k="78" />
+<hkern g1="guillemotright,guilsinglright" 	g2="asterisk" 	k="76" />
+<hkern g1="hyphen,endash,emdash" 	g2="guillemotright,guilsinglright" 	k="43" />
+<hkern g1="hyphen,endash,emdash" 	g2="quoteleft,quotedblleft" 	k="147" />
+<hkern g1="hyphen,endash,emdash" 	g2="quoteright,quotedblright" 	k="143" />
+<hkern g1="hyphen,endash,emdash" 	g2="parenright" 	k="129" />
+<hkern g1="hyphen,endash,emdash" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="147" />
+<hkern g1="hyphen,endash,emdash" 	g2="quotedbl,quotesingle" 	k="158" />
+<hkern g1="hyphen,endash,emdash" 	g2="braceright" 	k="82" />
+<hkern g1="hyphen,endash,emdash" 	g2="bracketright" 	k="92" />
+<hkern g1="hyphen,endash,emdash" 	g2="asterisk" 	k="141" />
+<hkern g1="hyphen,endash,emdash" 	g2="seven" 	k="80" />
+<hkern g1="hyphen,endash,emdash" 	g2="two" 	k="53" />
+<hkern g1="parenleft" 	g2="copyright,registered" 	k="100" />
+<hkern g1="parenleft" 	g2="guillemotleft,guilsinglleft" 	k="96" />
+<hkern g1="parenleft" 	g2="guillemotright,guilsinglright" 	k="41" />
+<hkern g1="parenleft" 	g2="hyphen,endash,emdash" 	k="129" />
+<hkern g1="parenleft" 	g2="quoteleft,quotedblleft" 	k="72" />
+<hkern g1="parenleft" 	g2="quoteright,quotedblright" 	k="68" />
+<hkern g1="parenleft" 	g2="quotedbl,quotesingle" 	k="49" />
+<hkern g1="parenleft" 	g2="asterisk" 	k="57" />
+<hkern g1="parenleft" 	g2="two" 	k="35" />
+<hkern g1="parenleft" 	g2="three" 	k="68" />
+<hkern g1="parenleft" 	g2="parenleft" 	k="49" />
+<hkern g1="parenleft" 	g2="zero" 	k="88" />
+<hkern g1="parenleft" 	g2="eight" 	k="70" />
+<hkern g1="parenleft" 	g2="five" 	k="66" />
+<hkern g1="parenleft" 	g2="four" 	k="100" />
+<hkern g1="parenleft" 	g2="nine" 	k="70" />
+<hkern g1="parenleft" 	g2="one" 	k="90" />
+<hkern g1="parenleft" 	g2="six" 	k="90" />
+<hkern g1="parenleft" 	g2="space" 	k="41" />
+<hkern g1="parenright" 	g2="parenright" 	k="49" />
+<hkern g1="parenright" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="37" />
+<hkern g1="parenright" 	g2="bracketright" 	k="37" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="copyright,registered" 	k="59" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="guillemotleft,guilsinglleft" 	k="68" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="hyphen,endash,emdash" 	k="147" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="quoteleft,quotedblleft" 	k="246" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="quoteright,quotedblright" 	k="246" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="quotedbl,quotesingle" 	k="193" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="asterisk" 	k="246" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="seven" 	k="68" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="parenleft" 	k="37" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="zero" 	k="45" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="one" 	k="102" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="six" 	k="43" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="at" 	k="35" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="backslash" 	k="143" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="braceleft" 	k="51" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="bullet" 	k="139" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="question" 	k="74" />
+<hkern g1="quoteleft,quotedblleft" 	g2="guillemotleft,guilsinglleft" 	k="86" />
+<hkern g1="quoteleft,quotedblleft" 	g2="hyphen,endash,emdash" 	k="156" />
+<hkern g1="quoteleft,quotedblleft" 	g2="parenright" 	k="45" />
+<hkern g1="quoteleft,quotedblleft" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="246" />
+<hkern g1="quoteleft,quotedblleft" 	g2="braceright" 	k="39" />
+<hkern g1="quoteleft,quotedblleft" 	g2="bracketright" 	k="43" />
+<hkern g1="quoteleft,quotedblleft" 	g2="four" 	k="111" />
+<hkern g1="quoteright,quotedblright" 	g2="guillemotleft,guilsinglleft" 	k="88" />
+<hkern g1="quoteright,quotedblright" 	g2="hyphen,endash,emdash" 	k="166" />
+<hkern g1="quoteright,quotedblright" 	g2="parenright" 	k="51" />
+<hkern g1="quoteright,quotedblright" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="246" />
+<hkern g1="quoteright,quotedblright" 	g2="braceright" 	k="43" />
+<hkern g1="quoteright,quotedblright" 	g2="bracketright" 	k="47" />
+<hkern g1="quoteright,quotedblright" 	g2="four" 	k="117" />
+<hkern g1="quotedbl,quotesingle" 	g2="guillemotleft,guilsinglleft" 	k="82" />
+<hkern g1="quotedbl,quotesingle" 	g2="hyphen,endash,emdash" 	k="158" />
+<hkern g1="quotedbl,quotesingle" 	g2="parenright" 	k="49" />
+<hkern g1="quotedbl,quotesingle" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="193" />
+<hkern g1="quotedbl,quotesingle" 	g2="braceright" 	k="41" />
+<hkern g1="quotedbl,quotesingle" 	g2="bracketright" 	k="45" />
+<hkern g1="quotedbl,quotesingle" 	g2="four" 	k="113" />
+<hkern g1="asterisk" 	g2="guillemotleft,guilsinglleft" 	k="76" />
+<hkern g1="asterisk" 	g2="hyphen,endash,emdash" 	k="141" />
+<hkern g1="asterisk" 	g2="parenright" 	k="57" />
+<hkern g1="asterisk" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="246" />
+<hkern g1="braceleft" 	g2="copyright,registered" 	k="51" />
+<hkern g1="braceleft" 	g2="guillemotleft,guilsinglleft" 	k="68" />
+<hkern g1="braceleft" 	g2="guillemotright,guilsinglright" 	k="37" />
+<hkern g1="braceleft" 	g2="hyphen,endash,emdash" 	k="82" />
+<hkern g1="braceleft" 	g2="quoteleft,quotedblleft" 	k="51" />
+<hkern g1="braceleft" 	g2="quoteright,quotedblright" 	k="51" />
+<hkern g1="braceleft" 	g2="quotedbl,quotesingle" 	k="43" />
+<hkern g1="braceleft" 	g2="zero" 	k="47" />
+<hkern g1="braceright" 	g2="quoteleft,quotedblleft" 	k="33" />
+<hkern g1="braceright" 	g2="quoteright,quotedblright" 	k="33" />
+<hkern g1="braceright" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="51" />
+<hkern g1="bracketleft" 	g2="copyright,registered" 	k="63" />
+<hkern g1="bracketleft" 	g2="guillemotleft,guilsinglleft" 	k="78" />
+<hkern g1="bracketleft" 	g2="guillemotright,guilsinglright" 	k="39" />
+<hkern g1="bracketleft" 	g2="hyphen,endash,emdash" 	k="92" />
+<hkern g1="bracketleft" 	g2="quoteleft,quotedblleft" 	k="59" />
+<hkern g1="bracketleft" 	g2="quoteright,quotedblright" 	k="57" />
+<hkern g1="bracketleft" 	g2="quotedbl,quotesingle" 	k="45" />
+<hkern g1="bracketleft" 	g2="parenleft" 	k="37" />
+<hkern g1="bracketleft" 	g2="zero" 	k="57" />
+<hkern g1="bullet" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="139" />
+<hkern g1="exclam" 	g2="parenright" 	k="35" />
+<hkern g1="question" 	g2="parenright" 	k="74" />
+<hkern g1="slash" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="143" />
+<hkern g1="copyright,registered" 	g2="parenright" 	k="100" />
+<hkern g1="copyright,registered" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="59" />
+<hkern g1="copyright,registered" 	g2="braceright" 	k="51" />
+<hkern g1="copyright,registered" 	g2="bracketright" 	k="63" />
+<hkern g1="equal" 	g2="seven" 	k="37" />
+<hkern g1="ampersand" 	g2="parenright" 	k="51" />
+<hkern g1="ampersand" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="61" />
+<hkern g1="ampersand" 	g2="quoteleft,quotedblleft" 	k="68" />
+<hkern g1="ampersand" 	g2="quoteright,quotedblright" 	k="68" />
+<hkern g1="ampersand" 	g2="quotedbl,quotesingle" 	k="76" />
+<hkern g1="at" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="63" />
+<hkern g1="trademark" 	g2="parenright" 	k="51" />
+<hkern g1="zero" 	g2="T" 	k="33" />
+<hkern g1="zero" 	g2="Y" 	k="35" />
+<hkern g1="zero" 	g2="parenright" 	k="88" />
+<hkern g1="zero" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="45" />
+<hkern g1="zero" 	g2="braceright" 	k="47" />
+<hkern g1="zero" 	g2="bracketright" 	k="57" />
+<hkern g1="eight" 	g2="parenright" 	k="70" />
+<hkern g1="five" 	g2="parenright" 	k="45" />
+<hkern g1="four" 	g2="T" 	k="41" />
+<hkern g1="four" 	g2="Y" 	k="43" />
+<hkern g1="four" 	g2="parenright" 	k="72" />
+<hkern g1="four" 	g2="quoteleft,quotedblleft" 	k="43" />
+<hkern g1="four" 	g2="quoteright,quotedblright" 	k="43" />
+<hkern g1="four" 	g2="quotedbl,quotesingle" 	k="43" />
+<hkern g1="nine" 	g2="parenright" 	k="90" />
+<hkern g1="nine" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="53" />
+<hkern g1="nine" 	g2="J" 	k="43" />
+<hkern g1="one" 	g2="parenright" 	k="35" />
+<hkern g1="seven" 	g2="T" 	k="-23" />
+<hkern g1="seven" 	g2="Y" 	k="-39" />
+<hkern g1="seven" 	g2="parenright" 	k="33" />
+<hkern g1="seven" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="164" />
+<hkern g1="seven" 	g2="A" 	k="121" />
+<hkern g1="seven" 	g2="J" 	k="92" />
+<hkern g1="seven" 	g2="a" 	k="43" />
+<hkern g1="seven" 	g2="c,e,o" 	k="53" />
+<hkern g1="seven" 	g2="s" 	k="41" />
+<hkern g1="seven" 	g2="hyphen,endash,emdash" 	k="100" />
+<hkern g1="seven" 	g2="d,g,q" 	k="51" />
+<hkern g1="seven" 	g2="equal" 	k="63" />
+<hkern g1="six" 	g2="parenright" 	k="70" />
+<hkern g1="three" 	g2="parenright" 	k="70" />
+<hkern g1="two" 	g2="parenright" 	k="37" />
+<hkern g1="two" 	g2="hyphen,endash,emdash" 	k="49" />
+<hkern g1="space" 	g2="parenright" 	k="41" />
+<hkern g1="A" 	g2="C,G,O,Q" 	k="31" />
+<hkern g1="A" 	g2="S" 	k="14" />
+<hkern g1="A" 	g2="T" 	k="168" />
+<hkern g1="A" 	g2="U" 	k="27" />
+<hkern g1="A" 	g2="W" 	k="47" />
+<hkern g1="A" 	g2="Y" 	k="123" />
+<hkern g1="A" 	g2="d,g,q" 	k="10" />
+<hkern g1="A" 	g2="f" 	k="41" />
+<hkern g1="A" 	g2="hyphen,endash,emdash" 	k="47" />
+<hkern g1="A" 	g2="c,e,o" 	k="10" />
+<hkern g1="A" 	g2="quoteleft,quotedblleft" 	k="129" />
+<hkern g1="A" 	g2="quoteright,quotedblright" 	k="123" />
+<hkern g1="A" 	g2="quotedbl,quotesingle" 	k="137" />
+<hkern g1="A" 	g2="t" 	k="45" />
+<hkern g1="A" 	g2="w" 	k="31" />
+<hkern g1="A" 	g2="y" 	k="57" />
+<hkern g1="A" 	g2="V" 	k="94" />
+<hkern g1="A" 	g2="asterisk" 	k="127" />
+<hkern g1="A" 	g2="backslash" 	k="94" />
+<hkern g1="A" 	g2="bullet" 	k="39" />
+<hkern g1="A" 	g2="one" 	k="55" />
+<hkern g1="A" 	g2="question" 	k="45" />
+<hkern g1="A" 	g2="seven" 	k="41" />
+<hkern g1="A" 	g2="slash" 	k="-29" />
+<hkern g1="A" 	g2="space" 	k="49" />
+<hkern g1="A" 	g2="trademark" 	k="127" />
+<hkern g1="A" 	g2="v" 	k="45" />
+<hkern g1="C" 	g2="T" 	k="43" />
+<hkern g1="C" 	g2="Y" 	k="25" />
+<hkern g1="C" 	g2="V" 	k="14" />
+<hkern g1="C" 	g2="asterisk" 	k="-18" />
+<hkern g1="C" 	g2="A" 	k="12" />
+<hkern g1="C" 	g2="J" 	k="31" />
+<hkern g1="C" 	g2="parenright" 	k="74" />
+<hkern g1="C" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="33" />
+<hkern g1="C" 	g2="X" 	k="29" />
+<hkern g1="C" 	g2="braceright" 	k="41" />
+<hkern g1="C" 	g2="bracketright" 	k="51" />
+<hkern g1="D" 	g2="T" 	k="94" />
+<hkern g1="D" 	g2="W" 	k="16" />
+<hkern g1="D" 	g2="Y" 	k="66" />
+<hkern g1="D" 	g2="V" 	k="33" />
+<hkern g1="D" 	g2="trademark" 	k="37" />
+<hkern g1="D" 	g2="A" 	k="31" />
+<hkern g1="D" 	g2="J" 	k="86" />
+<hkern g1="D" 	g2="parenright" 	k="100" />
+<hkern g1="D" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="59" />
+<hkern g1="D" 	g2="X" 	k="63" />
+<hkern g1="D" 	g2="braceright" 	k="51" />
+<hkern g1="D" 	g2="bracketright" 	k="61" />
+<hkern g1="D" 	g2="Z" 	k="27" />
+<hkern g1="D" 	g2="x" 	k="12" />
+<hkern g1="E" 	g2="C,G,O,Q" 	k="31" />
+<hkern g1="E" 	g2="d,g,q" 	k="23" />
+<hkern g1="E" 	g2="f" 	k="29" />
+<hkern g1="E" 	g2="hyphen,endash,emdash" 	k="51" />
+<hkern g1="E" 	g2="c,e,o" 	k="25" />
+<hkern g1="E" 	g2="t" 	k="29" />
+<hkern g1="E" 	g2="w" 	k="39" />
+<hkern g1="E" 	g2="y" 	k="51" />
+<hkern g1="E" 	g2="trademark" 	k="-51" />
+<hkern g1="E" 	g2="v" 	k="47" />
+<hkern g1="E" 	g2="u" 	k="20" />
+<hkern g1="G" 	g2="T" 	k="61" />
+<hkern g1="G" 	g2="W" 	k="16" />
+<hkern g1="G" 	g2="Y" 	k="49" />
+<hkern g1="G" 	g2="V" 	k="31" />
+<hkern g1="G" 	g2="trademark" 	k="27" />
+<hkern g1="G" 	g2="parenright" 	k="45" />
+<hkern g1="H,I,M,N" 	g2="d,g,q" 	k="14" />
+<hkern g1="H,I,M,N" 	g2="c,e,o" 	k="14" />
+<hkern g1="H,I,M,N" 	g2="parenright" 	k="33" />
+<hkern g1="H,I,M,N" 	g2="a" 	k="10" />
+<hkern g1="J" 	g2="d,g,q" 	k="12" />
+<hkern g1="J" 	g2="c,e,o" 	k="12" />
+<hkern g1="J" 	g2="A" 	k="10" />
+<hkern g1="J" 	g2="J" 	k="33" />
+<hkern g1="J" 	g2="parenright" 	k="47" />
+<hkern g1="J" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="31" />
+<hkern g1="J" 	g2="bracketright" 	k="35" />
+<hkern g1="J" 	g2="u" 	k="12" />
+<hkern g1="J" 	g2="a" 	k="10" />
+<hkern g1="J" 	g2="b,h,k" 	k="10" />
+<hkern g1="J" 	g2="i,j" 	k="10" />
+<hkern g1="J" 	g2="l" 	k="10" />
+<hkern g1="J" 	g2="m,n,p,r" 	k="10" />
+<hkern g1="K" 	g2="C,G,O,Q" 	k="70" />
+<hkern g1="K" 	g2="S" 	k="43" />
+<hkern g1="K" 	g2="d,g,q" 	k="59" />
+<hkern g1="K" 	g2="f" 	k="45" />
+<hkern g1="K" 	g2="hyphen,endash,emdash" 	k="92" />
+<hkern g1="K" 	g2="c,e,o" 	k="63" />
+<hkern g1="K" 	g2="t" 	k="53" />
+<hkern g1="K" 	g2="w" 	k="74" />
+<hkern g1="K" 	g2="y" 	k="102" />
+<hkern g1="K" 	g2="backslash" 	k="-12" />
+<hkern g1="K" 	g2="bullet" 	k="63" />
+<hkern g1="K" 	g2="seven" 	k="-37" />
+<hkern g1="K" 	g2="slash" 	k="-23" />
+<hkern g1="K" 	g2="space" 	k="43" />
+<hkern g1="K" 	g2="trademark" 	k="-131" />
+<hkern g1="K" 	g2="v" 	k="88" />
+<hkern g1="K" 	g2="u" 	k="39" />
+<hkern g1="K" 	g2="a" 	k="18" />
+<hkern g1="K" 	g2="copyright,registered" 	k="35" />
+<hkern g1="K" 	g2="guillemotleft,guilsinglleft" 	k="55" />
+<hkern g1="K" 	g2="s" 	k="16" />
+<hkern g1="K" 	g2="ampersand" 	k="29" />
+<hkern g1="L" 	g2="C,G,O,Q" 	k="100" />
+<hkern g1="L" 	g2="S" 	k="41" />
+<hkern g1="L" 	g2="T" 	k="299" />
+<hkern g1="L" 	g2="U" 	k="66" />
+<hkern g1="L" 	g2="W" 	k="137" />
+<hkern g1="L" 	g2="Y" 	k="242" />
+<hkern g1="L" 	g2="d,g,q" 	k="16" />
+<hkern g1="L" 	g2="f" 	k="53" />
+<hkern g1="L" 	g2="hyphen,endash,emdash" 	k="156" />
+<hkern g1="L" 	g2="c,e,o" 	k="20" />
+<hkern g1="L" 	g2="quoteleft,quotedblleft" 	k="254" />
+<hkern g1="L" 	g2="quoteright,quotedblright" 	k="254" />
+<hkern g1="L" 	g2="quotedbl,quotesingle" 	k="193" />
+<hkern g1="L" 	g2="t" 	k="61" />
+<hkern g1="L" 	g2="w" 	k="100" />
+<hkern g1="L" 	g2="y" 	k="174" />
+<hkern g1="L" 	g2="V" 	k="233" />
+<hkern g1="L" 	g2="asterisk" 	k="276" />
+<hkern g1="L" 	g2="backslash" 	k="145" />
+<hkern g1="L" 	g2="bullet" 	k="176" />
+<hkern g1="L" 	g2="one" 	k="82" />
+<hkern g1="L" 	g2="question" 	k="61" />
+<hkern g1="L" 	g2="seven" 	k="41" />
+<hkern g1="L" 	g2="slash" 	k="-14" />
+<hkern g1="L" 	g2="space" 	k="61" />
+<hkern g1="L" 	g2="trademark" 	k="270" />
+<hkern g1="L" 	g2="v" 	k="143" />
+<hkern g1="L" 	g2="copyright,registered" 	k="53" />
+<hkern g1="L" 	g2="guillemotleft,guilsinglleft" 	k="78" />
+<hkern g1="O,Q" 	g2="T" 	k="90" />
+<hkern g1="O,Q" 	g2="W" 	k="14" />
+<hkern g1="O,Q" 	g2="Y" 	k="63" />
+<hkern g1="O,Q" 	g2="V" 	k="31" />
+<hkern g1="O,Q" 	g2="trademark" 	k="35" />
+<hkern g1="O,Q" 	g2="A" 	k="31" />
+<hkern g1="O,Q" 	g2="J" 	k="84" />
+<hkern g1="O,Q" 	g2="parenright" 	k="98" />
+<hkern g1="O,Q" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="61" />
+<hkern g1="O,Q" 	g2="X" 	k="59" />
+<hkern g1="O,Q" 	g2="braceright" 	k="51" />
+<hkern g1="O,Q" 	g2="bracketright" 	k="61" />
+<hkern g1="O,Q" 	g2="Z" 	k="27" />
+<hkern g1="O,Q" 	g2="x" 	k="10" />
+<hkern g1="R" 	g2="C,G,O,Q" 	k="10" />
+<hkern g1="R" 	g2="T" 	k="55" />
+<hkern g1="R" 	g2="W" 	k="14" />
+<hkern g1="R" 	g2="Y" 	k="41" />
+<hkern g1="R" 	g2="d,g,q" 	k="12" />
+<hkern g1="R" 	g2="hyphen,endash,emdash" 	k="49" />
+<hkern g1="R" 	g2="c,e,o" 	k="14" />
+<hkern g1="R" 	g2="V" 	k="25" />
+<hkern g1="R" 	g2="parenright" 	k="37" />
+<hkern g1="S" 	g2="T" 	k="45" />
+<hkern g1="S" 	g2="W" 	k="10" />
+<hkern g1="S" 	g2="Y" 	k="29" />
+<hkern g1="S" 	g2="V" 	k="18" />
+<hkern g1="S" 	g2="A" 	k="18" />
+<hkern g1="S" 	g2="J" 	k="29" />
+<hkern g1="S" 	g2="parenright" 	k="66" />
+<hkern g1="S" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="27" />
+<hkern g1="S" 	g2="X" 	k="31" />
+<hkern g1="S" 	g2="braceright" 	k="37" />
+<hkern g1="S" 	g2="bracketright" 	k="45" />
+<hkern g1="T" 	g2="C,G,O,Q" 	k="90" />
+<hkern g1="T" 	g2="S" 	k="41" />
+<hkern g1="T" 	g2="d,g,q" 	k="242" />
+<hkern g1="T" 	g2="f" 	k="88" />
+<hkern g1="T" 	g2="hyphen,endash,emdash" 	k="147" />
+<hkern g1="T" 	g2="c,e,o" 	k="242" />
+<hkern g1="T" 	g2="t" 	k="80" />
+<hkern g1="T" 	g2="w" 	k="186" />
+<hkern g1="T" 	g2="y" 	k="178" />
+<hkern g1="T" 	g2="asterisk" 	k="-78" />
+<hkern g1="T" 	g2="backslash" 	k="-14" />
+<hkern g1="T" 	g2="bullet" 	k="156" />
+<hkern g1="T" 	g2="question" 	k="-25" />
+<hkern g1="T" 	g2="seven" 	k="-39" />
+<hkern g1="T" 	g2="slash" 	k="121" />
+<hkern g1="T" 	g2="space" 	k="63" />
+<hkern g1="T" 	g2="trademark" 	k="-133" />
+<hkern g1="T" 	g2="v" 	k="188" />
+<hkern g1="T" 	g2="A" 	k="168" />
+<hkern g1="T" 	g2="J" 	k="172" />
+<hkern g1="T" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="150" />
+<hkern g1="T" 	g2="x" 	k="188" />
+<hkern g1="T" 	g2="u" 	k="203" />
+<hkern g1="T" 	g2="a" 	k="231" />
+<hkern g1="T" 	g2="m,n,p,r" 	k="211" />
+<hkern g1="T" 	g2="copyright,registered" 	k="55" />
+<hkern g1="T" 	g2="guillemotleft,guilsinglleft" 	k="164" />
+<hkern g1="T" 	g2="s" 	k="227" />
+<hkern g1="T" 	g2="ampersand" 	k="27" />
+<hkern g1="T" 	g2="colon,semicolon" 	k="113" />
+<hkern g1="T" 	g2="guillemotright,guilsinglright" 	k="127" />
+<hkern g1="T" 	g2="z" 	k="217" />
+<hkern g1="T" 	g2="at" 	k="72" />
+<hkern g1="T" 	g2="four" 	k="135" />
+<hkern g1="T" 	g2="six" 	k="43" />
+<hkern g1="U" 	g2="d,g,q" 	k="12" />
+<hkern g1="U" 	g2="c,e,o" 	k="14" />
+<hkern g1="U" 	g2="A" 	k="27" />
+<hkern g1="U" 	g2="J" 	k="70" />
+<hkern g1="U" 	g2="parenright" 	k="51" />
+<hkern g1="U" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="45" />
+<hkern g1="U" 	g2="bracketright" 	k="37" />
+<hkern g1="U" 	g2="u" 	k="18" />
+<hkern g1="U" 	g2="a" 	k="14" />
+<hkern g1="U" 	g2="b,h,k" 	k="10" />
+<hkern g1="U" 	g2="i,j" 	k="12" />
+<hkern g1="U" 	g2="l" 	k="10" />
+<hkern g1="U" 	g2="m,n,p,r" 	k="14" />
+<hkern g1="U" 	g2="s" 	k="14" />
+<hkern g1="U" 	g2="z" 	k="10" />
+<hkern g1="W" 	g2="C,G,O,Q" 	k="14" />
+<hkern g1="W" 	g2="S" 	k="14" />
+<hkern g1="W" 	g2="d,g,q" 	k="49" />
+<hkern g1="W" 	g2="hyphen,endash,emdash" 	k="55" />
+<hkern g1="W" 	g2="c,e,o" 	k="51" />
+<hkern g1="W" 	g2="asterisk" 	k="-35" />
+<hkern g1="W" 	g2="seven" 	k="-18" />
+<hkern g1="W" 	g2="slash" 	k="47" />
+<hkern g1="W" 	g2="space" 	k="43" />
+<hkern g1="W" 	g2="trademark" 	k="-115" />
+<hkern g1="W" 	g2="A" 	k="47" />
+<hkern g1="W" 	g2="J" 	k="94" />
+<hkern g1="W" 	g2="parenright" 	k="37" />
+<hkern g1="W" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="98" />
+<hkern g1="W" 	g2="bracketright" 	k="33" />
+<hkern g1="W" 	g2="u" 	k="27" />
+<hkern g1="W" 	g2="a" 	k="45" />
+<hkern g1="W" 	g2="m,n,p,r" 	k="33" />
+<hkern g1="W" 	g2="guillemotleft,guilsinglleft" 	k="47" />
+<hkern g1="W" 	g2="s" 	k="41" />
+<hkern g1="W" 	g2="four" 	k="37" />
+<hkern g1="Y" 	g2="C,G,O,Q" 	k="63" />
+<hkern g1="Y" 	g2="S" 	k="41" />
+<hkern g1="Y" 	g2="d,g,q" 	k="156" />
+<hkern g1="Y" 	g2="f" 	k="43" />
+<hkern g1="Y" 	g2="hyphen,endash,emdash" 	k="129" />
+<hkern g1="Y" 	g2="c,e,o" 	k="160" />
+<hkern g1="Y" 	g2="t" 	k="41" />
+<hkern g1="Y" 	g2="w" 	k="74" />
+<hkern g1="Y" 	g2="y" 	k="59" />
+<hkern g1="Y" 	g2="asterisk" 	k="-35" />
+<hkern g1="Y" 	g2="backslash" 	k="-31" />
+<hkern g1="Y" 	g2="bullet" 	k="86" />
+<hkern g1="Y" 	g2="seven" 	k="-55" />
+<hkern g1="Y" 	g2="slash" 	k="106" />
+<hkern g1="Y" 	g2="space" 	k="68" />
+<hkern g1="Y" 	g2="trademark" 	k="-152" />
+<hkern g1="Y" 	g2="v" 	k="70" />
+<hkern g1="Y" 	g2="A" 	k="123" />
+<hkern g1="Y" 	g2="J" 	k="117" />
+<hkern g1="Y" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="143" />
+<hkern g1="Y" 	g2="x" 	k="74" />
+<hkern g1="Y" 	g2="u" 	k="135" />
+<hkern g1="Y" 	g2="a" 	k="162" />
+<hkern g1="Y" 	g2="m,n,p,r" 	k="133" />
+<hkern g1="Y" 	g2="copyright,registered" 	k="47" />
+<hkern g1="Y" 	g2="guillemotleft,guilsinglleft" 	k="127" />
+<hkern g1="Y" 	g2="s" 	k="172" />
+<hkern g1="Y" 	g2="ampersand" 	k="33" />
+<hkern g1="Y" 	g2="colon,semicolon" 	k="51" />
+<hkern g1="Y" 	g2="guillemotright,guilsinglright" 	k="51" />
+<hkern g1="Y" 	g2="z" 	k="106" />
+<hkern g1="Y" 	g2="at" 	k="57" />
+<hkern g1="Y" 	g2="four" 	k="113" />
+<hkern g1="Y" 	g2="six" 	k="41" />
+<hkern g1="Z" 	g2="C,G,O,Q" 	k="31" />
+<hkern g1="Z" 	g2="d,g,q" 	k="41" />
+<hkern g1="Z" 	g2="f" 	k="35" />
+<hkern g1="Z" 	g2="hyphen,endash,emdash" 	k="109" />
+<hkern g1="Z" 	g2="c,e,o" 	k="45" />
+<hkern g1="Z" 	g2="t" 	k="29" />
+<hkern g1="Z" 	g2="w" 	k="53" />
+<hkern g1="Z" 	g2="y" 	k="63" />
+<hkern g1="Z" 	g2="asterisk" 	k="-27" />
+<hkern g1="Z" 	g2="bullet" 	k="59" />
+<hkern g1="Z" 	g2="trademark" 	k="-61" />
+<hkern g1="Z" 	g2="v" 	k="61" />
+<hkern g1="Z" 	g2="u" 	k="35" />
+<hkern g1="Z" 	g2="m,n,p,r" 	k="14" />
+<hkern g1="Z" 	g2="guillemotleft,guilsinglleft" 	k="53" />
+<hkern g1="Z" 	g2="s" 	k="10" />
+<hkern g1="B" 	g2="T" 	k="43" />
+<hkern g1="B" 	g2="Y" 	k="35" />
+<hkern g1="B" 	g2="A" 	k="12" />
+<hkern g1="B" 	g2="J" 	k="33" />
+<hkern g1="B" 	g2="parenright" 	k="72" />
+<hkern g1="F" 	g2="C,G,O,Q" 	k="25" />
+<hkern g1="F" 	g2="S" 	k="18" />
+<hkern g1="F" 	g2="d,g,q" 	k="27" />
+<hkern g1="F" 	g2="f" 	k="16" />
+<hkern g1="F" 	g2="hyphen,endash,emdash" 	k="35" />
+<hkern g1="F" 	g2="c,e,o" 	k="29" />
+<hkern g1="F" 	g2="t" 	k="12" />
+<hkern g1="F" 	g2="w" 	k="20" />
+<hkern g1="F" 	g2="y" 	k="25" />
+<hkern g1="F" 	g2="A" 	k="98" />
+<hkern g1="F" 	g2="J" 	k="152" />
+<hkern g1="F" 	g2="parenright" 	k="33" />
+<hkern g1="F" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="197" />
+<hkern g1="F" 	g2="u" 	k="39" />
+<hkern g1="F" 	g2="a" 	k="45" />
+<hkern g1="F" 	g2="m,n,p,r" 	k="47" />
+<hkern g1="F" 	g2="s" 	k="41" />
+<hkern g1="F" 	g2="z" 	k="70" />
+<hkern g1="P" 	g2="Y" 	k="20" />
+<hkern g1="P" 	g2="d,g,q" 	k="29" />
+<hkern g1="P" 	g2="hyphen,endash,emdash" 	k="49" />
+<hkern g1="P" 	g2="c,e,o" 	k="31" />
+<hkern g1="P" 	g2="quoteright,quotedblright" 	k="-14" />
+<hkern g1="P" 	g2="t" 	k="-14" />
+<hkern g1="P" 	g2="A" 	k="94" />
+<hkern g1="P" 	g2="J" 	k="164" />
+<hkern g1="P" 	g2="parenright" 	k="90" />
+<hkern g1="P" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="219" />
+<hkern g1="P" 	g2="Z" 	k="18" />
+<hkern g1="P" 	g2="a" 	k="20" />
+<hkern g1="P" 	g2="s" 	k="16" />
+<hkern g1="V" 	g2="C,G,O,Q" 	k="33" />
+<hkern g1="V" 	g2="S" 	k="27" />
+<hkern g1="V" 	g2="d,g,q" 	k="111" />
+<hkern g1="V" 	g2="f" 	k="12" />
+<hkern g1="V" 	g2="hyphen,endash,emdash" 	k="84" />
+<hkern g1="V" 	g2="c,e,o" 	k="113" />
+<hkern g1="V" 	g2="t" 	k="10" />
+<hkern g1="V" 	g2="w" 	k="18" />
+<hkern g1="V" 	g2="y" 	k="14" />
+<hkern g1="V" 	g2="A" 	k="94" />
+<hkern g1="V" 	g2="J" 	k="127" />
+<hkern g1="V" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="145" />
+<hkern g1="V" 	g2="u" 	k="84" />
+<hkern g1="V" 	g2="a" 	k="98" />
+<hkern g1="V" 	g2="m,n,p,r" 	k="82" />
+<hkern g1="V" 	g2="guillemotleft,guilsinglleft" 	k="78" />
+<hkern g1="V" 	g2="s" 	k="100" />
+<hkern g1="V" 	g2="z" 	k="41" />
+<hkern g1="X" 	g2="C,G,O,Q" 	k="59" />
+<hkern g1="X" 	g2="S" 	k="31" />
+<hkern g1="X" 	g2="d,g,q" 	k="53" />
+<hkern g1="X" 	g2="f" 	k="37" />
+<hkern g1="X" 	g2="hyphen,endash,emdash" 	k="92" />
+<hkern g1="X" 	g2="c,e,o" 	k="57" />
+<hkern g1="X" 	g2="t" 	k="41" />
+<hkern g1="X" 	g2="w" 	k="72" />
+<hkern g1="X" 	g2="y" 	k="84" />
+<hkern g1="X" 	g2="u" 	k="39" />
+<hkern g1="X" 	g2="a" 	k="14" />
+<hkern g1="X" 	g2="guillemotleft,guilsinglleft" 	k="55" />
+<hkern g1="X" 	g2="s" 	k="14" />
+<hkern g1="a" 	g2="B,D,E,F,H,I,K,L,M,N,P,R" 	k="10" />
+<hkern g1="a" 	g2="T" 	k="254" />
+<hkern g1="a" 	g2="U" 	k="18" />
+<hkern g1="a" 	g2="W" 	k="43" />
+<hkern g1="a" 	g2="Y" 	k="160" />
+<hkern g1="a" 	g2="Z" 	k="10" />
+<hkern g1="a" 	g2="f" 	k="18" />
+<hkern g1="a" 	g2="quoteleft,quotedblleft" 	k="55" />
+<hkern g1="a" 	g2="quoteright,quotedblright" 	k="51" />
+<hkern g1="a" 	g2="quotedbl,quotesingle" 	k="68" />
+<hkern g1="a" 	g2="t" 	k="16" />
+<hkern g1="a" 	g2="w" 	k="10" />
+<hkern g1="a" 	g2="y" 	k="23" />
+<hkern g1="a" 	g2="V" 	k="100" />
+<hkern g1="a" 	g2="asterisk" 	k="61" />
+<hkern g1="a" 	g2="backslash" 	k="51" />
+<hkern g1="a" 	g2="trademark" 	k="68" />
+<hkern g1="a" 	g2="v" 	k="18" />
+<hkern g1="b,p" 	g2="B,D,E,F,H,I,K,L,M,N,P,R" 	k="14" />
+<hkern g1="b,p" 	g2="T" 	k="242" />
+<hkern g1="b,p" 	g2="U" 	k="12" />
+<hkern g1="b,p" 	g2="W" 	k="49" />
+<hkern g1="b,p" 	g2="Y" 	k="156" />
+<hkern g1="b,p" 	g2="Z" 	k="29" />
+<hkern g1="b,p" 	g2="f" 	k="27" />
+<hkern g1="b,p" 	g2="quoteleft,quotedblleft" 	k="80" />
+<hkern g1="b,p" 	g2="quoteright,quotedblright" 	k="76" />
+<hkern g1="b,p" 	g2="quotedbl,quotesingle" 	k="92" />
+<hkern g1="b,p" 	g2="t" 	k="20" />
+<hkern g1="b,p" 	g2="w" 	k="16" />
+<hkern g1="b,p" 	g2="y" 	k="25" />
+<hkern g1="b,p" 	g2="V" 	k="113" />
+<hkern g1="b,p" 	g2="asterisk" 	k="80" />
+<hkern g1="b,p" 	g2="backslash" 	k="53" />
+<hkern g1="b,p" 	g2="trademark" 	k="74" />
+<hkern g1="b,p" 	g2="v" 	k="20" />
+<hkern g1="b,p" 	g2="A" 	k="10" />
+<hkern g1="b,p" 	g2="J" 	k="31" />
+<hkern g1="b,p" 	g2="parenright" 	k="43" />
+<hkern g1="b,p" 	g2="z" 	k="20" />
+<hkern g1="b,p" 	g2="X" 	k="53" />
+<hkern g1="b,p" 	g2="braceright" 	k="37" />
+<hkern g1="b,p" 	g2="bracketright" 	k="41" />
+<hkern g1="b,p" 	g2="seven" 	k="37" />
+<hkern g1="b,p" 	g2="x" 	k="47" />
+<hkern g1="c" 	g2="T" 	k="223" />
+<hkern g1="c" 	g2="W" 	k="31" />
+<hkern g1="c" 	g2="Y" 	k="172" />
+<hkern g1="c" 	g2="Z" 	k="10" />
+<hkern g1="c" 	g2="f" 	k="16" />
+<hkern g1="c" 	g2="quoteleft,quotedblleft" 	k="51" />
+<hkern g1="c" 	g2="quoteright,quotedblright" 	k="47" />
+<hkern g1="c" 	g2="quotedbl,quotesingle" 	k="61" />
+<hkern g1="c" 	g2="t" 	k="12" />
+<hkern g1="c" 	g2="w" 	k="12" />
+<hkern g1="c" 	g2="y" 	k="14" />
+<hkern g1="c" 	g2="V" 	k="96" />
+<hkern g1="c" 	g2="asterisk" 	k="57" />
+<hkern g1="c" 	g2="backslash" 	k="41" />
+<hkern g1="c" 	g2="trademark" 	k="68" />
+<hkern g1="c" 	g2="v" 	k="16" />
+<hkern g1="c" 	g2="parenright" 	k="33" />
+<hkern g1="c" 	g2="X" 	k="25" />
+<hkern g1="c" 	g2="bracketright" 	k="33" />
+<hkern g1="c" 	g2="x" 	k="23" />
+<hkern g1="d" 	g2="U" 	k="10" />
+<hkern g1="e" 	g2="B,D,E,F,H,I,K,L,M,N,P,R" 	k="10" />
+<hkern g1="e" 	g2="T" 	k="233" />
+<hkern g1="e" 	g2="U" 	k="12" />
+<hkern g1="e" 	g2="W" 	k="45" />
+<hkern g1="e" 	g2="Y" 	k="143" />
+<hkern g1="e" 	g2="Z" 	k="14" />
+<hkern g1="e" 	g2="f" 	k="18" />
+<hkern g1="e" 	g2="quoteleft,quotedblleft" 	k="57" />
+<hkern g1="e" 	g2="quoteright,quotedblright" 	k="55" />
+<hkern g1="e" 	g2="quotedbl,quotesingle" 	k="70" />
+<hkern g1="e" 	g2="t" 	k="16" />
+<hkern g1="e" 	g2="w" 	k="14" />
+<hkern g1="e" 	g2="y" 	k="20" />
+<hkern g1="e" 	g2="V" 	k="100" />
+<hkern g1="e" 	g2="asterisk" 	k="63" />
+<hkern g1="e" 	g2="backslash" 	k="47" />
+<hkern g1="e" 	g2="trademark" 	k="68" />
+<hkern g1="e" 	g2="v" 	k="18" />
+<hkern g1="e" 	g2="J" 	k="12" />
+<hkern g1="e" 	g2="parenright" 	k="35" />
+<hkern g1="e" 	g2="z" 	k="8" />
+<hkern g1="e" 	g2="X" 	k="31" />
+<hkern g1="e" 	g2="bracketright" 	k="33" />
+<hkern g1="e" 	g2="x" 	k="35" />
+<hkern g1="f" 	g2="T" 	k="-76" />
+<hkern g1="f" 	g2="W" 	k="-37" />
+<hkern g1="f" 	g2="Y" 	k="-70" />
+<hkern g1="f" 	g2="quoteleft,quotedblleft" 	k="-63" />
+<hkern g1="f" 	g2="quoteright,quotedblright" 	k="-25" />
+<hkern g1="f" 	g2="quotedbl,quotesingle" 	k="-80" />
+<hkern g1="f" 	g2="V" 	k="-74" />
+<hkern g1="f" 	g2="asterisk" 	k="-86" />
+<hkern g1="f" 	g2="backslash" 	k="-94" />
+<hkern g1="f" 	g2="trademark" 	k="-150" />
+<hkern g1="f" 	g2="A" 	k="55" />
+<hkern g1="f" 	g2="J" 	k="80" />
+<hkern g1="f" 	g2="X" 	k="-33" />
+<hkern g1="f" 	g2="seven" 	k="-121" />
+<hkern g1="f" 	g2="exclam" 	k="-31" />
+<hkern g1="f" 	g2="question" 	k="-92" />
+<hkern g1="f" 	g2="a" 	k="29" />
+<hkern g1="f" 	g2="d,g,q" 	k="31" />
+<hkern g1="f" 	g2="hyphen,endash,emdash" 	k="63" />
+<hkern g1="f" 	g2="c,e,o" 	k="35" />
+<hkern g1="f" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="66" />
+<hkern g1="f" 	g2="s" 	k="18" />
+<hkern g1="f" 	g2="ampersand" 	k="20" />
+<hkern g1="f" 	g2="space" 	k="47" />
+<hkern g1="i,j" 	g2="U" 	k="12" />
+<hkern g1="k" 	g2="T" 	k="186" />
+<hkern g1="k" 	g2="Y" 	k="63" />
+<hkern g1="k" 	g2="V" 	k="10" />
+<hkern g1="k" 	g2="trademark" 	k="51" />
+<hkern g1="k" 	g2="question" 	k="-23" />
+<hkern g1="k" 	g2="a" 	k="31" />
+<hkern g1="k" 	g2="d,g,q" 	k="49" />
+<hkern g1="k" 	g2="hyphen,endash,emdash" 	k="88" />
+<hkern g1="k" 	g2="c,e,o" 	k="51" />
+<hkern g1="k" 	g2="s" 	k="33" />
+<hkern g1="k" 	g2="ampersand" 	k="18" />
+<hkern g1="k" 	g2="C,G,O,Q" 	k="14" />
+<hkern g1="k" 	g2="guillemotleft,guilsinglleft" 	k="41" />
+<hkern g1="l" 	g2="U" 	k="10" />
+<hkern g1="h,m,n" 	g2="B,D,E,F,H,I,K,L,M,N,P,R" 	k="10" />
+<hkern g1="h,m,n" 	g2="T" 	k="256" />
+<hkern g1="h,m,n" 	g2="U" 	k="16" />
+<hkern g1="h,m,n" 	g2="W" 	k="43" />
+<hkern g1="h,m,n" 	g2="Y" 	k="156" />
+<hkern g1="h,m,n" 	g2="Z" 	k="12" />
+<hkern g1="h,m,n" 	g2="f" 	k="14" />
+<hkern g1="h,m,n" 	g2="quoteleft,quotedblleft" 	k="49" />
+<hkern g1="h,m,n" 	g2="quoteright,quotedblright" 	k="45" />
+<hkern g1="h,m,n" 	g2="quotedbl,quotesingle" 	k="61" />
+<hkern g1="h,m,n" 	g2="t" 	k="12" />
+<hkern g1="h,m,n" 	g2="w" 	k="8" />
+<hkern g1="h,m,n" 	g2="y" 	k="18" />
+<hkern g1="h,m,n" 	g2="V" 	k="100" />
+<hkern g1="h,m,n" 	g2="asterisk" 	k="57" />
+<hkern g1="h,m,n" 	g2="backslash" 	k="47" />
+<hkern g1="h,m,n" 	g2="trademark" 	k="66" />
+<hkern g1="h,m,n" 	g2="v" 	k="14" />
+<hkern g1="o" 	g2="B,D,E,F,H,I,K,L,M,N,P,R" 	k="14" />
+<hkern g1="o" 	g2="T" 	k="242" />
+<hkern g1="o" 	g2="U" 	k="14" />
+<hkern g1="o" 	g2="W" 	k="51" />
+<hkern g1="o" 	g2="Y" 	k="160" />
+<hkern g1="o" 	g2="Z" 	k="31" />
+<hkern g1="o" 	g2="f" 	k="29" />
+<hkern g1="o" 	g2="quoteleft,quotedblleft" 	k="72" />
+<hkern g1="o" 	g2="quoteright,quotedblright" 	k="68" />
+<hkern g1="o" 	g2="quotedbl,quotesingle" 	k="84" />
+<hkern g1="o" 	g2="t" 	k="25" />
+<hkern g1="o" 	g2="w" 	k="16" />
+<hkern g1="o" 	g2="y" 	k="27" />
+<hkern g1="o" 	g2="V" 	k="115" />
+<hkern g1="o" 	g2="asterisk" 	k="74" />
+<hkern g1="o" 	g2="backslash" 	k="51" />
+<hkern g1="o" 	g2="trademark" 	k="70" />
+<hkern g1="o" 	g2="v" 	k="23" />
+<hkern g1="o" 	g2="A" 	k="10" />
+<hkern g1="o" 	g2="J" 	k="35" />
+<hkern g1="o" 	g2="parenright" 	k="43" />
+<hkern g1="o" 	g2="z" 	k="23" />
+<hkern g1="o" 	g2="X" 	k="57" />
+<hkern g1="o" 	g2="braceright" 	k="37" />
+<hkern g1="o" 	g2="bracketright" 	k="41" />
+<hkern g1="o" 	g2="seven" 	k="35" />
+<hkern g1="o" 	g2="x" 	k="47" />
+<hkern g1="o" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="25" />
+<hkern g1="r" 	g2="T" 	k="225" />
+<hkern g1="r" 	g2="Y" 	k="57" />
+<hkern g1="r" 	g2="Z" 	k="106" />
+<hkern g1="r" 	g2="quoteleft,quotedblleft" 	k="-10" />
+<hkern g1="r" 	g2="quoteright,quotedblright" 	k="-29" />
+<hkern g1="r" 	g2="V" 	k="10" />
+<hkern g1="r" 	g2="trademark" 	k="33" />
+<hkern g1="r" 	g2="A" 	k="109" />
+<hkern g1="r" 	g2="J" 	k="143" />
+<hkern g1="r" 	g2="parenright" 	k="51" />
+<hkern g1="r" 	g2="X" 	k="92" />
+<hkern g1="r" 	g2="braceright" 	k="35" />
+<hkern g1="r" 	g2="bracketright" 	k="45" />
+<hkern g1="r" 	g2="question" 	k="-41" />
+<hkern g1="r" 	g2="a" 	k="27" />
+<hkern g1="r" 	g2="d,g,q" 	k="45" />
+<hkern g1="r" 	g2="hyphen,endash,emdash" 	k="100" />
+<hkern g1="r" 	g2="c,e,o" 	k="49" />
+<hkern g1="r" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="115" />
+<hkern g1="r" 	g2="s" 	k="16" />
+<hkern g1="r" 	g2="ampersand" 	k="10" />
+<hkern g1="r" 	g2="space" 	k="51" />
+<hkern g1="r" 	g2="guillemotleft,guilsinglleft" 	k="37" />
+<hkern g1="r" 	g2="slash" 	k="37" />
+<hkern g1="s" 	g2="T" 	k="227" />
+<hkern g1="s" 	g2="U" 	k="10" />
+<hkern g1="s" 	g2="W" 	k="35" />
+<hkern g1="s" 	g2="Y" 	k="160" />
+<hkern g1="s" 	g2="f" 	k="20" />
+<hkern g1="s" 	g2="quoteleft,quotedblleft" 	k="43" />
+<hkern g1="s" 	g2="quoteright,quotedblright" 	k="41" />
+<hkern g1="s" 	g2="quotedbl,quotesingle" 	k="55" />
+<hkern g1="s" 	g2="t" 	k="14" />
+<hkern g1="s" 	g2="w" 	k="18" />
+<hkern g1="s" 	g2="y" 	k="20" />
+<hkern g1="s" 	g2="V" 	k="94" />
+<hkern g1="s" 	g2="asterisk" 	k="53" />
+<hkern g1="s" 	g2="backslash" 	k="41" />
+<hkern g1="s" 	g2="trademark" 	k="63" />
+<hkern g1="s" 	g2="v" 	k="20" />
+<hkern g1="s" 	g2="X" 	k="18" />
+<hkern g1="s" 	g2="x" 	k="23" />
+<hkern g1="t" 	g2="T" 	k="129" />
+<hkern g1="t" 	g2="Y" 	k="68" />
+<hkern g1="t" 	g2="V" 	k="27" />
+<hkern g1="t" 	g2="trademark" 	k="37" />
+<hkern g1="t" 	g2="d,g,q" 	k="10" />
+<hkern g1="t" 	g2="hyphen,endash,emdash" 	k="31" />
+<hkern g1="t" 	g2="c,e,o" 	k="12" />
+<hkern g1="g,q,u" 	g2="T" 	k="211" />
+<hkern g1="g,q,u" 	g2="U" 	k="12" />
+<hkern g1="g,q,u" 	g2="W" 	k="33" />
+<hkern g1="g,q,u" 	g2="Y" 	k="133" />
+<hkern g1="g,q,u" 	g2="Z" 	k="14" />
+<hkern g1="g,q,u" 	g2="V" 	k="80" />
+<hkern g1="g,q,u" 	g2="asterisk" 	k="31" />
+<hkern g1="g,q,u" 	g2="backslash" 	k="33" />
+<hkern g1="g,q,u" 	g2="trademark" 	k="55" />
+<hkern g1="w" 	g2="T" 	k="184" />
+<hkern g1="w" 	g2="Y" 	k="74" />
+<hkern g1="w" 	g2="Z" 	k="70" />
+<hkern g1="w" 	g2="V" 	k="18" />
+<hkern g1="w" 	g2="trademark" 	k="39" />
+<hkern g1="w" 	g2="A" 	k="31" />
+<hkern g1="w" 	g2="J" 	k="76" />
+<hkern g1="w" 	g2="parenright" 	k="53" />
+<hkern g1="w" 	g2="X" 	k="72" />
+<hkern g1="w" 	g2="braceright" 	k="39" />
+<hkern g1="w" 	g2="bracketright" 	k="47" />
+<hkern g1="w" 	g2="question" 	k="-23" />
+<hkern g1="w" 	g2="a" 	k="23" />
+<hkern g1="w" 	g2="d,g,q" 	k="16" />
+<hkern g1="w" 	g2="c,e,o" 	k="16" />
+<hkern g1="w" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="72" />
+<hkern g1="w" 	g2="s" 	k="16" />
+<hkern g1="w" 	g2="ampersand" 	k="23" />
+<hkern g1="y" 	g2="T" 	k="182" />
+<hkern g1="y" 	g2="Y" 	k="66" />
+<hkern g1="y" 	g2="Z" 	k="88" />
+<hkern g1="y" 	g2="quoteright,quotedblright" 	k="-18" />
+<hkern g1="y" 	g2="V" 	k="16" />
+<hkern g1="y" 	g2="trademark" 	k="37" />
+<hkern g1="y" 	g2="A" 	k="49" />
+<hkern g1="y" 	g2="J" 	k="109" />
+<hkern g1="y" 	g2="parenright" 	k="53" />
+<hkern g1="y" 	g2="X" 	k="82" />
+<hkern g1="y" 	g2="braceright" 	k="39" />
+<hkern g1="y" 	g2="bracketright" 	k="47" />
+<hkern g1="y" 	g2="question" 	k="-41" />
+<hkern g1="y" 	g2="a" 	k="25" />
+<hkern g1="y" 	g2="d,g,q" 	k="20" />
+<hkern g1="y" 	g2="c,e,o" 	k="23" />
+<hkern g1="y" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="94" />
+<hkern g1="y" 	g2="s" 	k="18" />
+<hkern g1="y" 	g2="ampersand" 	k="23" />
+<hkern g1="y" 	g2="space" 	k="33" />
+<hkern g1="y" 	g2="slash" 	k="35" />
+<hkern g1="y" 	g2="one" 	k="-16" />
+<hkern g1="z" 	g2="T" 	k="221" />
+<hkern g1="z" 	g2="U" 	k="16" />
+<hkern g1="z" 	g2="W" 	k="12" />
+<hkern g1="z" 	g2="Y" 	k="121" />
+<hkern g1="z" 	g2="V" 	k="49" />
+<hkern g1="z" 	g2="asterisk" 	k="27" />
+<hkern g1="z" 	g2="trademark" 	k="59" />
+<hkern g1="z" 	g2="d,g,q" 	k="20" />
+<hkern g1="z" 	g2="hyphen,endash,emdash" 	k="68" />
+<hkern g1="z" 	g2="c,e,o" 	k="25" />
+<hkern g1="z" 	g2="guillemotleft,guilsinglleft" 	k="39" />
+<hkern g1="v" 	g2="T" 	k="188" />
+<hkern g1="v" 	g2="Y" 	k="70" />
+<hkern g1="v" 	g2="Z" 	k="84" />
+<hkern g1="v" 	g2="quoteright,quotedblright" 	k="-12" />
+<hkern g1="v" 	g2="A" 	k="45" />
+<hkern g1="v" 	g2="J" 	k="106" />
+<hkern g1="v" 	g2="parenright" 	k="55" />
+<hkern g1="v" 	g2="a" 	k="25" />
+<hkern g1="v" 	g2="d,g,q" 	k="20" />
+<hkern g1="v" 	g2="c,e,o" 	k="23" />
+<hkern g1="v" 	g2="comma,period,quotesinglbase,quotedblbase,ellipsis" 	k="88" />
+<hkern g1="v" 	g2="s" 	k="20" />
+<hkern g1="x" 	g2="T" 	k="188" />
+<hkern g1="x" 	g2="Y" 	k="74" />
+<hkern g1="x" 	g2="a" 	k="27" />
+<hkern g1="x" 	g2="d,g,q" 	k="47" />
+<hkern g1="x" 	g2="hyphen,endash,emdash" 	k="66" />
+<hkern g1="x" 	g2="c,e,o" 	k="47" />
+<hkern g1="x" 	g2="s" 	k="23" />
+<hkern g1="x" 	g2="C,G,O,Q" 	k="10" />
+<hkern g1="x" 	g2="guillemotleft,guilsinglleft" 	k="37" />
+<hkern g1="colon,semicolon" 	g2="T" 	k="113" />
+<hkern g1="colon,semicolon" 	g2="Y" 	k="51" />
+<hkern g1="guillemotleft,guilsinglleft" 	g2="T" 	k="127" />
+<hkern g1="guillemotleft,guilsinglleft" 	g2="Y" 	k="51" />
+<hkern g1="guillemotright,guilsinglright" 	g2="T" 	k="164" />
+<hkern g1="guillemotright,guilsinglright" 	g2="Y" 	k="127" />
+<hkern g1="guillemotright,guilsinglright" 	g2="J" 	k="76" />
+<hkern g1="guillemotright,guilsinglright" 	g2="W" 	k="47" />
+<hkern g1="guillemotright,guilsinglright" 	g2="z" 	k="39" />
+<hkern g1="guillemotright,guilsinglright" 	g2="V" 	k="78" />
+<hkern g1="guillemotright,guilsinglright" 	g2="X" 	k="55" />
+<hkern g1="guillemotright,guilsinglright" 	g2="x" 	k="37" />
+<hkern g1="hyphen,endash,emdash" 	g2="f" 	k="53" />
+<hkern g1="hyphen,endash,emdash" 	g2="t" 	k="49" />
+<hkern g1="hyphen,endash,emdash" 	g2="y" 	k="29" />
+<hkern g1="hyphen,endash,emdash" 	g2="T" 	k="147" />
+<hkern g1="hyphen,endash,emdash" 	g2="Y" 	k="129" />
+<hkern g1="hyphen,endash,emdash" 	g2="J" 	k="121" />
+<hkern g1="hyphen,endash,emdash" 	g2="W" 	k="55" />
+<hkern g1="hyphen,endash,emdash" 	g2="z" 	k="74" />
+<hkern g1="hyphen,endash,emdash" 	g2="V" 	k="84" />
+<hkern g1="hyphen,endash,emdash" 	g2="X" 	k="92" />
+<hkern g1="hyphen,endash,emdash" 	g2="x" 	k="66" />
+<hkern g1="hyphen,endash,emdash" 	g2="A" 	k="47" />
+<hkern g1="hyphen,endash,emdash" 	g2="Z" 	k="61" />
+<hkern g1="parenleft" 	g2="C,G,O,Q" 	k="98" />
+<hkern g1="parenleft" 	g2="S" 	k="68" />
+<hkern g1="parenleft" 	g2="d,g,q" 	k="43" />
+<hkern g1="parenleft" 	g2="f" 	k="35" />
+<hkern g1="parenleft" 	g2="c,e,o" 	k="43" />
+<hkern g1="parenleft" 	g2="t" 	k="37" />
+<hkern g1="parenleft" 	g2="u" 	k="35" />
+<hkern g1="parenleft" 	g2="w" 	k="53" />
+<hkern g1="parenleft" 	g2="v" 	k="55" />
+<hkern g1="parenleft" 	g2="W" 	k="41" />
+<hkern g1="parenleft" 	g2="B,D,E,F,H,I,K,L,M,N,P,R" 	k="35" />
+<hkern g1="parenleft" 	g2="U" 	k="51" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="C,G,O,Q" 	k="61" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="f" 	k="55" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="c,e,o" 	k="25" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="t" 	k="55" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="w" 	k="74" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="y" 	k="106" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="v" 	k="88" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="T" 	k="150" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="Y" 	k="143" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="W" 	k="98" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="V" 	k="147" />
+<hkern g1="comma,period,quotesinglbase,quotedblbase,ellipsis" 	g2="U" 	k="45" />
+<hkern g1="quoteleft,quotedblleft" 	g2="d,g,q" 	k="82" />
+<hkern g1="quoteleft,quotedblleft" 	g2="c,e,o" 	k="86" />
+<hkern g1="quoteleft,quotedblleft" 	g2="J" 	k="139" />
+<hkern g1="quoteleft,quotedblleft" 	g2="A" 	k="139" />
+<hkern g1="quoteleft,quotedblleft" 	g2="a" 	k="66" />
+<hkern g1="quoteleft,quotedblleft" 	g2="m,n,p,r" 	k="25" />
+<hkern g1="quoteleft,quotedblleft" 	g2="s" 	k="59" />
+<hkern g1="quoteright,quotedblright" 	g2="d,g,q" 	k="88" />
+<hkern g1="quoteright,quotedblright" 	g2="c,e,o" 	k="92" />
+<hkern g1="quoteright,quotedblright" 	g2="J" 	k="143" />
+<hkern g1="quoteright,quotedblright" 	g2="A" 	k="139" />
+<hkern g1="quoteright,quotedblright" 	g2="a" 	k="74" />
+<hkern g1="quoteright,quotedblright" 	g2="m,n,p,r" 	k="25" />
+<hkern g1="quoteright,quotedblright" 	g2="s" 	k="66" />
+<hkern g1="quotedbl,quotesingle" 	g2="d,g,q" 	k="82" />
+<hkern g1="quotedbl,quotesingle" 	g2="c,e,o" 	k="86" />
+<hkern g1="quotedbl,quotesingle" 	g2="J" 	k="143" />
+<hkern g1="quotedbl,quotesingle" 	g2="A" 	k="139" />
+<hkern g1="quotedbl,quotesingle" 	g2="a" 	k="66" />
+<hkern g1="quotedbl,quotesingle" 	g2="s" 	k="59" />
+<hkern g1="asterisk" 	g2="d,g,q" 	k="70" />
+<hkern g1="asterisk" 	g2="c,e,o" 	k="74" />
+<hkern g1="asterisk" 	g2="u" 	k="27" />
+<hkern g1="asterisk" 	g2="T" 	k="-78" />
+<hkern g1="asterisk" 	g2="Y" 	k="-35" />
+<hkern g1="asterisk" 	g2="J" 	k="131" />
+<hkern g1="asterisk" 	g2="W" 	k="-35" />
+<hkern g1="asterisk" 	g2="A" 	k="127" />
+<hkern g1="asterisk" 	g2="a" 	k="59" />
+<hkern g1="asterisk" 	g2="m,n,p,r" 	k="31" />
+<hkern g1="asterisk" 	g2="s" 	k="55" />
+<hkern g1="backslash" 	g2="y" 	k="39" />
+<hkern g1="backslash" 	g2="T" 	k="121" />
+<hkern g1="backslash" 	g2="Y" 	k="106" />
+<hkern g1="backslash" 	g2="W" 	k="47" />
+<hkern g1="backslash" 	g2="A" 	k="-31" />
+<hkern g1="braceleft" 	g2="C,G,O,Q" 	k="51" />
+<hkern g1="braceleft" 	g2="S" 	k="37" />
+<hkern g1="braceleft" 	g2="d,g,q" 	k="37" />
+<hkern g1="braceleft" 	g2="c,e,o" 	k="37" />
+<hkern g1="braceleft" 	g2="w" 	k="39" />
+<hkern g1="braceleft" 	g2="W" 	k="33" />
+<hkern g1="bracketleft" 	g2="C,G,O,Q" 	k="61" />
+<hkern g1="bracketleft" 	g2="S" 	k="47" />
+<hkern g1="bracketleft" 	g2="d,g,q" 	k="39" />
+<hkern g1="bracketleft" 	g2="c,e,o" 	k="41" />
+<hkern g1="bracketleft" 	g2="t" 	k="33" />
+<hkern g1="bracketleft" 	g2="u" 	k="33" />
+<hkern g1="bracketleft" 	g2="w" 	k="47" />
+<hkern g1="bracketleft" 	g2="W" 	k="37" />
+<hkern g1="bracketleft" 	g2="U" 	k="37" />
+<hkern g1="bullet" 	g2="T" 	k="156" />
+<hkern g1="bullet" 	g2="Y" 	k="86" />
+<hkern g1="bullet" 	g2="J" 	k="119" />
+<hkern g1="bullet" 	g2="A" 	k="39" />
+<hkern g1="slash" 	g2="d,g,q" 	k="51" />
+<hkern g1="slash" 	g2="c,e,o" 	k="51" />
+<hkern g1="slash" 	g2="T" 	k="-14" />
+<hkern g1="slash" 	g2="Y" 	k="-31" />
+<hkern g1="slash" 	g2="J" 	k="90" />
+<hkern g1="slash" 	g2="A" 	k="94" />
+<hkern g1="slash" 	g2="a" 	k="45" />
+<hkern g1="slash" 	g2="m,n,p,r" 	k="33" />
+<hkern g1="slash" 	g2="s" 	k="43" />
+<hkern g1="copyright,registered" 	g2="J" 	k="49" />
+<hkern g1="copyright,registered" 	g2="T" 	k="57" />
+<hkern g1="copyright,registered" 	g2="Y" 	k="47" />
+<hkern g1="copyright,registered" 	g2="X" 	k="33" />
+<hkern g1="ampersand" 	g2="J" 	k="74" />
+<hkern g1="ampersand" 	g2="T" 	k="201" />
+<hkern g1="ampersand" 	g2="Y" 	k="164" />
+<hkern g1="ampersand" 	g2="A" 	k="31" />
+<hkern g1="ampersand" 	g2="B,D,E,F,H,I,K,L,M,N,P,R" 	k="10" />
+<hkern g1="ampersand" 	g2="W" 	k="23" />
+<hkern g1="ampersand" 	g2="Z" 	k="86" />
+<hkern g1="ampersand" 	g2="f" 	k="37" />
+<hkern g1="ampersand" 	g2="t" 	k="31" />
+<hkern g1="ampersand" 	g2="y" 	k="12" />
+<hkern g1="ampersand" 	g2="z" 	k="16" />
+<hkern g1="at" 	g2="J" 	k="80" />
+<hkern g1="at" 	g2="T" 	k="53" />
+<hkern g1="at" 	g2="Y" 	k="45" />
+<hkern g1="space" 	g2="A" 	k="51" />
+<hkern g1="space" 	g2="J" 	k="59" />
+<hkern g1="space" 	g2="T" 	k="63" />
+<hkern g1="space" 	g2="W" 	k="43" />
+<hkern g1="space" 	g2="Y" 	k="68" />
+<hkern g1="space" 	g2="f" 	k="35" />
+<hkern g1="space" 	g2="t" 	k="41" />
+<hkern g1="space" 	g2="y" 	k="43" />
+</font>
+</defs></svg> 
