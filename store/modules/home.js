@@ -9,6 +9,7 @@ const extendedQuery = qs.stringify({
       'AudiencePackages',
       'AudiencePackages.packages',
       'AudiencePackages.packages.image',
+      'expertiseBlock',
       'footer'
     ]
 },{

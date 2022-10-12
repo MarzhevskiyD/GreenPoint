@@ -71,8 +71,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  header {width: 100vw;height: 16vh;position: absolute;z-index: 1101;top: 84vh;left: 0;opacity: 1;-webkit-transition: margin-top .5s ease, height .5s ease;-moz-transition: margin-top .5s ease, height .5s ease;transition: margin-top .5s ease, height .5s ease;}
-  body.sticky:not(.menu-open) header {position: fixed;top: -150px;background: #000;height: 10vh;margin-top: 150px;}
+  header {width: 100vw;height: 16vh;position: absolute;z-index: 10;top: 84vh;left: 0;opacity: 1;-webkit-transition: margin-top .5s ease, height .5s ease;-moz-transition: margin-top .5s ease, height .5s ease;transition: margin-top .5s ease, height .5s ease;}
+  body.sticky:not(.menu-open) header {position: fixed;z-index: 1000;top: -150px;background: #000;height: 10vh;margin-top: 150px;}
   header .content_grid {display: flex;}
   .gp-logo {width: 33vh;height: 6vh;display: block;position: relative;}
   .gp-logo:before {width: 6vh;height: 100%;position: absolute;top: 0;left: 0;display: block;content: "";background: url('~/assets/images/gp-logo.svg') left center no-repeat;background-size: contain;}

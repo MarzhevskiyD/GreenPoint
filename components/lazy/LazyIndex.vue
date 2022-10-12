@@ -82,10 +82,38 @@
       </div>
     </div>
 
+    <div v-if="pageContent.expertiseBlock && pageContent.expertiseBlock.blockName" class="blockContent detectVisibility inverted" data-view="3">
+      <div class="content_grid">
+        <span v-sanitize="pageContent.expertiseBlock.blockName" class="blockName"></span>
+        <h2 v-sanitize="$text.handleNewLineWrapped(pageContent.expertiseBlock.blockTitle)" class="up_case hideLiner massive blockTitle"></h2>
+
+        <div class="infoblocks">
+          <div v-if="pageContent.expertiseBlock.info_1_title && pageContent.expertiseBlock.info_1_text" class="infoblock" data-idx="1">
+            <div>
+              <h4 v-sanitize="$text.handleNewLine(pageContent.expertiseBlock.info_1_title)"></h4>
+              <p v-sanitize="$text.handleNewLine(pageContent.expertiseBlock.info_1_text)"></p>
+            </div>
+          </div>
+          <div v-if="pageContent.expertiseBlock.info_2_title && pageContent.expertiseBlock.info_2_text" class="infoblock" data-idx="2">
+            <div>
+              <h4 v-sanitize="$text.handleNewLine(pageContent.expertiseBlock.info_2_title)"></h4>
+              <p v-sanitize="$text.handleNewLine(pageContent.expertiseBlock.info_2_text)"></p>
+            </div>
+          </div>
+          <div v-if="pageContent.expertiseBlock.info_3_title && pageContent.expertiseBlock.info_3_text" class="infoblock" data-idx="3">
+            <div>
+              <h4 v-sanitize="$text.handleNewLine(pageContent.expertiseBlock.info_3_title)"></h4>
+              <p v-sanitize="$text.handleNewLine(pageContent.expertiseBlock.info_3_text)"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer>
       <div class="content_grid">
-        <span class="blockName light">{{ footerContent.blockTitle }}</span>
         <span class="blockName">{{ footerContent.blockName }}</span>
+        <span class="blockName light">{{ footerContent.blockTitle }}</span>
         <form @submit="getInTouch">
           <div class="disp_row_between">
             <fieldset>
@@ -276,10 +304,11 @@ export default {
   .packagesIntro {width: 36vw;margin-left: 37vw;}
   .packagesIntro > span {font: 4vw/1 casual;color: #e9cbab;margin-bottom: 4vw;display: block;}
   .packagesIntro p {font-size: 2vw;font-weight: 300;color: #e9cbab;margin-bottom: 4vw;}
+  .blockContent[data-view="3"] {background: #e1d1c0;}
 
   .packagesBlock {width: 100%;}
   .blockName {display: block;font-size: 3.5vw;font-weight: 300;color: #c14e23;}
-  .blockName.light {color: #e1d1c0;}
+  .blockName.light {color: #e1d1c0;font-size: 3vw;}
   .blockTitle {display: block;font: 14vw/1 casual;color: #e9cbab;}
   .packages_list {width: 100%;margin-top: 4vw;}
   .pack_item {width: calc(33.33% - 3vw);}
@@ -305,7 +334,7 @@ export default {
   .blockContent.inverted {background: #e1d1c0;}
   .inverted .packagesIntro > span,
   .inverted .packagesIntro p,
-  .inverted .packagesBlock .blockTitle,
+  .inverted .blockTitle,
   .inverted .pac_name,
   .inverted .teambox span,
   .inverted .pack_cost {color: #000;}
@@ -314,6 +343,19 @@ export default {
   .inverted .pack_cost_hint {color: #858585;}
   .inverted .action_holder .action:before {background: url('~/assets/images/right_arrow-light.svg') #c14e23 center no-repeat;background-size: 1.5vw;}
   body:not(.mobile) .inverted .action_holder .action:hover:before {background: url('~/assets/images/right_arrow-orange.svg') center no-repeat;background-size: 1.5vw;}
+
+  .infoblocks {width: 100%;margin: 3.5vw 0;position: relative;}
+  .infoblock {position: relative;color: #e1d1c0;display: flex;}
+  .infoblock[data-idx="1"] {width: 65vw;padding-right: 9vw;background: #c14e23;z-index: 5;left: 26vw;}
+  .infoblock[data-idx="1"] > div {width: 35vw;padding-right: 0;}
+  .infoblock[data-idx="2"] {width: 44vw;padding-left: 9vw;background: #000;z-index: 2;margin-top: -7%;left: -9vw;}
+  .infoblock[data-idx="2"] > div {width: 32vw;padding-left: 0;}
+  .infoblock[data-idx="3"] {width: 59vw;padding-right: 9vw;background: #cebba7;z-index: 3;color: #000;margin-top: -17%;left: 32vw;}
+  .infoblock[data-idx="3"] > div {width: 35vw;padding-right: 0;}
+  .infoblock > div {padding: 3.5vw 3vw;position: relative;color: inherit;}
+  .infoblock > div h4 {display: block;font-size: 3vw;font-weight: 300;line-height: 0.9em;color: inherit;}
+  .infoblock > div p {display: block;margin: 0;padding: 1.2vw 0 0;font-size: 1.3vw;color: inherit;}
+
 
   footer {width: 100%;background: #000;padding: 7vw 0;}
   .footer-info {width: 100%;margin: 10vw 0 0;}

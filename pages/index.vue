@@ -68,6 +68,22 @@
           </div>
         </div>
 
+        <div class="deepBlock" id="brandingPack">
+          <div class="swiper mySwiper" id="brPack">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="disp_row">
+                  <div class="grid-cont">
+                    <div v-for="(itm, index) in brandingPack.logos" :key="index" class="grid-cell">
+                      <div class="img_holder"><img :src="`${api_url + itm.url}`" alt="" title=""></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="close_deep-dive ease" @click="$actions.hideSidebar()"></div>
         <div class="swiper-pagination"><span id="deepProgress"></span></div>
       </div>
@@ -97,6 +113,7 @@ export default {
       seoTitle: '',
       growthPack: [],
       webPack: [],
+      brandingPack: [],
       webFirstImg: '',
       webSecondImg: '',
     }
@@ -146,6 +163,8 @@ export default {
         'WebPack',
         'WebPack.firstImage',
         'WebPack.secondImage',
+        'BrandingPack',
+        'BrandingPack.logos',
       ]
     },{
       encodeValuesOnly: true
@@ -156,6 +175,7 @@ export default {
 
     this.growthPack = content.data.GrowthPack
     this.webPack = content.data.WebPack
+    this.brandingPack = content.data.BrandingPack
     this.webFirstImg = this.webPack.firstImage.url
     this.webSecondImg = this.webPack.secondImage.url
 
@@ -223,16 +243,19 @@ export default {
  .deepBlock .disp_row {height: 100%;}
  .deepBlock .center_col {height: auto;}
  #deep[data-target="growthPack"] #growthPack,
- #deep[data-target="webPack"] #webPack {display: block;}
+ #deep[data-target="webPack"] #webPack,
+ #deep[data-target="brandingPack"] #brandingPack {display: block;}
  .pack-title {display: block;font: 4vw/1 casual;color: #e9cbab;width: 38vw;padding-top: 5vh;padding-bottom: 10vh;}
- .grid-cont {margin-left: 9vw;display: grid;grid-template-columns: repeat(2, 1fr);grid-template-rows: repeat(2, 1fr);position: relative;}
+ .grid-cont {display: grid;grid-auto-flow: column;grid-template-columns: 1fr 1fr;grid-template-rows: 16vw 16vw;/*grid-template-columns: repeat(2, 1fr);grid-template-rows: repeat(2, 1fr);*/position: relative;}
  .grid-cont:before {width: 1px;height: 100%;display: block;position: absolute;top: 0;left: 48%;background: #322b24;}
+ .pack-title + .grid-cont {margin-left: 9vw;}
  .grid-cell {width: 23vw;padding: 5vh 20px;display: grid;position: relative;border-left: 1px solid #322b24;}
  .grid-cell:before {width: 88%;height: 1px;position: absolute;top: 0;left: 6%;display: block;content: "";background: #322b24;}
  .grid-cell:nth-of-type(1),
- .grid-cell:nth-of-type(3) {border-left: none;}
- .grid-cell:nth-of-type(1):before,
- .grid-cell:nth-of-type(2):before {display: none;}
+ .grid-cell:nth-of-type(2) {border-left: none;}
+ .grid-cell:nth-of-type(odd):before {display: none;}
+ .grid-cell .img_holder {width: 100%;height: 100%;display: flex;flex-direction: column;justify-content: center;}
+ .grid-cell .img_holder img {width: 100%;height: auto;}
  .deep-title {display: block;font-size: 1.6vw;font-weight: 600;color: #e9cbab;}
  .deep-text {display: block;font-size: 1.6vw;color: #fff;margin: 20px 0 0;padding: 0;}
  .deepBlock .swiper {width: 100%;height: 100%;position: relative;z-index: 5;}
