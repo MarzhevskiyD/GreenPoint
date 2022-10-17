@@ -100,6 +100,17 @@ export default {
   body:not(.mobile).sticky .pseudonav .nav-itm:hover {color: #c14e23;}
 
 
+  @media screen and (min-width: 320px) and (max-width: 1280px) {
+    .gp-logo {width: 14vh;height: 3vh;}
+    .gp-logo:before {width: 3vh;}
+    .gp-logo:after {width: calc(100% - 5vh);left: 4.5vh;}
+    .pseudonav {margin-top: 5px;}
+    .pseudonav .nav-itm {font-size: 3vw;margin-left: 4vw;}
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1280px) {
+    .pseudonav .nav-itm {font-size: 1.6vh;}
+  }
 
 
 

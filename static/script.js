@@ -38,7 +38,7 @@ const createFrames = () => {
       const newMenuFrame = document.createElement('div')
       const newMenuFrameWrap = document.createElement('div')
 
-      newMenuFrame.classList.add('block-frame')
+      newMenuFrame.classList.add('block-frame', 'ease2')
       newMenuFrame.setAttribute('onClick', "goTo(this, '"+frameID+"')")
       newMenuFrameWrap.classList.add('frame-wrap')
 
@@ -47,6 +47,11 @@ const createFrames = () => {
       framesHolder.appendChild(newMenuFrameWrap)
     }
   }
+  else {
+    setTimeout(function() {
+      createFrames();
+    }, 500);
+  }
 };
 
 let delay = 0;
@@ -54,26 +59,28 @@ const colsAlignment = () => {
   clearTimeout(delay)
 
   delay = setTimeout(function() {
-    if(packsAlign.length > 0) {
-      for(let b = 0; b < packsAlign.length; b++) {
-        if(document.getElementById(packsAlign[b]).getElementsByClassName('pack_item')) {
-          const packs = document.getElementById(packsAlign[b]).getElementsByClassName('pack_item')
-          let descrSize = 0
+    if(window.innerWidth >= 1280) {
+      if(packsAlign.length > 0) {
+        for(let b = 0; b < packsAlign.length; b++) {
+          if(document.getElementById(packsAlign[b]).getElementsByClassName('pack_item')) {
+            const packs = document.getElementById(packsAlign[b]).getElementsByClassName('pack_item')
+            let descrSize = 0
 
-          // set it to default
-          for(let p = 0; p < packs.length; p++) {
-            packs[p].getElementsByClassName('pac_descr')[0].removeAttribute('style')
-          }
+            // set it to default
+            for(let p = 0; p < packs.length; p++) {
+              packs[p].getElementsByClassName('pac_descr')[0].removeAttribute('style')
+            }
 
-          // get max height
-          for(let p = 0; p < packs.length; p++) {
-            const thisHeight = packs[p].getElementsByClassName('pac_descr')[0].clientHeight
-            if(thisHeight > descrSize) {descrSize = thisHeight}
-          }
+            // get max height
+            for(let p = 0; p < packs.length; p++) {
+              const thisHeight = packs[p].getElementsByClassName('pac_descr')[0].clientHeight
+              if(thisHeight > descrSize) {descrSize = thisHeight}
+            }
 
-          // set it to all
-          for(let p = 0; p < packs.length; p++) {
-            packs[p].getElementsByClassName('pac_descr')[0].setAttribute('style', 'min-height: ' + (descrSize + 25) + 'px')
+            // set it to all
+            for(let p = 0; p < packs.length; p++) {
+              packs[p].getElementsByClassName('pac_descr')[0].setAttribute('style', 'min-height: ' + (descrSize + 25) + 'px')
+            }
           }
         }
       }
@@ -108,8 +115,9 @@ function goTo(e, id) {
     window.scrollTo({ top: 0 });
 
     const wW = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    const sizeRatio = (wW < 1280)? 18 : 7;
     const targetPosition = document.getElementById(id).getElementsByClassName('packagesBlock')[0].getBoundingClientRect();
-    const diff = wW * (7 / 100)
+    const diff = wW * (sizeRatio / 100)
     const scrollTo = Math.round(targetPosition.top - diff);
     e = e || window.event;
     let clicked = e.target || e.srcElement || e;
@@ -122,7 +130,7 @@ function goTo(e, id) {
     const offsetTop = clicked.getBoundingClientRect().top;
 
     document.body.classList.remove('sticky')
-    clicked.setAttribute('style', 'transform: translate(-'+offsetLeft+'px, -'+offsetTop+'px);')
+    clicked.setAttribute('style', '-webkit-transform: translate(-'+offsetLeft+'px, -'+offsetTop+'px);-moz-transform: translate(-'+offsetLeft+'px, -'+offsetTop+'px);transform: translate(-'+offsetLeft+'px, -'+offsetTop+'px);')
     setTimeout(function() {
       document.body.classList.add('hideMenu')
       document.body.classList.remove('menu-open')

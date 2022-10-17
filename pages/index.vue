@@ -260,6 +260,8 @@ export default {
  .deep-text {display: block;font-size: 1.6vw;color: #fff;margin: 20px 0 0;padding: 0;}
  .deepBlock .swiper {width: 100%;height: 100%;position: relative;z-index: 5;}
  .deepBlock .swiper .swiper-slide {width: auto;height: 100%;padding: 10vw 6vw;}
+ #webPack .swiper .swiper-slide .disp_row {display: block;}
+ #webPack .swiper .swiper-slide .disp_row > div {float: left;max-height: 100%;}
  .swiper-slide {width: auto;}
  .swiper-pagination {width: 290px;height: 2px;top: auto;bottom: 82px;left: calc(6vw + 80px);z-index: 10;background: #1b1814;position: absolute;}
  .swiper-pagination span {display: block;height: 100%;position: absolute;top: 0;left: 0;background: #e9cbab;}
@@ -269,7 +271,33 @@ export default {
  .close_deep-dive:after {width: 26px;height: 2px;position: absolute;top: calc(50% - 1px);left: calc(50% - 13px);display: block;content: "";background: #000;-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);transform: rotate(45deg);}
 
  #webPack .pack-title {width: auto;}
+ #webPack .img_holder {margin: 0 10vw;}
  #webPack .img_holder,
- #webPack .img_holder img {width: auto;height: 100%;margin: 0 5vw;}
+ #webPack .img_holder img {width: auto;height: 100%;max-height: 70vh;}
+
+
+ @media screen and (min-width: 320px) and (max-width: 1280px) {
+   h1 {font-size: 5vh;}
+   .close_deep-dive {width: 36px;height: 36px;bottom: 18vh;left: 4.2vw;}
+   .close_deep-dive:before,
+   .close_deep-dive:after {width: 20px;left: calc(50% - 10px);}
+   .swiper-pagination {width: 240px;bottom: 20vh;left: calc(4.2vw + 60px);}
+   .deepBlock .swiper .swiper-slide > div {height: 80vh;padding: 20vh 0;}
+   .deepBlock .swiper .swiper-slide .disp_row {justify-content: flex-start;}
+   .grid-cont {grid-template-rows: 14vh 14vh;}
+   .grid-cell {width: 54vw;padding: 0 20px;}
+   #growthPack .grid-cell {padding: 5vw 20px;}
+   #growthPack .grid-cont {grid-template-rows: 18vh 14vh;}
+   #webPack .img_holder,
+   #webPack .img_holder img {max-height: 50vh;}
+   .deep-title {font-size: 1.8vh;}
+   .deep-text {font-size: 1.6vh;}
+
+ }
+
+ @media screen and (min-width: 768px) and (max-width: 1280px) {
+   h1 {font-size: 8vh;}
+ }
+
 
 </style>

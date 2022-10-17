@@ -88,16 +88,18 @@
         <h2 v-sanitize="$text.handleNewLineWrapped(pageContent.expertiseBlock.blockTitle)" class="up_case hideLiner massive blockTitle"></h2>
 
         <div class="infoblocks">
-          <div v-if="pageContent.expertiseBlock.info_1_title && pageContent.expertiseBlock.info_1_text" class="infoblock" data-idx="1">
-            <div>
-              <h4 v-sanitize="$text.handleNewLine(pageContent.expertiseBlock.info_1_title)"></h4>
-              <p v-sanitize="$text.handleNewLine(pageContent.expertiseBlock.info_1_text)"></p>
+          <div class="reversebox">
+            <div v-if="pageContent.expertiseBlock.info_1_title && pageContent.expertiseBlock.info_1_text" class="infoblock" data-idx="1">
+              <div>
+                <h4 v-sanitize="$text.handleNewLine(pageContent.expertiseBlock.info_1_title)"></h4>
+                <p v-sanitize="$text.handleNewLine(pageContent.expertiseBlock.info_1_text)"></p>
+              </div>
             </div>
-          </div>
-          <div v-if="pageContent.expertiseBlock.info_2_title && pageContent.expertiseBlock.info_2_text" class="infoblock" data-idx="2">
-            <div>
-              <h4 v-sanitize="$text.handleNewLine(pageContent.expertiseBlock.info_2_title)"></h4>
-              <p v-sanitize="$text.handleNewLine(pageContent.expertiseBlock.info_2_text)"></p>
+            <div v-if="pageContent.expertiseBlock.info_2_title && pageContent.expertiseBlock.info_2_text" class="infoblock" data-idx="2">
+              <div>
+                <h4 v-sanitize="$text.handleNewLine(pageContent.expertiseBlock.info_2_title)"></h4>
+                <p v-sanitize="$text.handleNewLine(pageContent.expertiseBlock.info_2_text)"></p>
+              </div>
             </div>
           </div>
           <div v-if="pageContent.expertiseBlock.info_3_title && pageContent.expertiseBlock.info_3_text" class="infoblock" data-idx="3">
@@ -304,7 +306,6 @@ export default {
   .packagesIntro {width: 36vw;margin-left: 37vw;}
   .packagesIntro > span {font: 4vw/1 casual;color: #e9cbab;margin-bottom: 4vw;display: block;}
   .packagesIntro p {font-size: 2vw;font-weight: 300;color: #e9cbab;margin-bottom: 4vw;}
-  .blockContent[data-view="3"] {background: #e1d1c0;}
 
   .packagesBlock {width: 100%;}
   .blockName {display: block;font-size: 3.5vw;font-weight: 300;color: #c14e23;}
@@ -384,5 +385,75 @@ export default {
   .form_btn {width: 100%;height: 3.6vw;display: block;background: #e1d1c0;border: none;outline: none;font-size: 1.3vw;font-weight: 600;color: #000;}
   body:not(.mobile) .form_btn:hover {opacity: .8;}
 
+
+
+  @media screen and (min-width: 320px) and (max-width: 1280px) {
+    .content-row.packagesInfo {margin-bottom: 8vw;}
+    .packagesIntro {width: 100%;margin-left: 0;}
+    .packagesIntro > span {font-size: 4.5vh;}
+    .packagesIntro p {font-size: 4.5vw;}
+    .blockName {font-size: 6.5vw;}
+    .blockTitle {font-size: 7vh;}
+    .packages_list {margin-top: 0;flex-direction: column;}
+    .pack_item {width: 100%;margin-top: 7vw;margin-bottom: 7vw;}
+    .pac_name {font-size: 3.8vh;}
+    .pac_descr {font-size: 3.5vw;}
+    .pac_descr p {padding: 3px 0;}
+    .teambox {margin-top: 3.5vh;}
+    .teambox span,
+    .teambox p,
+    .pack_terms {font-size: 3.5vw;}
+    .pack_cost {font-size: 5vw;margin-top: 3.5vw;}
+    .action_holder .action {height: 10vw;font-size: 3.5vw;padding-right: 15vw;}
+    .action_holder .action:before {width: 10vw;height: 10vw;background-size: 4.5vw;}
+    body:not(.mobile) .action_holder .action:hover:before {background: url('~/assets/images/right_arrow.svg') #c14e23 center no-repeat;background-size: 4.5vw;}
+    .inverted .action_holder .action:before {background: url('~/assets/images/right_arrow-light.svg') #c14e23 center no-repeat;background-size: 4.5vw;}
+    body:not(.mobile) .inverted .action_holder .action:hover:before {background: url('~/assets/images/right_arrow-orange.svg') center no-repeat;background-size: 4.5vw;}
+    .action_holder {margin: 6vw 0 0;}
+    .terms_and_cost {margin-top: 2.5vh;}
+    .pack_cost_hint {font-size: 2.5vw;text-indent: 14px;}
+    .infoblock > div h4 {font-size: 7.5vw;}
+    .reversebox {display: flex;flex-direction: column-reverse;}
+    .infoblock[data-idx="1"] {width: calc(87% + 4.2vw);left: 13%;padding: 0;margin-top: -3vh;}
+    .infoblock[data-idx="1"] > div {width: calc(100% - 4.2vw);padding: 15vw 6vw;}
+    .infoblock > div p {font-size: 3.5vw;padding: 3vw 0 0;}
+    .infoblock[data-idx="2"] {width: calc(100% + 4.2vw);left: -4.2vw;padding-left: 0;margin-top: 2.5vh;}
+    .infoblock[data-idx="2"] > div {width: 100%;padding: 15vw 6vw 15vw 4.2vw;}
+    .infoblock[data-idx="3"] {width: calc(87% + 4.2vw);left: -4.2vw;padding: 0;margin-top: -3.5vh;}
+    .infoblock[data-idx="3"] > div {width: 100%;padding: 15vw 6vw 15vw 4.2vw;}
+    .blockName.light {font-size: 7.5vw;line-height: 1;}
+
+    footer {padding: 18vw 0;}
+    form {margin: 5vh 0 0;}
+    form fieldset {margin: 1vh 0 0;}
+    form .disp_row_between {display: block;}
+    form .disp_row_between fieldset {width: 100%;}
+    form .disp_row_between fieldset input {height: 10vw;font-size: 3.5vw;border-width: 2px;}
+    form fieldset textarea {font-size: 3.5vw;border-width: 2px;margin: 2vh 0 0;}
+    .form_btn_holder {margin-top: 3vh;}
+    .form_btn {height: 10vw;font-size: 3.5vw;}
+    .footer-info {flex-direction: column;margin-top: 10vh;}
+    .footer-info .f_location {width: 100%;font-size: 3.2vw;text-align: center;}
+    .footer-info .f_location:before {height: 5vw;top: calc(50% - 2.5vw);}
+    .footer-info .f_copyright {width: 100%;text-align: center;font-size: 3.2vw;margin-top: 3vh;}
+
+
+
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1280px) {
+    .packagesIntro p {font-size: 2vh;}
+    .blockName {font-size: 3vh;}
+    .blockTitle {font-size: 12vw;}
+    .packagesIntro > span {font-size: 5vw;}
+    .pac_descr,
+    .teambox span,
+    .teambox p,
+    .pack_terms {font-size: 2vh;}
+    .action_holder .action {font-size: 2vh;padding-right: 8vh;}
+    .action_holder .action:before {width: 48px;height: 48px;background-size: 2vh;}
+    .pack_cost {font-size: 3.5vh;}
+    .packages_list {width: 520px;left: calc(50% - 260px);position: relative;}
+  }
 
 </style>
