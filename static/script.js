@@ -17,7 +17,7 @@ const waitHydrate = () => {
   setTimeout(function() {
     createFrames();
     colsAlignment();
-  }, 1500);
+  }, 2000);
 };
 const createFrames = () => {console.log(1);
   const navs = document.getElementById('cnt').getElementsByClassName('navFrame')

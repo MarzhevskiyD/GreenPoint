@@ -105,6 +105,7 @@ export default {
   @media screen and (min-width: 320px) and (max-width: 767px) {
     body:not(.sticky) header .gp-logo {display: none;}
     .pseudonav .nav-itm {font-size: 4vw;margin-left: 7vw;}
+    header {height: 11vh;}
   }
 
   @media screen and (min-width: 768px) and (max-width: 1280px) {

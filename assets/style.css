@@ -213,7 +213,7 @@ body.sticky header .gp-logo:after {width: 0;opacity: 0;}
 
   .menu > .content_grid {padding-top: 4vh;}
   .menu > .content_grid > .disp_row_between {flex-direction: column;justify-content: flex-start;}
-  .menu .menu-frames {margin-top: 5vh;}
+  .menu .menu-frames {margin-top: 10vh;}
   .frame-wrap {width: 50vw;margin-left: 0;}
   .block-frame {-webkit-transform: scale(0.4);-moz-transform: scale(0.4);transform: scale(0.4);}
 
