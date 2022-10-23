@@ -14,7 +14,13 @@ const text = {
 
   handleNewLine(p) {
     if(p) {
-      return p.replace(/(?:\r\n|\r|\n)/g, '<br />');
+      return p.replace(/(?:\r\n|\r|\n)/g, '<br>');
+    }
+  },
+
+  handleNewDivider(p) {
+    if(p) {
+      return p.replace(/(?:\r\n|\r|\n)/g, '<div></div>');
     }
   },
 

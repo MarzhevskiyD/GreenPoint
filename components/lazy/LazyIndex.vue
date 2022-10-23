@@ -32,7 +32,7 @@
                 <span v-if="pack.priceHint" class="pack_cost_hint">{{ pack.priceHint }}</span>
               </div>
               <div v-if="pack.sidebarInfo && pack.detailsTitle" class="action_holder ease">
-                <span v-sanitize="$text.handleNewLine(pack.detailsTitle)" class="action" @click="$actions.showSidebar(''+ pack.sidebarInfo +'')"></span>
+                <span v-sanitize="$text.handleNewDivider(pack.detailsTitle)" class="action" @click="$actions.showSidebar(''+ pack.sidebarInfo +'')"></span>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@
                 <span v-if="pack.priceHint" class="pack_cost_hint">{{ pack.priceHint }}</span>
               </div>
               <div v-if="pack.detailsButton && pack.detailsTitle" class="action_holder ease">
-                <span v-sanitize="$text.handleNewLine(pack.detailsTitle)" class="action"></span>
+                <span v-sanitize="$text.handleNewDivider(pack.detailsTitle)" class="action"></span>
               </div>
             </div>
           </div>
