@@ -453,7 +453,7 @@ export default {
     .blockTitle {line-height: 0.8;position: relative;z-index: 2;}
     .blockName {padding-bottom: 10px;}
     .packagesIntro {padding-top: 15vh;padding-bottom: 15vh;}
-    .action_holder .action {font-size: 6vw;line-height: 0.9;padding-right: 35vw;}
+    .action_holder .action {font-size: 6vw;line-height: 0.8;padding-right: 35vw;}
     .action_holder .action:before {width: 14vw;height: 14vw;top: -2vw;background-size: 5.5vw;}
     .packages_list {position: relative;z-index: 1;}
     .pack_item {margin-top: -3vw;margin-bottom: 10vh;padding-top: 12vw;position: relative;}
