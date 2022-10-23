@@ -457,6 +457,7 @@ export default {
     .action_holder .action:before {width: 14vw;height: 14vw;top: -2vw;background-size: 5.5vw;}
     .packages_list {position: relative;z-index: 1;}
     .pack_item {margin-top: -3vw;margin-bottom: 10vh;padding-top: 12vw;position: relative;}
+    .pack_item:last-child {margin-bottom: 0;}
     .pack_item:before {width: calc(100% + 8.4vw);height: 65%;display: block;position: absolute;left: -4.2vw;top: 0;z-index: 1;content: "";background: url('~/assets/images/pattern.jpg') top repeat-x;background-size: auto 100%;}
     .blockContent.inverted .pack_item:before {display: none;}
     .pack_item .img_holder,

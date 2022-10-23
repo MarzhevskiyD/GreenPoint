@@ -225,6 +225,9 @@ body.sticky header .gp-logo:after {width: 0;opacity: 0;}
 @media screen and (min-width: 320px) and (max-width: 767px) {
   body.sticky .gp-logo {width: 5vh;height: 5vh;}
   body.sticky .gp-logo:before {width: 100%;height: 100%;}
+  .gp-logo {display: block;width: 50vw;height: 6vh;position: absolute;top: 7vw;left: 4.2vw;z-index: 4;}
+  .gp-logo:before {width: 5vh;}
+  .gp-logo:after {width: calc(100% - 8vh);left: 7vh;background-position: left 60%;}
 }
 
 @media screen and (min-width: 1281px) {
