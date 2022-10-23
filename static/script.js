@@ -19,10 +19,10 @@ const waitHydrate = () => {
     colsAlignment();
   }, 1500);
 };
-const createFrames = () => {
+const createFrames = () => {console.log(1);
   const navs = document.getElementById('cnt').getElementsByClassName('navFrame')
 
-  if(navs) {
+  if(navs) {console.log(navs);
     const framesHolder = document.getElementById('framesHolder')
 
     for(let f = 0; f < navs.length; f++) {
@@ -48,6 +48,7 @@ const createFrames = () => {
     }
   }
   else {
+    console.log('nope. try again');
     setTimeout(function() {
       createFrames();
     }, 500);

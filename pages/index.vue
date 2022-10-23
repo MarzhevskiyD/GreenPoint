@@ -3,6 +3,7 @@
     <div class="slidebarHolder">
       <div class="slidebarContent" id="cnt">
         <div class="blockContent detectVisibility" data-view="0" id="firstTouch">
+          <span class="gp-logo mobile"></span>
           <div class="back_poster"><img id="topImage" :src="`${topImage}`" alt="" title="" preload @load="runView"></div>
           <div class="content_grid">
             <section class="center_col">
@@ -275,9 +276,11 @@ export default {
  #webPack .img_holder,
  #webPack .img_holder img {width: auto;height: 100%;max-height: 70vh;}
 
+ .gp-logo.mobile {display: none;}
+
 
  @media screen and (min-width: 320px) and (max-width: 1280px) {
-   h1 {font-size: 5vh;}
+   h1 {font-size: 6vh;}
    .close_deep-dive {width: 36px;height: 36px;bottom: 18vh;left: 4.2vw;}
    .close_deep-dive:before,
    .close_deep-dive:after {width: 20px;left: calc(50% - 10px);}
@@ -293,6 +296,16 @@ export default {
    .deep-title {font-size: 1.8vh;}
    .deep-text {font-size: 1.6vh;}
 
+ }
+
+ @media screen and (min-width: 320px) and (max-width: 767px) {
+   h1 {line-height: 0.8;}
+   .pack-title {width: 50vw;font-size: 5.5vw;}
+   .deep-title {font-size: 2.4vh;}
+   .deep-text {font-size: 1.8vh;}
+   .gp-logo.mobile {display: block;width: 50vw;height: 6vh;position: absolute;top: 7vw;left: 4.2vw;z-index: 4;}
+   .gp-logo:before {width: 5vh;}
+   .gp-logo:after {width: calc(100% - 8vh);left: 7vh;background-position: left 60%;}
  }
 
  @media screen and (min-width: 768px) and (max-width: 1280px) {

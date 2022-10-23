@@ -74,10 +74,6 @@ export default {
   header {width: 100vw;height: 16vh;position: absolute;z-index: 10;top: 84vh;left: 0;opacity: 1;-webkit-transition: margin-top .5s ease, height .5s ease;-moz-transition: margin-top .5s ease, height .5s ease;transition: margin-top .5s ease, height .5s ease;}
   body.sticky:not(.menu-open) header {position: fixed;z-index: 1000;top: -150px;background: #000;height: 10vh;margin-top: 150px;}
   header .content_grid {display: flex;}
-  .gp-logo {width: 33vh;height: 6vh;display: block;position: relative;}
-  .gp-logo:before {width: 6vh;height: 100%;position: absolute;top: 0;left: 0;display: block;content: "";background: url('~/assets/images/gp-logo.svg') left center no-repeat;background-size: contain;}
-  .gp-logo:after {width: calc(100% - 12vh);height: 100%;position: absolute;top: 0;left: 8vh;display: block;content: "";background: url('~/assets/images/gp-name.svg') left 70% no-repeat;background-size: contain;-webkit-transition: .3s ease;-moz-transition: .3s ease;transition: .3s ease;}
-  body.sticky header .gp-logo:after {width: 0;opacity: 0;}
 
   .burger_btn {position: fixed;top: 30px;left: 0;z-index: 1005;padding: 10px;cursor: pointer;}
   .burger_btn i {width: 24px;height: 20px;position: relative;top: calc(50% - 10px);display: inline-block;}
@@ -100,12 +96,15 @@ export default {
   body:not(.mobile).sticky .pseudonav .nav-itm:hover {color: #c14e23;}
 
 
+
   @media screen and (min-width: 320px) and (max-width: 1280px) {
-    .gp-logo {width: 14vh;height: 3vh;}
-    .gp-logo:before {width: 3vh;}
-    .gp-logo:after {width: calc(100% - 5vh);left: 4.5vh;}
     .pseudonav {margin-top: 5px;}
     .pseudonav .nav-itm {font-size: 3vw;margin-left: 4vw;}
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    body:not(.sticky) header .gp-logo {display: none;}
+    .pseudonav .nav-itm {font-size: 4vw;margin-left: 7vw;}
   }
 
   @media screen and (min-width: 768px) and (max-width: 1280px) {

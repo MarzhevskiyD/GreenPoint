@@ -6,9 +6,11 @@ const extendedQuery = qs.stringify({
       'brandPackages',
       'brandPackages.packages',
       'brandPackages.packages.image',
+      'brandPackages.packages.mobileImage',
       'AudiencePackages',
       'AudiencePackages.packages',
       'AudiencePackages.packages.image',
+      'AudiencePackages.packages.mobileImage',
       'expertiseBlock',
       'footer'
     ]

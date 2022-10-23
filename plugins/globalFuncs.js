@@ -20,12 +20,17 @@ const text = {
 
   handleNewLineWrapped(p) {
     if(p) {
+      const wW = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
       let result = ''
-      const mid = p.split(/(?:\r\n|\r|\n)/g);
 
-      for(let r = 0; r < mid.length; r++) {
-        result += '<span><span>' + mid[r] + '</span></span>';
+      if(wW >= 768) {
+        const mid = p.split(/(?:\r\n|\r|\n)/g);
+
+        for(let r = 0; r < mid.length; r++) {
+          result += '<span><span>' + mid[r] + '</span></span>';
+        }
       }
+      else {result = p;}
 
       return result;
     }

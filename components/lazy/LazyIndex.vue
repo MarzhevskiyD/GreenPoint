@@ -15,7 +15,7 @@
 
           <div class="packages_list disp_row_between">
             <div v-for="(pack, index) in visibleBrandPacks" :key="index" class="pack_item ease">
-              <div class="img_holder"><img :src="`${api_url + pack.image.url}`" alt="" title=""></div>
+              <div class="img_holder"><img :src="`${api_url + ((isMobile)? pack.mobileImage.url : pack.image.url)}`" alt="" title=""></div>
               <h3 class="pac_name ease">{{ pack.title }}</h3>
               <div class="pac_descr ease">
                 <p v-for="(p, pIndex) in $text.handleParagraphs(pack.description)" :key="pIndex" v-sanitize="p"></p>
@@ -56,7 +56,7 @@
 
           <div class="packages_list disp_row_between">
             <div v-for="(pack, index) in visibleAudiencePacks" :key="index" class="pack_item ease">
-              <div class="img_holder"><img :src="`${api_url + pack.image.url}`" alt="" title=""></div>
+              <div class="img_holder"><img :src="`${api_url + ((isMobile)? pack.mobileImage.url : pack.image.url)}`" alt="" title=""></div>
               <h3 class="pac_name ease">{{ pack.title }}</h3>
               <div class="pac_descr ease">
                 <p v-for="(p, pIndex) in $text.handleParagraphs(pack.description)" :key="pIndex" v-sanitize="p"></p>
@@ -164,7 +164,8 @@ export default {
       emailErrorMessage: '',
       emailStatus: '',
       messageErrorMessage: '',
-      messageStatus: ''
+      messageStatus: '',
+      isMobile: false
     }
   },
 
@@ -190,6 +191,11 @@ export default {
       return item.active
     })
     this.visibleAudiencePacks = onlyVisibleAudience
+
+
+    // is mobile
+    const wW = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    this.isMobile = (wW < 768)? true : false;
   },
 
   methods: {
@@ -390,20 +396,20 @@ export default {
   @media screen and (min-width: 320px) and (max-width: 1280px) {
     .content-row.packagesInfo {margin-bottom: 8vw;}
     .packagesIntro {width: 100%;margin-left: 0;}
-    .packagesIntro > span {font-size: 4.5vh;}
-    .packagesIntro p {font-size: 4.5vw;}
+    .packagesIntro > span {font-size: 6vh;margin-bottom: 6vw;}
+    .packagesIntro p {font-size: 5.5vw;}
     .blockName {font-size: 6.5vw;}
-    .blockTitle {font-size: 7vh;}
+    .blockTitle {font-size: 8.5vh;}
     .packages_list {margin-top: 0;flex-direction: column;}
     .pack_item {width: 100%;margin-top: 7vw;margin-bottom: 7vw;}
-    .pac_name {font-size: 3.8vh;}
-    .pac_descr {font-size: 3.5vw;}
+    .pac_name {font-size: 4.5vh;}
+    .pac_descr {font-size: 5vw;}
     .pac_descr p {padding: 3px 0;}
     .teambox {margin-top: 3.5vh;}
     .teambox span,
     .teambox p,
-    .pack_terms {font-size: 3.5vw;}
-    .pack_cost {font-size: 5vw;margin-top: 3.5vw;}
+    .pack_terms {font-size: 5vw;}
+    .pack_cost {font-size: 7vw;margin-top: 4vw;}
     .action_holder .action {height: 10vw;font-size: 3.5vw;padding-right: 15vw;}
     .action_holder .action:before {width: 10vw;height: 10vw;background-size: 4.5vw;}
     body:not(.mobile) .action_holder .action:hover:before {background: url('~/assets/images/right_arrow.svg') #c14e23 center no-repeat;background-size: 4.5vw;}
@@ -416,7 +422,7 @@ export default {
     .reversebox {display: flex;flex-direction: column-reverse;}
     .infoblock[data-idx="1"] {width: calc(87% + 4.2vw);left: 13%;padding: 0;margin-top: -3vh;}
     .infoblock[data-idx="1"] > div {width: calc(100% - 4.2vw);padding: 15vw 6vw;}
-    .infoblock > div p {font-size: 3.5vw;padding: 3vw 0 0;}
+    .infoblock > div p {font-size: 4vw;padding: 5vw 0 0;}
     .infoblock[data-idx="2"] {width: calc(100% + 4.2vw);left: -4.2vw;padding-left: 0;margin-top: 2.5vh;}
     .infoblock[data-idx="2"] > div {width: 100%;padding: 15vw 6vw 15vw 4.2vw;}
     .infoblock[data-idx="3"] {width: calc(87% + 4.2vw);left: -4.2vw;padding: 0;margin-top: -3.5vh;}
@@ -439,6 +445,25 @@ export default {
 
 
 
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    .pack_item .img_holder {padding-top: 51%;}
+    .packagesIntro > span,
+    .blockTitle {line-height: 0.8;position: relative;z-index: 2;}
+    .blockName {padding-bottom: 10px;}
+    .packagesIntro {padding-top: 15vh;padding-bottom: 15vh;}
+    .action_holder .action {font-size: 6vw;line-height: 0.9;padding-right: 35vw;}
+    .action_holder .action:before {width: 14vw;height: 14vw;top: -2vw;background-size: 5.5vw;}
+    .packages_list {position: relative;z-index: 1;}
+    .pack_item {margin-top: -3vw;margin-bottom: 10vh;padding-top: 12vw;position: relative;}
+    .pack_item:before {width: calc(100% + 8.4vw);height: 65%;display: block;position: absolute;left: -4.2vw;top: 0;z-index: 1;content: "";background: url('~/assets/images/pattern.jpg') top repeat-x;background-size: auto 100%;}
+    .blockContent.inverted .pack_item:before {display: none;}
+    .pack_item .img_holder,
+    .pack_item .pac_name,
+    .pack_item .pac_descr,
+    .pack_item .teambox {position: relative;z-index: 2;}
+    .pack_cost_hint {font-size: 3.5vw;text-indent: 20px;padding: 0;}
   }
 
   @media screen and (min-width: 768px) and (max-width: 1280px) {

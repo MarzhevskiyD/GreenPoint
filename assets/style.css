@@ -193,6 +193,10 @@ body.sidebarActivated {overflow: hidden;}
 body.sidebarActivated .slidebarContent {-webkit-transform: translateX(-100%);-moz-transform: translateX(-100%);transform: translateX(-100%);}
 body.fast-hide .slidebarContent {-webkit-transition: .2s ease !important;-moz-transition: .2s ease !important;transition: .2s ease !important;}
 
+.gp-logo {width: 33vh;height: 6vh;display: block;position: relative;}
+.gp-logo:before {width: 6vh;height: 100%;position: absolute;top: 0;left: 0;display: block;content: "";background: url('~/assets/images/gp-logo.svg') left center no-repeat;background-size: contain;}
+.gp-logo:after {width: calc(100% - 12vh);height: 100%;position: absolute;top: 0;left: 8vh;display: block;content: "";background: url('~/assets/images/gp-name.svg') left 70% no-repeat;background-size: contain;-webkit-transition: .3s ease;-moz-transition: .3s ease;transition: .3s ease;}
+body.sticky header .gp-logo:after {width: 0;opacity: 0;}
 
 
 
@@ -213,6 +217,14 @@ body.fast-hide .slidebarContent {-webkit-transition: .2s ease !important;-moz-tr
   .frame-wrap {width: 50vw;margin-left: 0;}
   .block-frame {-webkit-transform: scale(0.4);-moz-transform: scale(0.4);transform: scale(0.4);}
 
+  .gp-logo {width: 14vh;height: 3vh;}
+  .gp-logo:before {width: 3vh;}
+  .gp-logo:after {width: calc(100% - 5vh);left: 4.5vh;}
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  body.sticky .gp-logo {width: 5vh;height: 5vh;}
+  body.sticky .gp-logo:before {width: 100%;height: 100%;}
 }
 
 @media screen and (min-width: 1281px) {
