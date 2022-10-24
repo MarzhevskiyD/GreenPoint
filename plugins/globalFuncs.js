@@ -14,13 +14,17 @@ const text = {
 
   handleNewLine(p) {
     if(p) {
-      return p.replace(/(?:\r\n|\r|\n)/g, '<br>');
+      const coded = this.convertCode(p)
+
+      return coded.replace(/(?:\r\n|\r|\n)/g, '<br>');
     }
   },
 
   handleNewDivider(p) {
     if(p) {
-      return p.replace(/(?:\r\n|\r|\n)/g, '<div></div>');
+      const coded = this.convertCode(p)
+
+      return coded.replace(/(?:\r\n|\r|\n)/g, '<div></div>');
     }
   },
 
@@ -28,15 +32,16 @@ const text = {
     if(p) {
       const wW = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
       let result = ''
+      const coded = this.convertCode(p)
 
       if(wW >= 768) {
-        const mid = p.split(/(?:\r\n|\r|\n)/g);
+        const mid = coded.split(/(?:\r\n|\r|\n)/g);
 
         for(let r = 0; r < mid.length; r++) {
           result += '<span><span>' + mid[r] + '</span></span>';
         }
       }
-      else {result = p;}
+      else {result = coded;}
 
       return result;
     }
@@ -56,7 +61,13 @@ const text = {
 
       return result;
     }
-  }
+  },
+
+  convertCode(p) {
+    if(p) {
+      return p.replace(/<<</g, '<em>').replace(/>>>/g, '</em>');
+    }
+  },
 }
 
 const actions = {

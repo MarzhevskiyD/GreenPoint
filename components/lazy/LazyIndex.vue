@@ -4,7 +4,7 @@
       <div class="content_grid">
         <div v-if="pageContent.brandPackages.introTitle || pageContent.brandPackages.introDescription" class="content-row packagesInfo">
           <section class="packagesIntro">
-            <span v-if="pageContent.brandPackages.introTitle" v-sanitize="$text.handleNewLineWrapped(pageContent.brandPackages.introTitle)" class="up_case hideLiner ease"></span>
+            <span v-if="pageContent.brandPackages.introTitle" v-sanitize="$text.handleNewDivider(pageContent.brandPackages.introTitle)" class="up_case ease"></span>
             <p v-if="pageContent.brandPackages.introDescription" v-sanitize="$text.handleNewLine(pageContent.brandPackages.introDescription)" class="ease"></p>
           </section>
         </div>
@@ -45,7 +45,7 @@
       <div class="content_grid">
         <div v-if="pageContent.AudiencePackages.introTitle || pageContent.AudiencePackages.introDescription" class="content-row packagesInfo">
           <section class="packagesIntro">
-            <span v-if="pageContent.AudiencePackages.introTitle" v-sanitize="$text.handleNewLineWrapped(pageContent.AudiencePackages.introTitle)" class="up_case hideLiner ease"></span>
+            <span v-if="pageContent.AudiencePackages.introTitle" v-sanitize="$text.handleNewDivider(pageContent.AudiencePackages.introTitle)" class="up_case hideLiner ease"></span>
             <p v-if="pageContent.AudiencePackages.introDescription" v-sanitize="$text.handleNewLine(pageContent.AudiencePackages.introDescription)" class="ease"></p>
           </section>
         </div>
@@ -309,8 +309,10 @@ export default {
 <style scoped>
   .content-row {width: 100%;position: relative;}
   .content-row.packagesInfo {margin-bottom: 3vw;}
-  .packagesIntro {width: 36vw;margin-left: 37vw;}
-  .packagesIntro > span {font: 4vw/1 casual;color: #e9cbab;margin-bottom: 4vw;display: block;}
+  .packagesInfo {position: relative;}
+  .packagesInfo:before {width: 60%;height: calc(100% + 10vw);position: absolute;top: -7vw;right: -9vw;z-index: 1;content: "";opacity: .7;background: url('~/assets/images/letters.png') right top no-repeat;background-size: contain;}
+  .packagesIntro {width: 36vw;margin-left: 37vw;position: relative;z-index: 2;}
+  .packagesIntro > span {font: 4vw/0.8 casual;color: #e9cbab;margin-bottom: 4vw;display: block;}
   .packagesIntro p {font-size: 2vw;font-weight: 300;color: #e9cbab;margin-bottom: 4vw;}
 
   .packagesBlock {width: 100%;}
@@ -395,6 +397,7 @@ export default {
 
   @media screen and (min-width: 320px) and (max-width: 1280px) {
     .content-row.packagesInfo {margin-bottom: 8vw;}
+    .packagesInfo:before {width: calc(100% + 8.4vw);height: 100%;right: auto;left: -4.2vw;background-size: 150%;}
     .packagesIntro {width: 100%;margin-left: 0;}
     .packagesIntro > span {font-size: 6vh;margin-bottom: 6vw;}
     .packagesIntro p {font-size: 5.5vw;}
@@ -468,6 +471,7 @@ export default {
   }
 
   @media screen and (min-width: 768px) and (max-width: 1280px) {
+    .packagesInfo:before {background-size: 50%;}
     .packagesIntro p {font-size: 2vh;}
     .blockName {font-size: 3vh;}
     .blockTitle {font-size: 12vw;}

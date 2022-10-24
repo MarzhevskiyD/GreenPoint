@@ -199,6 +199,7 @@ body.fast-hide .slidebarContent {-webkit-transition: .2s ease !important;-moz-tr
 body.sticky header .gp-logo:after {width: 0;opacity: 0;}
 
 .action_holder .action > div {display: block;width: 100%;height: 1px;padding: 0;margin: 0;line-height: 0;}
+.packagesIntro > span em {font: 150%/0.8 casual;font-style: normal;color: #c14e23;}
 
 
 
