@@ -293,14 +293,14 @@ export default {
  #webPack .pack-title {width: auto;}
  #webPack .img_holder {margin: 0 10vw;}
  #webPack .img_holder,
- #webPack .img_holder img {width: auto;height: 100%;max-height: 70vh;}
+ #webPack .img_holder img {width: auto;height: 100%;}
 
  .gp-logo.mobile {display: none;}
 
  .camp-item {height: 90%;}
  .camp-item:last-child {margin-right: 0;}
  .camp-item .img_holder {height: 100%;display: flex;flex-direction: column;}
- .camp-item .img_holder img {max-width: 24vw;max-height: 70vh;height: auto;margin-right: 4vw;object-fit: contain;}
+ .camp-item .img_holder img {max-width: 24vw;max-height: 60vh;height: auto;margin-right: 4vw;object-fit: contain;}
  .camp-item:nth-child(2) .img_holder,
  .camp-item:nth-child(8) .img_holder,
  .camp-item:nth-child(11) .img_holder,
