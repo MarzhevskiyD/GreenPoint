@@ -85,6 +85,20 @@
           </div>
         </div>
 
+        <div class="deepBlock" id="campaignsPack">
+          <div class="swiper mySwiper" id="campPack">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="disp_row">
+                  <div v-for="(itm, index) in campPack.images" :key="index" class="camp-item">
+                    <div class="img_holder"><img :src="`${api_url + itm.url}`" alt="" title=""></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="close_deep-dive ease" @click="$actions.hideSidebar()"></div>
         <div class="swiper-pagination"><span id="deepProgress"></span></div>
       </div>
@@ -115,6 +129,7 @@ export default {
       growthPack: [],
       webPack: [],
       brandingPack: [],
+      campPack: [],
       webFirstImg: '',
       webSecondImg: '',
     }
@@ -166,6 +181,8 @@ export default {
         'WebPack.secondImage',
         'BrandingPack',
         'BrandingPack.logos',
+        'CampaignsPack',
+        'CampaignsPack.images',
       ]
     },{
       encodeValuesOnly: true
@@ -177,6 +194,7 @@ export default {
     this.growthPack = content.data.GrowthPack
     this.webPack = content.data.WebPack
     this.brandingPack = content.data.BrandingPack
+    this.campPack = content.data.CampaignsPack
     this.webFirstImg = this.webPack.firstImage.url
     this.webSecondImg = this.webPack.secondImage.url
 
@@ -245,7 +263,8 @@ export default {
  .deepBlock .center_col {height: auto;}
  #deep[data-target="growthPack"] #growthPack,
  #deep[data-target="webPack"] #webPack,
- #deep[data-target="brandingPack"] #brandingPack {display: block;}
+ #deep[data-target="brandingPack"] #brandingPack,
+ #deep[data-target="campaignsPack"] #campaignsPack {display: block;}
  .pack-title {display: block;font: 4vw/1 casual;color: #e9cbab;width: 38vw;padding-top: 5vh;padding-bottom: 10vh;}
  .grid-cont {display: grid;grid-auto-flow: column;grid-template-columns: 1fr 1fr;grid-template-rows: 16vw 16vw;/*grid-template-columns: repeat(2, 1fr);grid-template-rows: repeat(2, 1fr);*/position: relative;}
  .grid-cont:before {width: 1px;height: 100%;display: block;position: absolute;top: 0;left: 48%;background: #322b24;}
@@ -278,6 +297,19 @@ export default {
 
  .gp-logo.mobile {display: none;}
 
+ .camp-item {width: 24vw;height: 90%;margin-right: 4vw;}
+ .camp-item:last-child {margin-right: 0;}
+ .camp-item .img_holder {width: 100%;height: 100%;display: flex;flex-direction: column;}
+ .camp-item .img_holder img {width: 100%;height: auto;}
+ .camp-item:nth-child(2) .img_holder,
+ .camp-item:nth-child(8) .img_holder,
+ .camp-item:nth-child(11) .img_holder,
+ .camp-item:nth-child(17) .img_holder {flex-direction: column-reverse;}
+ .camp-item:nth-child(2) .img_holder img,
+ .camp-item:nth-child(11) .img_holder img {margin-bottom: 3vw;}
+ .camp-item:nth-child(6) .img_holder img,
+ .camp-item:nth-child(15) .img_holder img {margin-top: 3vw;}
+
 
  @media screen and (min-width: 320px) and (max-width: 1280px) {
    h1 {font-size: 6vh;}
@@ -295,6 +327,7 @@ export default {
    #webPack .img_holder img {max-height: 50vh;}
    .deep-title {font-size: 1.8vh;}
    .deep-text {font-size: 1.6vh;}
+   .camp-item {width: 45vw;margin-right: 7vw;}
 
  }
 
@@ -310,6 +343,7 @@ export default {
 
  @media screen and (min-width: 768px) and (max-width: 1280px) {
    h1 {font-size: 8vh;}
+   .camp-item {width: 28vw;margin-right: 5vw;}
  }
 
 
