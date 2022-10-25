@@ -297,10 +297,10 @@ export default {
 
  .gp-logo.mobile {display: none;}
 
- .camp-item {width: 24vw;height: 90%;margin-right: 4vw;}
+ .camp-item {height: 90%;}
  .camp-item:last-child {margin-right: 0;}
- .camp-item .img_holder {width: 100%;height: 100%;display: flex;flex-direction: column;}
- .camp-item .img_holder img {width: 100%;height: auto;}
+ .camp-item .img_holder {height: 100%;display: flex;flex-direction: column;}
+ .camp-item .img_holder img {max-width: 24vw;max-height: 70vh;height: auto;margin-right: 4vw;object-fit: contain;}
  .camp-item:nth-child(2) .img_holder,
  .camp-item:nth-child(8) .img_holder,
  .camp-item:nth-child(11) .img_holder,
@@ -327,7 +327,7 @@ export default {
    #webPack .img_holder img {max-height: 50vh;}
    .deep-title {font-size: 1.8vh;}
    .deep-text {font-size: 1.6vh;}
-   .camp-item {width: 45vw;margin-right: 7vw;}
+   .camp-item .img_holder img {max-width: 45vw;margin-right: 7vw;}
 
  }
 
@@ -343,7 +343,7 @@ export default {
 
  @media screen and (min-width: 768px) and (max-width: 1280px) {
    h1 {font-size: 8vh;}
-   .camp-item {width: 28vw;margin-right: 5vw;}
+   .camp-item .img_holder img {max-width: 28vw;margin-right: 5vw;}
  }
 
 
