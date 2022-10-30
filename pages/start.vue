@@ -172,6 +172,7 @@ export default {
 
 
   @media screen and (min-width: 320px) and (max-width: 1280px) {
+    .blockContent {padding: 8vw 0;}
     .blockName {font-size: 6vw;}
     .blockTitle {font-size: 7.5vh;}
     .background_layer {background-position:  60% bottom;}
@@ -191,6 +192,10 @@ export default {
     .blockTitle {font-size: 12vw;}
     .service-itm .more {width: 20px;height: 20px;display: block !important;}
 
+  }
+
+  @media screen and (min-width: 1281px) {
+    .blockContent {padding: 2vw 0;}
   }
 
 
