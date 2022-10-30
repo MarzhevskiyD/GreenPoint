@@ -68,6 +68,12 @@ const text = {
       return p.replace(/<<</g, '<em>').replace(/>>>/g, '</em>');
     }
   },
+
+  addLeadZero(num) {
+    if(num) {
+      return num
+    }
+  }
 }
 
 const actions = {

@@ -1,9 +1,10 @@
 <template>
   <div>
+
     <div class="slidebarHolder">
       <div class="slidebarContent" id="cnt">
         <div class="blockContent detectVisibility" data-view="0" id="firstTouch">
-          <span class="gp-logo mobile"></span>
+          <nuxt-link to="/" class="gp-logo mobile"></nuxt-link>
           <div class="back_poster"><img id="topImage" :src="`${topImage}`" alt="" title="" preload @load="runView"></div>
           <div class="content_grid">
             <section class="center_col">
@@ -103,6 +104,9 @@
         <div class="swiper-pagination"><span id="deepProgress"></span></div>
       </div>
     </div>
+
+    <MainHeader />
+
   </div>
 </template>
 
@@ -203,41 +207,41 @@ export default {
     // build seo
     const _this = this
     const seoInf = _this.firstImpact.seo;
-    if(seoInf) {
-      if(seoInf.metaTitle) {
-        this.seoTitle = seoInf.metaTitle
-        const metaSiteName = {hid: 'og:site_name', name: 'og:site_name', property: 'og:site_name', content: seoInf.metaTitle}
-        const metaMobileTitle = {hid: 'apple-mobile-web-app-title', name: 'apple-mobile-web-app-title', content: seoInf.metaTitle}
-        const metaItem = {hid: 'title', name: 'title', property: 'title', content: seoInf.metaTitle}
-        const ogMetaItem = {hid: 'og:title', name: 'og:title', property: 'og:title', content: seoInf.metaTitle}
-        this.seoData.push(metaItem)
-        this.seoData.push(metaSiteName)
-        this.seoData.push(metaMobileTitle)
-        this.seoData.push(ogMetaItem)
-      }
-      else {
-        this.seoTitle = 'GreenPoint agency'
-      }
-
-      if(seoInf.metaDescription) {
-        const metaItem = {hid: 'description', name: 'description', property: 'description', content: seoInf.metaDescription}
-        const ogMetaItem = {hid: 'og:description', name: 'og:description', property: 'og:description', content: seoInf.metaDescription}
-        this.seoData.push(metaItem)
-        this.seoData.push(ogMetaItem)
-      }
-
-      if(seoInf.keywords) {
-        const metaItem = {hid: 'keywords', name: 'keywords', property: 'keywords', content: seoInf.keywords}
-        const ogMetaItem = {hid: 'og:keywords', name: 'og:keywords', property: 'og:keywords', content: seoInf.keywords}
-        this.seoData.push(metaItem)
-        this.seoData.push(ogMetaItem)
-      }
-
-      if(seoInf.metaImage) {
-        const ogMetaItem = {hid: 'og:image', name: 'og:image', property: 'og:image', content: this.api_url + seoInf.metaImage.url}
-        this.seoData.push(ogMetaItem)
-      }
-    }
+    // if(seoInf) {
+    //   if(seoInf.metaTitle) {
+    //     this.seoTitle = seoInf.metaTitle
+    //     const metaSiteName = {hid: 'og:site_name', name: 'og:site_name', property: 'og:site_name', content: seoInf.metaTitle}
+    //     const metaMobileTitle = {hid: 'apple-mobile-web-app-title', name: 'apple-mobile-web-app-title', content: seoInf.metaTitle}
+    //     const metaItem = {hid: 'title', name: 'title', property: 'title', content: seoInf.metaTitle}
+    //     const ogMetaItem = {hid: 'og:title', name: 'og:title', property: 'og:title', content: seoInf.metaTitle}
+    //     this.seoData.push(metaItem)
+    //     this.seoData.push(metaSiteName)
+    //     this.seoData.push(metaMobileTitle)
+    //     this.seoData.push(ogMetaItem)
+    //   }
+    //   else {
+    //     this.seoTitle = 'GreenPoint agency'
+    //   }
+    //
+    //   if(seoInf.metaDescription) {
+    //     const metaItem = {hid: 'description', name: 'description', property: 'description', content: seoInf.metaDescription}
+    //     const ogMetaItem = {hid: 'og:description', name: 'og:description', property: 'og:description', content: seoInf.metaDescription}
+    //     this.seoData.push(metaItem)
+    //     this.seoData.push(ogMetaItem)
+    //   }
+    //
+    //   if(seoInf.keywords) {
+    //     const metaItem = {hid: 'keywords', name: 'keywords', property: 'keywords', content: seoInf.keywords}
+    //     const ogMetaItem = {hid: 'og:keywords', name: 'og:keywords', property: 'og:keywords', content: seoInf.keywords}
+    //     this.seoData.push(metaItem)
+    //     this.seoData.push(ogMetaItem)
+    //   }
+    //
+    //   if(seoInf.metaImage) {
+    //     const ogMetaItem = {hid: 'og:image', name: 'og:image', property: 'og:image', content: this.api_url + seoInf.metaImage.url}
+    //     this.seoData.push(ogMetaItem)
+    //   }
+    // }
   },
   methods: {
     runView() {
@@ -336,7 +340,7 @@ export default {
    .pack-title {width: 50vw;font-size: 5.5vw;}
    .deep-title {font-size: 2.4vh;}
    .deep-text {font-size: 1.8vh;}
-   .gp-logo.mobile {display: block;width: 50vw;height: 6vh;position: absolute;top: 7vw;left: 4.2vw;z-index: 4;}
+   .gp-logo.mobile {display: block;width: 50vw;height: 6vh;position: absolute;top: 5vw;left: 4.2vw;z-index: 4;}
    .gp-logo:before {width: 5vh;}
    .gp-logo:after {width: calc(100% - 8vh);left: 7vh;background-position: left 60%;}
  }

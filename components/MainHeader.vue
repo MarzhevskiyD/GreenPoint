@@ -4,15 +4,18 @@
     <header>
       <div class="content_grid disp_row_between">
         <div class="center_col">
-          <span class="gp-logo"></span>
+          <nuxt-link to="/" class="gp-logo"></nuxt-link>
         </div>
         <div class="center_col">
           <div class="pseudonav disp_row">
-            <div class="center_col">
+            <div class="center_col hide-start">
               <span class="nav-itm up_case ease" @click="callMenu()">/packages</span>
             </div>
-            <div class="center_col">
-              <span class="nav-itm up_case ease">/start a project</span>
+            <div class="center_col hide-start">
+              <nuxt-link to="/start" class="nav-itm up_case ease">/start a project</nuxt-link>
+            </div>
+            <div class="center_col show-mobile">
+              <span class="go_back ease" @click="closeQuestionnaire()">go back</span>
             </div>
           </div>
         </div>
@@ -42,7 +45,7 @@ export default {
   components: {},
   data() {
     return {
-      api_url: this.$config.baseURL,
+      api_url: this.$config.baseURL
     }
   },
   mounted() {},
@@ -64,6 +67,19 @@ export default {
 
     sorting(a, b) {
       return (a.order < b.order)? -1 : 1;
+    },
+
+    closeQuestionnaire() {
+      document.body.classList.add('fadeOut_questions');
+
+      setTimeout(function() {
+        document.getElementById('questionnaire_box').querySelectorAll('iframe').forEach(
+          function(elem) {
+            elem.parentNode.removeChild(elem);
+          });
+        document.body.classList.remove('questions');
+        document.body.classList.remove('fadeOut_questions');
+      }, 550);
     }
   },
 }
@@ -95,11 +111,20 @@ export default {
   body:not(.mobile) .pseudonav .nav-itm:hover {color: #000;}
   body:not(.mobile).sticky .pseudonav .nav-itm:hover {color: #c14e23;}
 
+  .start-page .hide-start {display: none !important;}
+
+
+  .go_back {z-index: 5;position: relative;cursor: pointer;font-size: 1.5vw;color: #e9cbab;padding-left: 40px;display: inline-block;}
+  .go_back:before {width: 20px;height: 100%;position: absolute;top: 0;left: 0;content: "";background: url('~/assets/images/right_arrow-light.svg') right center no-repeat;background-size: contain;-webkit-transform: rotate(-180deg);-moz-transform: rotate(-180deg);transform: rotate(-180deg);}
+  body:not(.mobile) .go_back:hover {opacity: .8;}
+  body:not(.questions) .show-mobile {display: none;}
+
 
 
   @media screen and (min-width: 320px) and (max-width: 1280px) {
     .pseudonav {margin-top: 5px;}
     .pseudonav .nav-itm {font-size: 3vw;margin-left: 4vw;}
+    .go_back {font-size: 4vw;}
   }
 
   @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -110,6 +135,7 @@ export default {
 
   @media screen and (min-width: 768px) and (max-width: 1280px) {
     .pseudonav .nav-itm {font-size: 1.6vh;}
+    .go_back {font-size: 2.5vw;}
   }
 
 

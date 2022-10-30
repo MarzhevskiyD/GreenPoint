@@ -1,16 +1,19 @@
 const packsAlign = ['brandPack', 'audiencePack'];
 
 const storeScroll = () => {
-  const firstBlockHeight = document.getElementById('firstTouch').clientHeight
+  if(!document.body.classList.contains('start')) {
+    const firstBlockHeight = document.getElementById('firstTouch').clientHeight
 
-  if(!document.body.classList.contains('auto-scroll')) {
-    if(window.scrollY >= firstBlockHeight && !document.body.classList.contains('sticky')) {
-      document.body.classList.add('sticky')
-    }
-    else if(window.scrollY <= firstBlockHeight && document.body.classList.contains('sticky')) {
-      document.body.classList.remove('sticky')
+    if(!document.body.classList.contains('auto-scroll')) {
+      if(window.scrollY >= firstBlockHeight && !document.body.classList.contains('sticky')) {
+        document.body.classList.add('sticky')
+      }
+      else if(window.scrollY <= firstBlockHeight && document.body.classList.contains('sticky')) {
+        document.body.classList.remove('sticky')
+      }
     }
   }
+  else {document.body.classList.add('sticky')}
 };
 
 const waitHydrate = () => {
@@ -19,39 +22,41 @@ const waitHydrate = () => {
     colsAlignment();
   }, 2000);
 };
-const createFrames = () => {console.log(1);
-  const navs = document.getElementById('cnt').getElementsByClassName('navFrame')
+const createFrames = () => {
+  if(document.getElementById('cnt')) {
+    const navs = document.getElementById('cnt').getElementsByClassName('navFrame')
 
-  if(navs) {console.log(navs);
-    const framesHolder = document.getElementById('framesHolder')
+    if(navs) {console.log(navs);
+      const framesHolder = document.getElementById('framesHolder')
 
-    for(let f = 0; f < navs.length; f++) {
-      const frameID = navs[f].getAttribute('id')
-      const frameHTML = navs[f].cloneNode(true)
+      for(let f = 0; f < navs.length; f++) {
+        const frameID = navs[f].getAttribute('id')
+        const frameHTML = navs[f].cloneNode(true)
 
-      frameHTML.removeAttribute('id')
+        frameHTML.removeAttribute('id')
 
-      if(frameHTML.querySelector('.packagesInfo')) {
-        frameHTML.querySelector('.packagesInfo').remove()
+        if(frameHTML.querySelector('.packagesInfo')) {
+          frameHTML.querySelector('.packagesInfo').remove()
+        }
+
+        const newMenuFrame = document.createElement('div')
+        const newMenuFrameWrap = document.createElement('div')
+
+        newMenuFrame.classList.add('block-frame', 'ease2')
+        newMenuFrame.setAttribute('onClick', "goTo(this, '"+frameID+"')")
+        newMenuFrameWrap.classList.add('frame-wrap')
+
+        newMenuFrame.appendChild(frameHTML)
+        newMenuFrameWrap.appendChild(newMenuFrame)
+        framesHolder.appendChild(newMenuFrameWrap)
       }
-
-      const newMenuFrame = document.createElement('div')
-      const newMenuFrameWrap = document.createElement('div')
-
-      newMenuFrame.classList.add('block-frame', 'ease2')
-      newMenuFrame.setAttribute('onClick', "goTo(this, '"+frameID+"')")
-      newMenuFrameWrap.classList.add('frame-wrap')
-
-      newMenuFrame.appendChild(frameHTML)
-      newMenuFrameWrap.appendChild(newMenuFrame)
-      framesHolder.appendChild(newMenuFrameWrap)
     }
-  }
-  else {
-    console.log('nope. try again');
-    setTimeout(function() {
-      createFrames();
-    }, 500);
+    else {
+      console.log('nope. try again');
+      setTimeout(function() {
+        createFrames();
+      }, 500);
+    }
   }
 };
 
@@ -63,24 +68,26 @@ const colsAlignment = () => {
     if(window.innerWidth >= 1280) {
       if(packsAlign.length > 0) {
         for(let b = 0; b < packsAlign.length; b++) {
-          if(document.getElementById(packsAlign[b]).getElementsByClassName('pack_item')) {
-            const packs = document.getElementById(packsAlign[b]).getElementsByClassName('pack_item')
-            let descrSize = 0
+          if(document.getElementById(packsAlign[b])) {
+            if(document.getElementById(packsAlign[b]).getElementsByClassName('pack_item')) {
+              const packs = document.getElementById(packsAlign[b]).getElementsByClassName('pack_item')
+              let descrSize = 0
 
-            // set it to default
-            for(let p = 0; p < packs.length; p++) {
-              packs[p].getElementsByClassName('pac_descr')[0].removeAttribute('style')
-            }
+              // set it to default
+              for(let p = 0; p < packs.length; p++) {
+                packs[p].getElementsByClassName('pac_descr')[0].removeAttribute('style')
+              }
 
-            // get max height
-            for(let p = 0; p < packs.length; p++) {
-              const thisHeight = packs[p].getElementsByClassName('pac_descr')[0].clientHeight
-              if(thisHeight > descrSize) {descrSize = thisHeight}
-            }
+              // get max height
+              for(let p = 0; p < packs.length; p++) {
+                const thisHeight = packs[p].getElementsByClassName('pac_descr')[0].clientHeight
+                if(thisHeight > descrSize) {descrSize = thisHeight}
+              }
 
-            // set it to all
-            for(let p = 0; p < packs.length; p++) {
-              packs[p].getElementsByClassName('pac_descr')[0].setAttribute('style', 'min-height: ' + (descrSize + 25) + 'px')
+              // set it to all
+              for(let p = 0; p < packs.length; p++) {
+                packs[p].getElementsByClassName('pac_descr')[0].setAttribute('style', 'min-height: ' + (descrSize + 25) + 'px')
+              }
             }
           }
         }
