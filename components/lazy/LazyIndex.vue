@@ -486,4 +486,5 @@ export default {
     .packages_list {width: 520px;left: calc(50% - 260px);position: relative;}
   }
 
+
 </style>
