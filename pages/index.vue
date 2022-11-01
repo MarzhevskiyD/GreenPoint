@@ -281,7 +281,7 @@ export default {
  .grid-cell .img_holder {width: 100%;height: 100%;display: flex;flex-direction: column;justify-content: center;}
  .grid-cell .img_holder img {width: 100%;height: auto;}
  .deep-title {display: block;font-size: 1.6vw;font-weight: 600;color: #e9cbab;}
- .deep-text {display: block;font-size: 1.6vw;color: #fff;margin: 20px 0 0;padding: 0;}
+ .deep-text {max-width: 45vw;display: block;font-size: 1.6vw;color: #fff;margin: 20px 0 0;padding: 0;}
  .deepBlock .swiper {width: 100%;height: 100%;position: relative;z-index: 5;}
  .deepBlock .swiper .swiper-slide {width: auto;height: 100%;padding: 10vw 6vw;}
  #webPack .swiper .swiper-slide .disp_row {display: block;}
@@ -297,7 +297,7 @@ export default {
  #webPack .pack-title {width: auto;}
  #webPack .img_holder {margin: 0 10vw;}
  #webPack .img_holder,
- #webPack .img_holder img {width: auto;height: 100%;}
+ #webPack .img_holder img {width: auto;height: 100%;max-height: 65vh;}
 
  .gp-logo.mobile {display: none;}
 
@@ -330,7 +330,7 @@ export default {
    #webPack .img_holder,
    #webPack .img_holder img {max-height: 50vh;}
    .deep-title {font-size: 1.8vh;}
-   .deep-text {font-size: 1.6vh;}
+   .deep-text {max-width: 90vw;font-size: 1.6vh;}
    .camp-item .img_holder img {max-width: 45vw;margin-right: 7vw;}
 
  }
