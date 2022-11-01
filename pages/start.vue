@@ -62,8 +62,8 @@ export default {
   },
   head() {
     return {
-      title: this.seoTitle,
-      meta: this.seoData
+ //     title: this.seoTitle,
+ //     meta: this.seoData
     }
   },
   computed: {},
