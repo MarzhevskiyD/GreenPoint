@@ -23,8 +23,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'apple-touch-icon', hid: 'apple-touch-icon', href: '/icon_512-min.png', sizes: '512x512' },
-      { rel: 'shortcut-icon', hid: 'shortcut-icon', href: '/icon_64-min.png', sizes: '64x64' },
+      { rel: 'apple-touch-icon', hid: 'apple-touch-icon', href: '/icon_512.png', sizes: '512x512' },
+      { rel: 'shortcut-icon', hid: 'shortcut-icon', href: '/icon_64.png', sizes: '64x64' },
     ],
     script: [
       {src: "/script.js", body: true},
