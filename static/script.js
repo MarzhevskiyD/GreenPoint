@@ -1,4 +1,5 @@
 const packsAlign = ['brandPack', 'audiencePack'];
+let navFramesUniquity = new Array();
 
 const storeScroll = () => {
   if(!document.body.classList.contains('start')) {
@@ -15,86 +16,102 @@ const storeScroll = () => {
   }
   else {document.body.classList.add('sticky')}
 };
-
+/*
 const waitHydrate = () => {
   setTimeout(function() {
     createFrames();
     colsAlignment();
   }, 2000);
-};
+};*/
 const createFrames = () => {
   if(document.getElementById('cnt')) {
     const navs = document.getElementById('cnt').getElementsByClassName('navFrame')
 
-    if(navs) {console.log(navs);
+    if(navs) {
       const framesHolder = document.getElementById('framesHolder')
 
       for(let f = 0; f < navs.length; f++) {
         const frameID = navs[f].getAttribute('id')
         const frameHTML = navs[f].cloneNode(true)
 
-        frameHTML.removeAttribute('id')
+        if(!navFramesUniquity.includes(frameHTML.id)) {
+          navFramesUniquity.push(frameHTML.id)
+          frameHTML.removeAttribute('id')
 
-        if(frameHTML.querySelector('.packagesInfo')) {
-          frameHTML.querySelector('.packagesInfo').remove()
+          if(frameHTML.querySelector('.packagesInfo')) {
+            frameHTML.querySelector('.packagesInfo').remove()
+          }
+
+          const newMenuFrame = document.createElement('div')
+          const newMenuFrameWrap = document.createElement('div')
+
+          newMenuFrame.classList.add('block-frame', 'ease2')
+          newMenuFrame.setAttribute('onClick', "goTo(this, '"+frameID+"')")
+          newMenuFrameWrap.classList.add('frame-wrap')
+
+          newMenuFrame.appendChild(frameHTML)
+          newMenuFrameWrap.appendChild(newMenuFrame)
+          framesHolder.appendChild(newMenuFrameWrap)
         }
-
-        const newMenuFrame = document.createElement('div')
-        const newMenuFrameWrap = document.createElement('div')
-
-        newMenuFrame.classList.add('block-frame', 'ease2')
-        newMenuFrame.setAttribute('onClick', "goTo(this, '"+frameID+"')")
-        newMenuFrameWrap.classList.add('frame-wrap')
-
-        newMenuFrame.appendChild(frameHTML)
-        newMenuFrameWrap.appendChild(newMenuFrame)
-        framesHolder.appendChild(newMenuFrameWrap)
       }
-    }
-    else {
-      console.log('nope. try again');
-      setTimeout(function() {
-        createFrames();
-      }, 500);
     }
   }
 };
 
-let delay = 0;
+
 const colsAlignment = () => {
-  clearTimeout(delay)
+  if(window.innerWidth >= 1280) {
+    if(packsAlign.length > 0) {
+      for(let b = 0; b < packsAlign.length; b++) {
+        if(document.getElementById(packsAlign[b])) {
+          if(document.getElementById(packsAlign[b]).getElementsByClassName('pack_item')) {
+            const packs = document.getElementById(packsAlign[b]).getElementsByClassName('pack_item')
+            let descrSize = 0
 
-  delay = setTimeout(function() {
-    if(window.innerWidth >= 1280) {
-      if(packsAlign.length > 0) {
-        for(let b = 0; b < packsAlign.length; b++) {
-          if(document.getElementById(packsAlign[b])) {
-            if(document.getElementById(packsAlign[b]).getElementsByClassName('pack_item')) {
-              const packs = document.getElementById(packsAlign[b]).getElementsByClassName('pack_item')
-              let descrSize = 0
+            // set it to default
+            for(let p = 0; p < packs.length; p++) {
+              packs[p].getElementsByClassName('pac_descr')[0].removeAttribute('style')
+            }
 
-              // set it to default
-              for(let p = 0; p < packs.length; p++) {
-                packs[p].getElementsByClassName('pac_descr')[0].removeAttribute('style')
-              }
+            // get max height
+            for(let p = 0; p < packs.length; p++) {
+              const thisHeight = packs[p].getElementsByClassName('pac_descr')[0].clientHeight
+              if(thisHeight > descrSize) {descrSize = thisHeight}
+            }
 
-              // get max height
-              for(let p = 0; p < packs.length; p++) {
-                const thisHeight = packs[p].getElementsByClassName('pac_descr')[0].clientHeight
-                if(thisHeight > descrSize) {descrSize = thisHeight}
-              }
-
-              // set it to all
-              for(let p = 0; p < packs.length; p++) {
-                packs[p].getElementsByClassName('pac_descr')[0].setAttribute('style', 'min-height: ' + (descrSize + 25) + 'px')
-              }
+            // set it to all
+            for(let p = 0; p < packs.length; p++) {
+              packs[p].getElementsByClassName('pac_descr')[0].setAttribute('style', 'min-height: ' + (descrSize + 25) + 'px')
             }
           }
         }
       }
     }
-  }, 50)
+  }
 };
+
+
+
+document.addEventListener('readystatechange', tryme, {passive: true});
+function tryme() {
+  let framesInterval = setInterval(function() {
+    if(document.getElementById('cnt')) {
+      if(document.getElementById('cnt').getElementsByClassName('navFrame').length > 0) {
+        createFrames();
+        clearInterval(framesInterval);
+      }
+    }
+  }, 200);
+
+  let colsInterval = setInterval(function() {
+    if(document.querySelectorAll('.pack_item').length > 0) {
+      colsAlignment();
+      clearInterval(colsInterval);
+    }
+  }, 120);
+}
+
+
 
 const checkVisibilities = () => {
   const sections = document.querySelectorAll('.detectVisibility');
@@ -168,7 +185,7 @@ function goTo(e, id) {
 
 window.addEventListener('scroll', storeScroll, {passive: true});
 window.addEventListener('load', storeScroll, {passive: true});
-window.addEventListener('load', waitHydrate, {passive: true});
+//window.addEventListener('load', waitHydrate, {passive: true});
 window.addEventListener('resize', colsAlignment, {passive: true});
 
 

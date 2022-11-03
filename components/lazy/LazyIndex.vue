@@ -119,11 +119,11 @@
         <form @submit="getInTouch">
           <div class="disp_row_between">
             <fieldset>
-              <input type="text" id="user-name" class="ease" :class="nameStatus" placeholder="Name" @click="clearName">
+              <input type="text" id="user-name" class="ease" :class="nameStatus" placeholder="Name" @click="clearName" autocomplete="off">
               <span class="invalid-message">{{ nameErrorMessage }}</span>
             </fieldset>
             <fieldset>
-              <input type="email" id="user-email" class="ease" :class="emailStatus" placeholder="Email" @click="clearEmail">
+              <input type="email" id="user-email" class="ease" :class="emailStatus" placeholder="Email" @click="clearEmail" autocomplete="off">
               <span class="invalid-message">{{ emailErrorMessage }}</span>
             </fieldset>
           </div>
@@ -374,8 +374,8 @@ export default {
   form {position: relative;margin: 3.2vw 0 0;}
   fieldset {width: 100%;margin: 0 0 1.8vw;position: relative;}
   .disp_row_between fieldset {width: calc(50% - 70px);}
-  fieldset input {width: 100%;height: 3.5vw;background: none;border: none;outline: none;border-bottom: 3px solid #e1d1c0;font-size: 1.2vw;color: #e1d1c0;}
-  fieldset textarea {width: 100%;height: 8em;background: none;border: none;outline: none;resize: none;border-bottom: 3px solid #e1d1c0;font-size: 1.2vw;color: #e1d1c0;}
+  fieldset input {width: 100%;height: 3.5vw;background: none;border: none;outline: none;border-bottom: 3px solid #e1d1c0;font-size: 1.2vw;color: #e1d1c0;-webkit-appearance: none;}
+  fieldset textarea {width: 100%;height: 10em;max-height: 18em;padding-top: 2em;background: none;border: none;outline: none;resize: none;border-bottom: 3px solid #e1d1c0;font-size: 1.2vw;color: #e1d1c0;-webkit-appearance: none;}
   fieldset input:focus,
   fieldset textarea:focus {border-color: #c14e23;}
   fieldset input::placeholder,

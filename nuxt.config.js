@@ -9,16 +9,16 @@ export default {
     bodyAttrs: {
       class: ''
     },
-    title: 'GreenPoint agency',
+    title: 'Creative Agency for Performance Brands',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
-      { name: 'og:image', hid: 'og:image', content: '/icon_512-min.png' },
-      { name: 'og:title', hid: 'og:title', content: 'GreenPoint agency' },
-      { name: 'og:site_name', hid: 'og:site_name', content: 'GreenPoint agency' },
-      { name: 'apple-mobile-web-app-title', hid: 'apple-mobile-web-app-title', content: 'GreenPoint agency' },
+      { name: 'og:image', hid: 'og:image', content: '/icon_512.png' },
+      { name: 'og:title', hid: 'og:title', content: 'Creative Agency for Performance Brands' },
+      { name: 'og:site_name', hid: 'og:site_name', content: 'Creative Agency for Performance Brands' },
+      { name: 'apple-mobile-web-app-title', hid: 'apple-mobile-web-app-title', content: 'Creative Agency for Performance Brands' },
       { name: 'robots', content: 'all' },
     ],
     link: [
@@ -72,42 +72,42 @@ export default {
   pwa: {
     manifest: {
       lang: 'en',
-      name: 'GreenPoint agency',
-      short_name: 'GreenPoint agency',
+      name: 'Creative Agency for Performance Brands',
+      short_name: 'Creative Agency for Performance Brands',
       display: 'standalone',
       icons: [
         {
-          src: '/icon_64-min.png',
+          src: '/icon_64.png',
           sizes: '64x64',
           type: 'image/png',
           purpose: 'any maskable'
         }, {
-          src: '/icon_120-min.png',
+          src: '/icon_120.png',
           sizes: '120x120',
           type: 'image/png',
           purpose: 'any maskable'
         }, {
-          src: '/icon_144-min.png',
+          src: '/icon_144.png',
           sizes: '144x144',
           type: 'image/png',
           purpose: 'any maskable'
         }, {
-          src: '/icon_152-min.png',
+          src: '/icon_152.png',
           sizes: '152x152',
           type: 'image/png',
           purpose: 'any maskable'
         }, {
-          src: '/icon_192-min.png',
+          src: '/icon_192.png',
           sizes: '192x192',
           type: 'image/png',
           purpose: 'any maskable'
         }, {
-          src: '/icon_384-min.png',
+          src: '/icon_384.png',
           sizes: '384x384',
           type: 'image/png',
           purpose: 'any maskable'
         }, {
-          src: '/icon_512-min.png',
+          src: '/icon_512.png',
           sizes: '512x512',
           type: 'image/png',
           purpose: 'any maskable'
