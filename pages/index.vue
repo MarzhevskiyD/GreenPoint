@@ -315,6 +315,8 @@ export default {
  .camp-item:nth-child(15) .img_holder img {margin-top: 3vw;}
 
 
+
+
  @media screen and (min-width: 320px) and (max-width: 1280px) {
    h1 {font-size: 6vh;}
    .close_deep-dive {width: 36px;height: 36px;bottom: 18vh;left: 4.2vw;}

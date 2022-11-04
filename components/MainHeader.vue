@@ -108,6 +108,7 @@ export default {
 
   body.index .hideMain {display: none;}
   body.index .showMain {display: block;}
+  body:not(.index) .showMain {display: none;}
 
   .burger_btn {position: fixed;top: 30px;left: 0;z-index: 1005;padding: 10px;cursor: pointer;}
   .burger_btn i {width: 24px;height: 20px;position: relative;top: calc(50% - 10px);display: inline-block;}

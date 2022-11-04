@@ -207,7 +207,8 @@ body.sticky header .gp-logo:after {width: 0;opacity: 0;}
 body.questions #questionnaire_box {z-index: 998;opacity: 1;}
 body.fadeOut_questions #questionnaire_box {opacity: 0;}
 
-
+#topImage {opacity: 0;-webkit-transition: .3s ease;-moz-transition: .3s ease;transition: .3s ease;}
+#topImage.ready {opacity: 1;}
 
 
 
