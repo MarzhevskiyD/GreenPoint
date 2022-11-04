@@ -213,7 +213,7 @@ body.fadeOut_questions #questionnaire_box {opacity: 0;}
 
 
 
-@media screen and (min-width: 320px) and (max-width: 1280px) {
+@media screen and (min-width: 320px) and (max-width: 1023px) {
   .mobi {display: block !important;}
   .hide_mobi {display: none !important;}
   .disp_row_between.mobi, .disp_row.mobi, .center_col.mobi, .flex.mobi {display: flex !important;}

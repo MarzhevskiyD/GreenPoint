@@ -395,7 +395,7 @@ export default {
 
 
 
-  @media screen and (min-width: 320px) and (max-width: 1280px) {
+  @media screen and (min-width: 320px) and (max-width: 1023px) {
     .content-row.packagesInfo {margin-bottom: 8vw;}
     .packagesInfo:before {width: calc(100% + 8.4vw);height: 100%;right: auto;left: -4.2vw;background-size: 150%;}
     .packagesIntro {width: 100%;margin-left: 0;}
@@ -470,7 +470,7 @@ export default {
     .pack_cost_hint {font-size: 3.5vw;text-indent: 20px;padding: 0;}
   }
 
-  @media screen and (min-width: 768px) and (max-width: 1280px) {
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
     .packagesInfo:before {background-size: 50%;}
     .packagesIntro p {font-size: 2vh;}
     .blockName {font-size: 3vh;}

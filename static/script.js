@@ -60,7 +60,7 @@ const createFrames = () => {
 
 
 const colsAlignment = () => {
-  if(window.innerWidth >= 1280) {
+  if(window.innerWidth >= 1024) {
     if(packsAlign.length > 0) {
       for(let b = 0; b < packsAlign.length; b++) {
         if(document.getElementById(packsAlign[b])) {
@@ -90,6 +90,12 @@ const colsAlignment = () => {
   }
 };
 
+window.addEventListener('orientationchange', checkCols, {passive: true});
+function checkCols() {
+  setTimeout(function() {
+    colsAlignment();
+  }, 550);
+}
 
 
 document.addEventListener('readystatechange', tryme, {passive: true});
@@ -140,7 +146,7 @@ function goTo(e, id) {
     window.scrollTo({ top: 0 });
 
     const wW = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-    const sizeRatio = (wW < 1280)? 18 : 7;
+    const sizeRatio = (wW < 1024)? 18 : 7;
     const targetPosition = document.getElementById(id).getElementsByClassName('packagesBlock')[0].getBoundingClientRect();
     const diff = wW * (sizeRatio / 100)
     const scrollTo = Math.round(targetPosition.top - diff);

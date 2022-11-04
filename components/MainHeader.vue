@@ -4,7 +4,8 @@
     <header>
       <div class="content_grid disp_row_between">
         <div class="center_col">
-          <nuxt-link to="/" class="gp-logo"></nuxt-link>
+          <span class="gp-logo showMain" @click="toTop()"></span>
+          <nuxt-link to="/" class="gp-logo hideMain"></nuxt-link>
         </div>
         <div class="center_col">
           <div class="pseudonav disp_row">
@@ -80,7 +81,21 @@ export default {
         document.body.classList.remove('questions');
         document.body.classList.remove('fadeOut_questions');
       }, 550);
+    },
+
+    toTop() {
+      let scrollToTop = window.setInterval(function() {
+        const pos = window.pageYOffset;
+
+        if(pos > 0) {
+          window.scrollTo(0, pos - 35);
+        }
+        else {
+          window.clearInterval(scrollToTop);
+        }
+      }, 1);
     }
+
   },
 }
 </script>
@@ -90,6 +105,9 @@ export default {
   header {width: 100vw;height: 16vh;position: absolute;z-index: 10;top: 84vh;left: 0;opacity: 1;-webkit-transition: margin-top .5s ease, height .5s ease;-moz-transition: margin-top .5s ease, height .5s ease;transition: margin-top .5s ease, height .5s ease;}
   body.sticky:not(.menu-open) header {position: fixed;z-index: 1000;top: -150px;background: #000;height: 10vh;margin-top: 150px;}
   header .content_grid {display: flex;}
+
+  body.index .hideMain {display: none;}
+  body.index .showMain {display: block;}
 
   .burger_btn {position: fixed;top: 30px;left: 0;z-index: 1005;padding: 10px;cursor: pointer;}
   .burger_btn i {width: 24px;height: 20px;position: relative;top: calc(50% - 10px);display: inline-block;}
