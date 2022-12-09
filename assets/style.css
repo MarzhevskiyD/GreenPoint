@@ -98,7 +98,7 @@ td { vertical-align: top; }
 
 
 * {vertical-align: top;font-family: 'favorit', sans-serif;font-weight: 400;color: #fff;line-height: 1.3;-webkit-font-smoothing: antialiased;-moz-font-smoothing: antialiased;font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;margin: 0;padding: 0;-webkit-appearance: none;-moz-appearance: none;appearance: none;}
-*:not(.clip_field):not(textarea):not(input) {-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+/* *:not(.clip_field):not(textarea):not(input) {-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;} */
 *, *::after, *::before {box-sizing: border-box;}
 html {height: 100%;}
 body {margin: 0;padding: 0;width: 100%;height: 100%;background: #000;position: relative;}
