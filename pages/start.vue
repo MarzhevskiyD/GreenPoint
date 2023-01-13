@@ -101,7 +101,7 @@ export default {
     //     this.seoData.push(ogMetaItem)
     //   }
     //   else {
-    //     this.seoTitle = 'GreenPoint agency'
+    //     this.seoTitle = 'Creative Agency for Performance Brands'
     //   }
     //
     //   if(seoInf.metaDescription) {

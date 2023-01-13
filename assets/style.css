@@ -210,6 +210,8 @@ body.fadeOut_questions #questionnaire_box {opacity: 0;}
 #topImage {opacity: 0;-webkit-transition: .3s ease;-moz-transition: .3s ease;transition: .3s ease;}
 #topImage.ready {opacity: 1;}
 
+.footer-info .f_location a {font-size: inherit;font-weight: inherit;font-style: inherit;color: inherit;outline: none;text-decoration: none;border: none;-webkit-transition: .3s ease;-moz-transition: .3s ease;transition: .3s ease;}
+
 
 
 
@@ -246,6 +248,7 @@ body.fadeOut_questions #questionnaire_box {opacity: 0;}
 @media screen and (min-width: 1281px) {
   body:not(.mobile) .frame-wrap:hover .block-frame {-webkit-animation: .3s ease hoverZoom;-moz-animation: .3s ease hoverZoom;animation: .3s ease hoverZoom;}
   .back_poster img {width: 100%;height: 100%;}
+  .footer-info .f_location a:hover {color: #c14e23;}
 }
 
 

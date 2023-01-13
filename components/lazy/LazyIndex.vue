@@ -136,7 +136,7 @@
           </div>
         </form>
         <div class="footer-info disp_row_between">
-          <span class="f_location up_case">{{ footerContent.location }}</span>
+          <span class="f_location up_case" v-sanitize="footerLocationContact"></span>
           <span class="f_copyright">{{ footerContent.copyright }}</span>
         </div>
       </div>
@@ -165,6 +165,7 @@ export default {
       emailStatus: '',
       messageErrorMessage: '',
       messageStatus: '',
+      footerLocationContact: '',
       isMobile: false
     }
   },
@@ -176,6 +177,12 @@ export default {
 
     this.pageContent = this.getHomeBlocks.data
     this.footerContent = this.getHomeBlocks.data.footer
+
+    this.footerLocationContact = this.footerContent.location;
+    if(this.footerContent.ContactPhone) {
+      const clearedPhone = this.footerContent.ContactPhone.replace(/[^\w\s]/gi, '');
+      this.footerLocationContact += ' - ' + ((this.footerContent.ContactTitle)? this.footerContent.ContactTitle + ' ' : '') + '<a href="tel:'+clearedPhone+'">' + this.footerContent.ContactPhone + '</a>';
+    }
 
     // filter ONLY visible brand packs
     let onlyVisibleBrand = this.pageContent.brandPackages.packages
@@ -443,7 +450,7 @@ export default {
     .form_btn {height: 10vw;font-size: 3.5vw;}
     .footer-info {flex-direction: column;margin-top: 10vh;}
     .footer-info .f_location {width: 100%;font-size: 3.2vw;text-align: center;}
-    .footer-info .f_location:before {height: 5vw;top: calc(50% - 2.5vw);}
+    .footer-info .f_location:before {height: 5vw;top: -0.5vw/*calc(50% - 2.5vw)*/;}
     .footer-info .f_copyright {width: 100%;text-align: center;font-size: 3.2vw;margin-top: 3vh;}
 
 
